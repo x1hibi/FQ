@@ -1,6 +1,6 @@
 # Computational Chemistry 
 
-#### 21/09/2020 clase #1 Presentation
+##  Class #1 Presentation 21/09/2020
 
 ### Evaluation
 
@@ -22,15 +22,17 @@
 - Read summary about chemical teorical and quantum chemistry
 - Change photo in google 
 
-### Bibliografia 
+### Bibliography
 
 quimica conputacional lewars, spinger
 Ed 1 https://www.dropbox.com/sh/b6av9sfb876ron3/AADX_El-MfGqXRplMrb2kbDLa?dl=0&preview=Lewars%2C+E+-+Computational+Chemistry+Introduction+To+The+Theory+And+Applications+Of+Molecular+And+Quantum+Mechanics+(Kluwer%2C+2003).pdf
 
-Ed 2 local
+Ed 2 http://www.qfa.uam.es/qcomp/libros/l2.pdf
 
-Ed 3 torrent
+**saveVideo? Yes
 
 **Dropbox :**
 
 https://www.dropbox.com/sh/b6av9sfb876ron3/AADX_El-MfGqXRplMrb2kbDLa?dl=0
+
+##  Class #2  "" 23/09/2020
