@@ -1,0 +1,69 @@
+
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PAKAGES %%%
+\documentclass[]{report}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 10in}]{geometry} 
+%%% END REQUIRED PAKAGES %%%                
+
+%%% START NEW COMMANDS (shortcuts) %%%
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{\large{#1}}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is a italc text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is a underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+%%% END NEW COMMANDS (shortcuts) %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+
+%%%%%%%%%%%%%%%% START DOCUMENT %%%%%%%%%%%%%%%%
+\begin{document}
+\part*{Summary Introduction Statistical Thermodynamics}
+
+%%%%%%%%%%%%%%%%%%%%%
+% START A CHAPTER 1 %
+%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Statistics}
+
+\section*{\LARGE{Class \#1 } \large{22/09/20}}
+\subsubsection*{\Large{Concepts}}
+
+\np{\bt{Random variable:} Is a variable whose value depends of a aleatory event,
+        \\ (Eg. throw a dice or a coin.)} 
+
+\np{Exist two class of random variables \bt{discrete} and \bt{continuous} :}
+
+\begin{itemize}
+    \item \bt{Discrete:} Are an array of finite values.
+    \item \bt{Continuous:} Are an array of infinite values.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%
+% END A CHAPTER 1 %
+%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% START A CHAPTER #X %
+%%%%%%%%%%%%%%%%%%%%%
+\chapter*{NAME OF CHAPER}
+
+\section*{\LARGE{Class \#NUMBER OF CLASS } \large{DATE DD/MM/YY}}
+\subsubsection*{\Large{Topic X}}
+
+\np{Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+now you can seee \ct{yellow}{text with colot} \bt{bold text} \et{italic text } \ut{underline text}}
+%%%%%%%%%%%%%%%%%%%
+% END A CHAPTER #X %
+%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
+%%%%%%%%%%%%%%%% END DOCUMENT %%%%%%%%%%%%%%%%
