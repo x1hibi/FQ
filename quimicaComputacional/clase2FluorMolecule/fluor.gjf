@@ -1,0 +1,16 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\clase2FluorMolecule\fluor.chk
+
+%nproc=4
+%mem=1gb
+
+# hf/3-21g geom=connectivity
+
+Title Card Required
+
+0 1
+ F                 -3.31999997    0.51999999    0.00000000
+ F                 -2.15999997    0.51999999    0.00000000
+
+ 1 2 1.0
+ 2
+
