@@ -139,3 +139,6 @@ Make a table and compare the importance of the electric correlation energy which
 - _electric energy correlation_
 - _error percentage_
 - _differences HF Vs DFT_
+
+##  Class #4 "" 30/09/2020
+
