@@ -35,7 +35,7 @@ Ed 2 http://www.qfa.uam.es/qcomp/libros/l2.pdf
 
 https://www.dropbox.com/sh/b6av9sfb876ron3/AADX_El-MfGqXRplMrb2kbDLa?dl=0
 
-##  Class #2 Gauss View Interface, Molecules construction and Gauss Calculation Configuration  23/09/2020
+##  Class #2 Gauss View Interface, Molecules construction and Gauss Calculation Configuration 23/09/2020
 
 ### **Program Interface**
 
@@ -77,7 +77,6 @@ This information is saved in the file with extension .gjf and contain the descri
     - syntax. _% method/base/geometry_  
     - Eg. _% HF/3-31+g(d,p) opt_
 
-
 ### **HOMEWORK**
 - get drive link class
 - make simulation of F_2 and F with HF and B#LYP
@@ -101,4 +100,42 @@ This information is saved in the file with extension .gjf and contain the descri
 - _Hess law_
 - _hartrees units_
 
-##  Class #3 "" 28/09/2020
+##  Class #3 electric energy of correlation (Practice #1 finished) 28/09/2020
+
+### Results treatment
+
+After to finish the calculation por F2 and F by both methods HF and B3LYP ,we procede to get the enthalpy of the reaction.
+To get this we use the Hess law this express that the enthalpy of reaction is the proportional to the difference between the enthalpy products less reactives.
+
+### _enthalpy of products - enthalpy of reactives_
+
+In our case this is the following test
+
+### _enthalpy of F2 - 2(enthalpy of F)_
+
+This is getting in log file and is called the sum of energy thermodynamic enthalpy and is in Hartrees units 
+
+We get the current energy enthalpy for reacción in both cases using B3LYP and HF and we will compare them
+
+To convert the value to KgCal/mol you use the convertor factor which is 627.51
+
+**To get the error you need find the experimental value**
+
+Make a table and compare the importance of the electric correlation energy which is considered in method DFT but not in HF
+
+#### DFT is not a method, B3LYP yes.
+
+### HOMEWORK
+
+- Make a summary of class ✔️
+- Make a layout for report
+- Search information for the report 
+- Do another method extra 
+- Make a report
+- Send a report 
+
+### Topics
+- _enthalpy reaction_
+- _electric energy correlation_
+- _error percentage_
+- _differences HF Vs DFT_
