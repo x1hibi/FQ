@@ -37,8 +37,6 @@ https://www.dropbox.com/sh/b6av9sfb876ron3/AADX_El-MfGqXRplMrb2kbDLa?dl=0
 
 ##  Class #2 Gauss View Interface, Molecules construction and Gauss Calculation Configuration  23/09/2020
 
-### CLASS NOTES 
-
 ### **Program Interface**
 
 **Shortcuts**
@@ -102,3 +100,5 @@ This information is saved in the file with extension .gjf and contain the descri
 - _lineal combination_
 - _Hess law_
 - _hartrees units_
+
+##  Class #3 "" 28/09/2020
