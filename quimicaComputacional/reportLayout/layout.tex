@@ -1,24 +1,27 @@
-
 %%%%% START PREAMBLE HEADER %%%%%
 
 %%% START REQUIRED PACKAGES %%%
-\documentclass{article}
+
+\documentclass[twocolumn]{article}
 \usepackage{xcolor} 
-\usepackage[a4paper, total={6in, 10in}]{geometry} 
-\usepackage[document]{ragged2e}
-\usepackage{multicol}
+\usepackage[a4paper, total={7in, 10in}]{geometry} 
 \usepackage{multirow}
 \usepackage{lipsum}
-\usepackage{longtable}
-% PACKAGES TO REMOVE FIRST PAGE MADE BY \maketitle%
-\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
-\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
-\setcounter{page}{0}
-% PACKAGES TO REMOVE FIRST PAGE MADE BY \maketitle%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan, 
+}
+
 %%% END REQUIRED PACKAGES %%%                
 
 
 %%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph*{\normalfont{#1}}}
 % This is a text with a color
 \newcommand{\ct}[2]{\textcolor{#1}{#2}}
 % This is a bold text 
@@ -33,70 +36,99 @@
 \newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
 % This is a newline shortcut
 \newcommand{\n}{\\}
+% Table title with bold text and correct space%
+\newcommand{\titleTable}[2]{\np{\bt{Table #1} #2}}
+% Table body with border %
+\newcommand{\bodyTable}[2]{\begin{center} \begin{tabular}{|#1|} \hline #2 \hline \end{tabular} \end{center} }
+% ARTICLE OR BOOK REFERENCE %
+\newcommand{\artRef}[3]{\bibitem{#1} #1. \textit{#2}. #3.}
+% WEB REFERENCE %
+\newcommand{\webRef}[3]{\bibitem{#1} #1: #2,\url{#3}}
 %%% END NEW COMMANDS (shortcuts) %%%
 
 
-%%% START TITLE SETTING %%%
+%%% START TITLE SETTINGS %%%
 \title{title of the practice}
-\author{Perez Alvarado Luis Raymund, School of Chemistry, UNAM}
+\author{Perez Alvarado Luis Raymundo, School of Chemistry, UNAM}
 \date{day/month/2020}
-%%% END TITLE SETTING %%%
+%%% END TITLE SETTINGS %%%
 
 %%%%% END PREAMBLE HEADER %%%%%
-
 
 %%%%%%%%%%%%%%%% START DOCUMENT %%%%%%%%%%%%%%%%
 \begin{document}
 
-    % JUSTIFY ALL CONTENT%
-    \justify
+    %%% THIS CONTENT IS IN ONE COLUMN (START) %%%
+    \twocolumn[
+        \begin{@twocolumnfalse}
 
-    %%% START REPORT CONTENT (ONE COLUMN) %%%%
+            %% CREATE A TITLE (START) %%
+            \maketitle
+            %% CREATE A TITLE (END) %%
 
-    %% CREATE A TITLE (START) %%
-    \maketitle
-    %% CREATE A TITLE (END) %%
+            %% CREATE A ABSTRACT (START) %%
+            \begin{abstract}
+                \item Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placeratac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, nonummy eget,consectetuer id, vulputate a, magna.  Donec vehicula augue eu neque.  Pellentesque habitantmorbi tristique senectus et netus et malesuada fames ac turpis egesta
+                \item 
+            \end{abstract}
+            %% CREATE A ABSTRACT (END) %%
     
-    %% CREATE A ABSTRACT (START) %%
-    \begin{abstract}
-        \item Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut,placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, non-ummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu neque. Pellen-tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mau-ris ut leo. Cras viverra metus rhoncus sem. Nulla et lectus vestibulum urna fringilla ultri-ces.
-        % START A NEW LINE %
-        \item  ~ \n
-        % END A NEW LINE %
-    \end{abstract}
-    %% CREATE A ABSTRACT (END) %%
+        \end{@twocolumnfalse}
+    ]
+    %%% THIS CONTENT IS IN ONE COLUMN (END) %%%
 
-    %%% START REPORT CONTENT (ONE COLUMN) %%%%
-    
-    
-    %%% START REPORT CONTENT (TWO COLUMNS) %%%%
-    \begin{multicols}{2}
-   
-        %% START SECTION %%
-        \section*{section}
-        \lipsum[1-2]
-        \nec{\int_{a}^{b} x^2 dx}
-        %% END SECTION %%
+    %%% THIS CONTENT IS IN TWO COLUMN (START) %%%
 
-        %% START SECTION %%
-        \subsection*{subsection}
-        \lipsum[1-2]
-        \begin{center}
-            \begin{tabular}{ |c|c|c|c| } 
-            \hline
-            col1 & col2 & col3 \\
-            \hline
-            \multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
-            & cell5 & cell6 \\ 
-            & cell8 & cell9 \\ 
-            \hline
-            \end{tabular}
-            \end{center}
-        % START A TABLE %
-        %% END SECTION %%
+    %% START SECCTION %%
 
-    \end{multicols}
-    %%% END REPORT CONTENT (TWO COLUMNS) %%%
+    % SECTION TITLE %
+    \section*{First Section}
+    % NORMAL PARAGRAH %
+    \np{\lipsum[1-2]}
+    % NUMBERED ECUATION % 
+    \nec{\int_{a}^{b} x^2 dx}
+
+    %% END SECCTION %%
     
+
+    %% START SECCTION %%
+
+    % SECTION TITLE %    
+    \section*{Second Section}
+    % NORMAL PARAGRAH %
+    \np{\lipsum[1-2]}
+    % START A TABLE %
+    % TABLE TITLE %
+    \titleTable{1}{This is the title for the new table and is called by}
+    % TABLE BODY %
+    \bodyTable{c|c|c}{
+        Col1 & Col2 & Col2 \n 
+        \hline
+        Col1 & Col2 & Col2 \n 
+        \hline
+        Col1 & Col2 & Col2 \n        
+    }
+    % END A TABLE %
+    \np{\lipsum[1-2]}
+    % ECUATION % 
+    \ec{\int_{a}^{b} x^2 dx}
+
+    %% END SECCTION %%
+
+    %% START REFERENCES %% 
+    \begin{thebibliography}{4}
+
+        % BOOK REFERENCE %
+        \artRef{Michel Gooss and Alexander Samarin}{The Companion}{Addison-Wesley, Reading, Massachusetts, 1993}
+        % ARTICLE REFERENCE %
+        \artRef{Albert Einstein}{On the electrodynamics of moving bodies}{Annalen der Physik, 322(10):891–921, 1905}
+        % WEB REFERENCE %
+        \webRef{Knuth}{Computers and Typesetting}{https://www.youtube.com/watch?v=Q4a94fwttEo}
+
+    \end{thebibliography}
+    %% END REFERENCES %% 
+
+    %%% THIS CONTENT IS IN TWO COLUMN (END) %%%
+
 \end{document}
 %%%%%%%%%%%%%%%% END DOCUMENT %%%%%%%%%%%%%%%%
