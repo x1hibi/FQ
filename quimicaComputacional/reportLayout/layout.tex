@@ -1,9 +1,102 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
+
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+\documentclass{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 10in}]{geometry} 
+\usepackage[document]{ragged2e}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{lipsum}
+\usepackage{longtable}
+% PACKAGES TO REMOVE FIRST PAGE MADE BY \maketitle%
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+\setcounter{page}{0}
+% PACKAGES TO REMOVE FIRST PAGE MADE BY \maketitle%
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is a italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is a underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a numbered equation shortcut
+\newcommand{\nec}[1]{\begin{equation} #1 \newline \end{equation}}
+% This is a equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+%%% END NEW COMMANDS (shortcuts) %%%
+
+
+%%% START TITLE SETTING %%%
+\title{title of the practice}
+\author{Perez Alvarado Luis Raymund, School of Chemistry, UNAM}
+\date{day/month/2020}
+%%% END TITLE SETTING %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+
+
+%%%%%%%%%%%%%%%% START DOCUMENT %%%%%%%%%%%%%%%%
 \begin{document}
 
-\paragraph{first parage}
+    % JUSTIFY ALL CONTENT%
+    \justify
+
+    %%% START REPORT CONTENT (ONE COLUMN) %%%%
+
+    %% CREATE A TITLE (START) %%
+    \maketitle
+    %% CREATE A TITLE (END) %%
+    
+    %% CREATE A ABSTRACT (START) %%
+    \begin{abstract}
+        \item Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut,placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, non-ummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu neque. Pellen-tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mau-ris ut leo. Cras viverra metus rhoncus sem. Nulla et lectus vestibulum urna fringilla ultri-ces.
+        % START A NEW LINE %
+        \item  ~ \n
+        % END A NEW LINE %
+    \end{abstract}
+    %% CREATE A ABSTRACT (END) %%
+
+    %%% START REPORT CONTENT (ONE COLUMN) %%%%
+    
+    
+    %%% START REPORT CONTENT (TWO COLUMNS) %%%%
+    \begin{multicols}{2}
+   
+        %% START SECTION %%
+        \section*{section}
+        \lipsum[1-2]
+        \nec{\int_{a}^{b} x^2 dx}
+        %% END SECTION %%
+
+        %% START SECTION %%
+        \subsection*{subsection}
+        \lipsum[1-2]
+        \begin{center}
+            \begin{tabular}{ |c|c|c|c| } 
+            \hline
+            col1 & col2 & col3 \\
+            \hline
+            \multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
+            & cell5 & cell6 \\ 
+            & cell8 & cell9 \\ 
+            \hline
+            \end{tabular}
+            \end{center}
+        % START A TABLE %
+        %% END SECTION %%
+
+    \end{multicols}
+    %%% END REPORT CONTENT (TWO COLUMNS) %%%
+    
 \end{document}
+%%%%%%%%%%%%%%%% END DOCUMENT %%%%%%%%%%%%%%%%
