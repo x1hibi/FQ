@@ -1,0 +1,24 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTSB3LYP.chk
+%nprocshared=4
+%mem=1500MB
+# opt=(calcfc,ts,noeigentest) freq b3lyp/6-31+g(d,p) geom=connectivity
+
+Title Card Required
+
+0 2
+ C                  0.74300697    1.76559222   -0.87365150
+ H                  1.09967981    2.26999041    0.00000000
+ H                  1.09967981    2.26999041   -1.74730301
+ H                 -0.32699303    1.76560540   -0.87365150
+ H                  1.14299324    0.63421652   -0.87365150
+ O                  1.57631170   -0.59144050   -0.87365150
+ H                  1.25796709   -1.04387992   -0.08907820
+
+ 1 2 1.0 3 1.0 4 1.0
+ 2
+ 3
+ 4
+ 5
+ 6 7 1.0
+ 7
+
