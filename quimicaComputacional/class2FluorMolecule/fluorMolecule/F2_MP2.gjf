@@ -1,0 +1,10 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class2FluorMolecule\fluorMolecule\F2_MP2.chk
+%NProc=4
+%Mem=1500mb
+# opt freq MP2/6-31+g(d)
+
+Fluor molecule Calculate with MP2 Method
+
+0 1
+ F                 -1.00785339    1.27617802    0.00000000
+ F                 -2.16785339    1.27617802    0.00000000

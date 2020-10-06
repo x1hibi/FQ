@@ -1,11 +1,30 @@
 \begin{thebibliography}{1}
 
-\bibitem{web:bristol}
-U.~of~BRISTOL, ``Correlation energy.''
-  \url{http://www.chm.bris.ac.uk/pt/ajm/mmhtm/MM_L1p5.htm}.
+\bibitem{web:wiki}
+Wikipedia, ``Hartree–fock method.''
+  \url{https://en.wikipedia.org/wiki/Hartree%E2%80%93Fock_method}.
 
-\bibitem{inbook:ideasQC}
-L.~Piela, {\em Ideas of Quantum Chemistry}, p.~499.
-\newblock Elsevier, 2007.
+\bibitem{web:hf}
+L.~van Dom­me­len, ``The hartree-fock ap­prox­i­ma­tion.''
+  \url{http://eng-web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/hf.html}.
+
+\bibitem{web:Washington}
+D.~of~Chemistry~at Washington~University, ``Electron correlation energy.''
+  \url{https://dasher.wustl.edu/chem478/lectures/lecture-04.pdf}.
+
+\bibitem{inbook:QuantumChem}
+I.~N. Levine, {\em Quantum Chemistry 7th}, p.~298.
+\newblock PEARSON, 2013.
+
+\bibitem{web:hess}
+S.~Cohen, ``Hess's law.''
+  \url{https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Hesss_Law}.
+
+\bibitem{web:factorConv}
+Wikipedia, ``Hartree.'' \url{https://en.wikipedia.org/wiki/Hartree}.
+
+\bibitem{web:refValue}
+A.~T. Tables, ``Enthalpy of formation of $f_{2}$.''
+  \url{https://atct.anl.gov/Thermochemical%20Data/version%201.122/reaction/?&species_number[]=6&species_number[]=20&c1=-1&c2=2}.
 
 \end{thebibliography}

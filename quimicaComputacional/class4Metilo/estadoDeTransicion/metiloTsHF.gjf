@@ -1,9 +1,9 @@
 %chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTsHF.chk
 %nprocshared=4
 %mem=1500MB
-# opt=(calcfc,ts,noeigentest) freq hf/6-31+g(d,p)
+# opt=(calcfc,ts,noeigen) freq=(noraman) hf/6-31+g(d,p)
 
-Title Card Required
+Estado de transcion HF
 
 0 2
  C                  0.74300697    1.76559222   -0.87365150

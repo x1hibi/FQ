@@ -1,9 +1,9 @@
-%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTsB3LYP.chk
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTsM062X.chk
 %nprocshared=4
 %mem=1500MB
-# opt=(calcfc,ts,noeigen) freq=noraman b3lyp/6-31+g(d,p)
+# opt=(calcfc,ts,noeigen) freq M062X/6-31+g(d,p)
 
-Estado de transicion B3LYp
+Estado de transcion M062X
 
 0 2
  C                  0.74300697    1.76559222   -0.87365150
@@ -14,4 +14,3 @@ Estado de transicion B3LYp
  O                  1.57631170   -0.59144050   -0.87365150
  H                  1.25796709   -1.04387992   -0.08907820
 
- 

@@ -1,4 +1,4 @@
- Entering Link 1 = C:\G09W\l1.exe PID=     13864.
+ Entering Link 1 = C:\G09W\l1.exe PID=     17256.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009, Gaussian, Inc.
                   All Rights Reserved.
@@ -71,17 +71,17 @@
  
  ******************************************
  Gaussian 09:  IA32W-G09RevA.02 11-Jun-2009
-                04-Oct-2020 
+                05-Oct-2020 
  ******************************************
  %chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estado
- DeTransicion\metiloTSB3LYP.chk
+ DeTransicion\metiloTsB3LYP.chk
  %nprocshared=4
  Will use up to    4 processors via shared memory.
  %mem=1500MB
- ----------------------------------------------------------------------
- # opt=(calcfc,ts,noeigentest) freq b3lyp/6-31+g(d,p) geom=connectivity
- ----------------------------------------------------------------------
- 1/5=1,10=4,11=1,14=-1,18=20,26=3,38=1,57=2/1,3;
+ --------------------------------------------------------
+ # opt=(calcfc,ts,noeigen) freq=noraman b3lyp/6-31+g(d,p)
+ --------------------------------------------------------
+ 1/5=1,10=4,11=1,14=-1,18=20,26=3,38=1/1,3;
  2/9=110,12=2,17=6,18=5,40=1/2;
  3/5=1,6=6,7=111,11=2,16=1,25=1,30=1,71=2,74=-5/1,2,3;
  4//1;
@@ -103,9 +103,9 @@
  2/9=110/2;
  6/7=2,8=2,9=2,10=2,19=2,28=1/1;
  99/9=1/99;
- -------------------
- Title Card Required
- -------------------
+ --------------------------
+ Estado de transicion B3LYp
+ --------------------------
  Symbolic Z-matrix:
  Charge =  0 Multiplicity = 2
  C                     0.74301   1.76559  -0.87365 
@@ -782,7 +782,7 @@
    1                    0.86431  -0.46282   0.08028   0.07736   0.07518
                           A2        A1        A4        A7        A8
    1                   -0.07482  -0.07475  -0.07217   0.05599   0.01799
- RFO step:  Lambda0=5.818523898D-06 Lambda=-3.20281861D-03.
+ RFO step:  Lambda0=5.818523900D-06 Lambda=-3.20281861D-03.
  Linear search not attempted -- option 19 set.
  Maximum step size (   0.300) exceeded in Quadratic search.
     -- Step size scaled by   0.391
@@ -995,7 +995,7 @@
    1                    0.86379  -0.46235   0.08091   0.07966   0.07542
                           A1        A2        A4        A7        D2
    1                   -0.07408  -0.07259  -0.06978   0.05497   0.03055
- RFO step:  Lambda0=3.451225205D-08 Lambda=-1.22677351D-03.
+ RFO step:  Lambda0=3.451225146D-08 Lambda=-1.22677351D-03.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.03423121 RMS(Int)=  0.00120530
  Iteration  2 RMS(Cart)=  0.00123248 RMS(Int)=  0.00024944
@@ -1205,7 +1205,7 @@
    1                    0.86466  -0.45186   0.08180   0.07518   0.06989
                           D2        A5        D1        A1        A2
    1                    0.06921   0.06791   0.06444  -0.06425  -0.05995
- RFO step:  Lambda0=2.026051922D-05 Lambda=-2.80914303D-05.
+ RFO step:  Lambda0=2.026051923D-05 Lambda=-2.80914303D-05.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.03682734 RMS(Int)=  0.00164486
  Iteration  2 RMS(Cart)=  0.00137826 RMS(Int)=  0.00004213
@@ -1416,7 +1416,7 @@
    1                    0.86867  -0.45700   0.07451   0.07321   0.06969
                           A9        A1        A2        A4        A8
    1                   -0.06515  -0.06498  -0.06121  -0.05954   0.05160
- RFO step:  Lambda0=7.947161563D-06 Lambda=-1.40323159D-05.
+ RFO step:  Lambda0=7.947161532D-06 Lambda=-1.40323154D-05.
  Linear search not attempted -- option 19 set.
  Maximum step size (   0.300) exceeded in Quadratic search.
     -- Step size scaled by   0.828
@@ -1504,7 +1504,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7315175185 Hartrees.
+       nuclear repulsion energy        36.7315175191 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -1630,7 +1630,7 @@
    1                    0.86799  -0.45802   0.07527   0.07461   0.07185
                           A9        A1        A2        A4        A8
    1                   -0.06807  -0.06585  -0.06229  -0.06100   0.04554
- RFO step:  Lambda0=1.615189916D-06 Lambda=-2.31235380D-06.
+ RFO step:  Lambda0=1.615189671D-06 Lambda=-2.31235362D-06.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.01630089 RMS(Int)=  0.00037606
  Iteration  2 RMS(Cart)=  0.00028777 RMS(Int)=  0.00000251
@@ -1715,7 +1715,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7366153835 Hartrees.
+       nuclear repulsion energy        36.7366153833 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -1841,7 +1841,7 @@
    1                    0.86767  -0.45826   0.07551   0.07495   0.07221
                           A9        A1        A2        A4        A8
    1                   -0.06761  -0.06586  -0.06247  -0.06175   0.04435
- RFO step:  Lambda0=4.405735261D-09 Lambda=-1.96048493D-07.
+ RFO step:  Lambda0=4.405735535D-09 Lambda=-1.96048506D-07.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.00553210 RMS(Int)=  0.00004501
  Iteration  2 RMS(Cart)=  0.00003477 RMS(Int)=  0.00000021
@@ -1871,7 +1871,7 @@
  RMS     Force            0.000023     0.000300     YES
  Maximum Displacement     0.014693     0.001800     NO 
  RMS     Displacement     0.005535     0.001200     NO 
- Predicted change in Energy=-9.582630D-08
+ Predicted change in Energy=-9.582631D-08
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -1926,7 +1926,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7325988322 Hartrees.
+       nuclear repulsion energy        36.7325988314 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -2042,7 +2042,7 @@
    1                    0.86717  -0.45813   0.07589   0.07458   0.07281
                           A9        A1        A2        A4        A8
    1                   -0.06793  -0.06594  -0.06260  -0.06195   0.04537
- RFO step:  Lambda0=3.738217106D-09 Lambda=-2.19916857D-05.
+ RFO step:  Lambda0=3.738214478D-09 Lambda=-2.19916467D-05.
  Linear search not attempted -- option 19 set.
  Maximum step size (   0.300) exceeded in Quadratic search.
     -- Step size scaled by   0.007
@@ -2075,7 +2075,7 @@
  RMS     Force            0.000015     0.000300     YES
  Maximum Displacement     0.124254     0.001800     NO 
  RMS     Displacement     0.054011     0.001200     NO 
- Predicted change in Energy=-1.170095D-06
+ Predicted change in Energy=-1.170094D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -2122,7 +2122,7 @@
       6          8           0        1.306728    0.110461   -0.000019
       7          1           0        1.486175   -0.848029    0.000229
  ---------------------------------------------------------------------
- Rotational constants (GHZ):    119.9288846      9.0222715      8.8834460
+ Rotational constants (GHZ):    119.9288847      9.0222715      8.8834460
  Standard basis: 6-31+G(d,p) (6D, 7F)
  There are    63 symmetry adapted basis functions of A   symmetry.
  Integral buffers will be    262144 words long.
@@ -2130,7 +2130,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7465022085 Hartrees.
+       nuclear repulsion energy        36.7465022022 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -2185,11 +2185,11 @@
       2        1          -0.000050127   -0.000003815    0.000060248
       3        1          -0.000031109    0.000087534   -0.000021698
       4        1          -0.000010344    0.000009752    0.000051177
-      5        1           0.000028604   -0.000380343    0.000157102
+      5        1           0.000028604   -0.000380342    0.000157102
       6        8           0.000008187    0.000153064   -0.000102787
       7        1          -0.000040954    0.000099945    0.000025160
  -------------------------------------------------------------------
- Cartesian Forces:  Max     0.000380343 RMS     0.000114131
+ Cartesian Forces:  Max     0.000380342 RMS     0.000114131
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
  Berny optimization.
@@ -2256,7 +2256,7 @@
    1                    0.86704  -0.46036   0.07647   0.07469   0.07465
                           A1        A9        A2        A4        A8
    1                   -0.06618  -0.06420  -0.06406  -0.06172   0.04366
- RFO step:  Lambda0=2.735284625D-06 Lambda=-5.65543109D-06.
+ RFO step:  Lambda0=2.735282747D-06 Lambda=-5.65543023D-06.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.04679149 RMS(Int)=  0.00337129
  Iteration  2 RMS(Cart)=  0.00261001 RMS(Int)=  0.00000953
@@ -2287,7 +2287,7 @@
  RMS     Force            0.000095     0.000300     YES
  Maximum Displacement     0.106348     0.001800     NO 
  RMS     Displacement     0.046765     0.001200     NO 
- Predicted change in Energy=-1.649104D-06
+ Predicted change in Energy=-1.649105D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -2342,7 +2342,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7317978141 Hartrees.
+       nuclear repulsion energy        36.7317978140 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -2468,7 +2468,7 @@
    1                    0.86633  -0.46117   0.07880   0.07542   0.07511
                           A1        A2        A4        A9        A8
    1                   -0.06662  -0.06548  -0.06353  -0.05921   0.04481
- RFO step:  Lambda0=1.208961247D-08 Lambda= 0.00000000D+00.
+ RFO step:  Lambda0=1.208961871D-08 Lambda= 0.00000000D+00.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.00100395 RMS(Int)=  0.00000182
  Iteration  2 RMS(Cart)=  0.00000151 RMS(Int)=  0.00000001
@@ -2498,7 +2498,7 @@
  RMS     Force            0.000006     0.000300     YES
  Maximum Displacement     0.002161     0.001800     NO 
  RMS     Displacement     0.001004     0.001200     YES
- Predicted change in Energy= 1.808383D-09
+ Predicted change in Energy= 1.808390D-09
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -2553,7 +2553,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7336757542 Hartrees.
+       nuclear repulsion energy        36.7336757543 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -2670,7 +2670,7 @@
    1                    0.86485  -0.46188   0.08308   0.07621   0.07539
                           A2        A1        A4        A9        A8
    1                   -0.06776  -0.06754  -0.06477  -0.05750   0.05246
- RFO step:  Lambda0=3.189859835D-12 Lambda=-1.68854161D-04.
+ RFO step:  Lambda0=3.189955244D-12 Lambda=-1.68854068D-04.
  Linear search not attempted -- option 19 set.
  Maximum step size (   0.300) exceeded in Quadratic search.
     -- Step size scaled by   0.400
@@ -2703,7 +2703,7 @@
  RMS     Force            0.000003     0.000300     YES
  Maximum Displacement     0.137789     0.001800     NO 
  RMS     Displacement     0.056035     0.001200     NO 
- Predicted change in Energy=-7.831662D-06
+ Predicted change in Energy=-7.831658D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -2758,7 +2758,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7348996430 Hartrees.
+       nuclear repulsion energy        36.7348996262 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -2813,8 +2813,8 @@
       2        1          -0.000126120   -0.000092257   -0.000024957
       3        1          -0.000163869   -0.000045948    0.000034831
       4        1           0.000144396   -0.000025126    0.000005101
-      5        1           0.000013341   -0.000106259    0.000455229
-      6        8          -0.000017164   -0.000095921   -0.000154704
+      5        1           0.000013341   -0.000106258    0.000455229
+      6        8          -0.000017163   -0.000095922   -0.000154704
       7        1          -0.000042634    0.000282284   -0.000130020
  -------------------------------------------------------------------
  Cartesian Forces:  Max     0.000455229 RMS     0.000155146
@@ -2884,9 +2884,9 @@
    1                    0.86438  -0.46225   0.08440   0.07690   0.07625
                           A2        A1        A4        A9        A8
    1                   -0.06830  -0.06724  -0.06682  -0.05235   0.04919
- RFO step:  Lambda0=1.021791859D-06 Lambda=-1.43333007D-05.
+ RFO step:  Lambda0=1.021788220D-06 Lambda=-1.43333056D-05.
  Linear search not attempted -- option 19 set.
- Iteration  1 RMS(Cart)=  0.04114321 RMS(Int)=  0.00217678
+ Iteration  1 RMS(Cart)=  0.04114320 RMS(Int)=  0.00217678
  Iteration  2 RMS(Cart)=  0.00171423 RMS(Int)=  0.00003890
  Iteration  3 RMS(Cart)=  0.00000102 RMS(Int)=  0.00003888
  Iteration  4 RMS(Cart)=  0.00000000 RMS(Int)=  0.00003888
@@ -2915,7 +2915,7 @@
  RMS     Force            0.000158     0.000300     YES
  Maximum Displacement     0.100798     0.001800     NO 
  RMS     Displacement     0.041240     0.001200     NO 
- Predicted change in Energy=-6.992226D-06
+ Predicted change in Energy=-6.992231D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -2970,7 +2970,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7306804821 Hartrees.
+       nuclear repulsion energy        36.7306804794 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -3022,7 +3022,7 @@
  Number     Number              X              Y              Z
  -------------------------------------------------------------------
       1        6          -0.000011926   -0.000043717    0.000015502
-      2        1           0.000011540    0.000013935    0.000003046
+      2        1           0.000011541    0.000013935    0.000003046
       3        1           0.000015463    0.000009575   -0.000002862
       4        1          -0.000017213    0.000006236    0.000001529
       5        1          -0.000012048    0.000045495   -0.000030853
@@ -3097,10 +3097,10 @@
    1                    0.86472  -0.46193   0.08326   0.07693   0.07509
                           A2        A1        A4        A8        A9
    1                   -0.06780  -0.06756  -0.06529   0.05215  -0.04981
- RFO step:  Lambda0=6.644453597D-08 Lambda=-4.98708896D-07.
+ RFO step:  Lambda0=6.644473287D-08 Lambda=-4.98712217D-07.
  Linear search not attempted -- option 19 set.
- Iteration  1 RMS(Cart)=  0.02273527 RMS(Int)=  0.00086627
- Iteration  2 RMS(Cart)=  0.00069009 RMS(Int)=  0.00000082
+ Iteration  1 RMS(Cart)=  0.02273540 RMS(Int)=  0.00086628
+ Iteration  2 RMS(Cart)=  0.00069010 RMS(Int)=  0.00000082
  Iteration  3 RMS(Cart)=  0.00000047 RMS(Int)=  0.00000077
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
@@ -3126,8 +3126,8 @@
  Maximum Force            0.000035     0.000450     YES
  RMS     Force            0.000014     0.000300     YES
  Maximum Displacement     0.056664     0.001800     NO 
- RMS     Displacement     0.022721     0.001200     NO 
- Predicted change in Energy=-2.159694D-07
+ RMS     Displacement     0.022722     0.001200     NO 
+ Predicted change in Energy=-2.159710D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -3167,14 +3167,14 @@
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
       1          6           0       -1.226590   -0.010902    0.000046
-      2          1           0       -1.491934   -0.521765    0.925667
+      2          1           0       -1.491934   -0.521764    0.925667
       3          1           0       -1.584130    1.019159   -0.030983
       4          1           0       -1.491861   -0.576890   -0.892989
       5          1           0       -0.015278    0.109660   -0.001957
       6          8           0        1.307434    0.110500   -0.000052
       7          1           0        1.483268   -0.848756    0.000397
  ---------------------------------------------------------------------
- Rotational constants (GHZ):    119.9233780      9.0186115      8.8795221
+ Rotational constants (GHZ):    119.9233778      9.0186116      8.8795221
  Standard basis: 6-31+G(d,p) (6D, 7F)
  There are    63 symmetry adapted basis functions of A   symmetry.
  Integral buffers will be    262144 words long.
@@ -3182,7 +3182,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7404453864 Hartrees.
+       nuclear repulsion energy        36.7404454261 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -3233,15 +3233,15 @@
  Center     Atomic                   Forces (Hartrees/Bohr)
  Number     Number              X              Y              Z
  -------------------------------------------------------------------
-      1        6           0.000024391    0.000121437   -0.000041192
-      2        1          -0.000031178   -0.000037756   -0.000008069
+      1        6           0.000024392    0.000121438   -0.000041192
+      2        1          -0.000031178   -0.000037757   -0.000008069
       3        1          -0.000040136   -0.000031956    0.000013477
       4        1           0.000047459   -0.000016813   -0.000002891
-      5        1           0.000040252   -0.000119364    0.000070369
-      6        8          -0.000065180    0.000075828   -0.000000382
-      7        1           0.000024391    0.000008623   -0.000031312
+      5        1           0.000040252   -0.000119365    0.000070369
+      6        8          -0.000065181    0.000075829   -0.000000382
+      7        1           0.000024391    0.000008624   -0.000031312
  -------------------------------------------------------------------
- Cartesian Forces:  Max     0.000121437 RMS     0.000052248
+ Cartesian Forces:  Max     0.000121438 RMS     0.000052248
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
  Berny optimization.
@@ -3309,9 +3309,9 @@
    1                    0.86496  -0.46258   0.08766   0.07708   0.07514
                           A1        A2        A4        A8        A9
    1                   -0.06902  -0.06844  -0.06690   0.05332  -0.03233
- RFO step:  Lambda0=4.646957636D-07 Lambda=-5.63821102D-07.
+ RFO step:  Lambda0=4.647009059D-07 Lambda=-5.63829461D-07.
  Linear search not attempted -- option 19 set.
- Iteration  1 RMS(Cart)=  0.00935954 RMS(Int)=  0.00015543
+ Iteration  1 RMS(Cart)=  0.00935964 RMS(Int)=  0.00015544
  Iteration  2 RMS(Cart)=  0.00012687 RMS(Int)=  0.00000010
  Iteration  3 RMS(Cart)=  0.00000002 RMS(Int)=  0.00000010
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
@@ -3338,8 +3338,8 @@
  Maximum Force            0.000094     0.000450     YES
  RMS     Force            0.000038     0.000300     YES
  Maximum Displacement     0.023560     0.001800     NO 
- RMS     Displacement     0.009364     0.001200     NO 
- Predicted change in Energy=-4.954839D-08
+ RMS     Displacement     0.009365     0.001200     NO 
+ Predicted change in Energy=-4.955000D-08
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
                           Input orientation:                          
@@ -3347,7 +3347,7 @@
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
-      1          6           0        0.730664    1.775554   -0.864220
+      1          6           0        0.730665    1.775554   -0.864220
       2          1           0        1.123729    2.218063    0.051085
       3          1           0        1.115824    2.255886   -1.764554
       4          1           0       -0.355777    1.687582   -0.864891
@@ -3394,7 +3394,7 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7326435905 Hartrees.
+       nuclear repulsion energy        36.7326435953 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
@@ -3449,7 +3449,7 @@
       2        1           0.000002534    0.000004226    0.000000995
       3        1           0.000002352    0.000005697   -0.000002228
       4        1          -0.000004581    0.000002448   -0.000000399
-      5        1          -0.000003626    0.000009350   -0.000000439
+      5        1          -0.000003625    0.000009349   -0.000000439
       6        8           0.000006996   -0.000008754   -0.000004093
       7        1          -0.000002950    0.000003406    0.000002374
  -------------------------------------------------------------------
@@ -3521,7 +3521,7 @@
    1                    0.86270  -0.46363   0.09523   0.07783   0.07520
                           A2        A1        A4        A8        A9
    1                   -0.07239  -0.07038  -0.06873   0.05642  -0.02863
- RFO step:  Lambda0=3.211110298D-09 Lambda= 0.00000000D+00.
+ RFO step:  Lambda0=3.211074982D-09 Lambda= 0.00000000D+00.
  Linear search not attempted -- option 19 set.
  Iteration  1 RMS(Cart)=  0.00060326 RMS(Int)=  0.00000059
  Iteration  2 RMS(Cart)=  0.00000046 RMS(Int)=  0.00000000
@@ -3550,7 +3550,7 @@
  RMS     Force            0.000004     0.000300     YES
  Maximum Displacement     0.001558     0.001800     YES
  RMS     Displacement     0.000603     0.001200     YES
- Predicted change in Energy= 1.129442D-10
+ Predicted change in Energy= 1.129449D-10
  Optimization completed.
     -- Stationary point found.
                            ----------------------------
@@ -3585,7 +3585,7 @@
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
-      1          6           0        0.730664    1.775554   -0.864220
+      1          6           0        0.730665    1.775554   -0.864220
       2          1           0        1.123729    2.218063    0.051085
       3          1           0        1.115824    2.255886   -1.764554
       4          1           0       -0.355777    1.687582   -0.864891
@@ -3752,10 +3752,10 @@
  XXXZ=             -0.0011 YYYX=              4.4994 YYYZ=              0.0002 ZZZX=              0.0060
  ZZZY=             -0.0003 XXYY=            -26.9183 XXZZ=            -31.5348 YYZZ=             -7.7503
  XXYZ=             -0.0008 YYXZ=             -0.0061 ZZXY=             -0.5640
- N-N= 3.673264359051D+01 E-N=-5.124585942051D+02  KE= 1.714520828340D+02
+ N-N= 3.673264359534D+01 E-N=-5.124585942208D+02  KE= 1.714520828348D+02
                           Isotropic Fermi Contact Couplings
         Atom                 a.u.       MegaHertz       Gauss      10(-4) cm-1
-     1  C(13)              0.10553     118.63620      42.33234      39.57278
+     1  C(13)              0.10553     118.63620      42.33235      39.57278
      2  H(1)              -0.00305     -13.65122      -4.87110      -4.55356
      3  H(1)              -0.00137      -6.10865      -2.17972      -2.03762
      4  H(1)              -0.00305     -13.64441      -4.86866      -4.55129
@@ -3823,24 +3823,26 @@
 
  ---------------------------------------------------------------------------------
 
- 1|1|UNPC-DESKTOP-319GPER|FTS|UB3LYP|6-31+G(d,p)|C1H5O1(2)|SAGAD|04-Oct
- -2020|0||# opt=(calcfc,ts,noeigentest) freq b3lyp/6-31+g(d,p) geom=con
- nectivity||Title Card Required||0,2|C,0.7306644996,1.7755536285,-0.864
- 2204643|H,1.1237290183,2.2180632472,0.0510846446|H,1.1158243821,2.2558
- 859769,-1.7645542234|H,-0.3557774791,1.6875820388,-0.8648913373|H,1.17
- 73176704,0.6463836447,-0.9319067915|O,1.6040625016,-0.6071129577,-0.89
- 53029442|H,1.196825252,-0.9062809484,-0.0611959385||Version=IA32W-G09R
- evA.02|State=2-A|HF=-116.2614343|S2=0.75677|S2-1=0.|S2A=0.750021|RMSD=
- 4.089e-009|RMSF=5.552e-006|Dipole=-0.4965896,0.4501304,0.5434668|Quadr
- upole=-0.8923723,0.200226,0.6921463,0.9135986,-0.1135734,-1.9664271|PG
- =C01 [X(C1H5O1)]||@
+ 1|1|UNPC-DESKTOP-319GPER|FTS|UB3LYP|6-31+G(d,p)|C1H5O1(2)|SAGAD|05-Oct
+ -2020|0||# opt=(calcfc,ts,noeigen) freq=noraman b3lyp/6-31+g(d,p)||Est
+ ado de transicion B3LYp||0,2|C,0.7306645,1.7755536285,-0.8642204643|H,
+ 1.1237290197,2.2180632492,0.0510846433|H,1.1158243794,2.2558859766,-1.
+ 7645542249|H,-0.3557774784,1.6875820361,-0.8648913346|H,1.1773176739,0
+ .6463836452,-0.9319067898|O,1.6040625057,-0.607112956,-0.8953029416|H,
+ 1.1968252447,-0.9062809494,-0.0611959426||Version=IA32W-G09RevA.02|Sta
+ te=2-A|HF=-116.2614343|S2=0.75677|S2-1=0.|S2A=0.750021|RMSD=4.089e-009
+ |RMSF=5.552e-006|Dipole=-0.4965896,0.4501304,0.5434668|Quadrupole=-0.8
+ 923723,0.200226,0.6921463,0.9135987,-0.1135734,-1.9664271|PG=C01 [X(C1
+ H5O1)]||@
 
 
- A SLIP OF THE FOOT YOU MAY SOON RECOVER, BUT A SLIP OF THE TONGUE
- YOU MAY NEVER GET OVER. -- BEN FRANKLIN
- Job cpu time:  0 days  0 hours  2 minutes 38.0 seconds.
+ TOM, TOM, THE BURGLAR'S SON
+ STOLE A MACHINE AND AWAY HE RUN
+ THE JOB WAS NEAT, BUT TOM GOT BEAT
+ BY THE TIME HE GOT HOME IT WAS OBSOLETE.
+ Job cpu time:  0 days  0 hours  1 minutes 39.0 seconds.
  File lengths (MBytes):  RWF=     10 Int=      0 D2E=      0 Chk=      1 Scr=      1
- Normal termination of Gaussian 09 at Sun Oct 04 14:26:03 2020.
+ Normal termination of Gaussian 09 at Mon Oct 05 12:32:21 2020.
  Link1:  Proceeding to internal job step number  2.
  ----------------------------------------------------------------------
  #N Geom=AllCheck Guess=TCheck SCRF=Check GenChk UB3LYP/6-31+G(d,p) Fre
@@ -3858,19 +3860,19 @@
  7/8=1,10=1,25=1/1,2,3,16;
  1/5=1,10=4,11=1,18=20,30=1/3;
  99//99;
- -------------------
- Title Card Required
- -------------------
+ --------------------------
+ Estado de transicion B3LYp
+ --------------------------
  Redundant internal coordinates taken from checkpoint file:
- C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTSB3LYP.chk
+ C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTsB3LYP.chk
  Charge =  0 Multiplicity = 2
- C,0,0.7306644996,1.7755536285,-0.8642204643
- H,0,1.1237290183,2.2180632472,0.0510846446
- H,0,1.1158243821,2.2558859769,-1.7645542234
- H,0,-0.3557774791,1.6875820388,-0.8648913373
- H,0,1.1773176704,0.6463836447,-0.9319067915
- O,0,1.6040625016,-0.6071129577,-0.8953029442
- H,0,1.196825252,-0.9062809484,-0.0611959385
+ C,0,0.7306645,1.7755536285,-0.8642204643
+ H,0,1.1237290197,2.2180632492,0.0510846433
+ H,0,1.1158243794,2.2558859766,-1.7645542249
+ H,0,-0.3557774784,1.6875820361,-0.8648913346
+ H,0,1.1773176739,0.6463836452,-0.9319067898
+ O,0,1.6040625057,-0.607112956,-0.8953029416
+ H,0,1.1968252447,-0.9062809494,-0.0611959426
  Recover connectivity data from disk.
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -3911,7 +3913,7 @@
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
-      1          6           0        0.730664    1.775554   -0.864220
+      1          6           0        0.730665    1.775554   -0.864220
       2          1           0        1.123729    2.218063    0.051085
       3          1           0        1.115824    2.255886   -1.764554
       4          1           0       -0.355777    1.687582   -0.864891
@@ -3958,13 +3960,13 @@
  Two-electron integral symmetry is turned on.
     63 basis functions,    99 primitive gaussians,    63 cartesian basis functions
     10 alpha electrons        9 beta electrons
-       nuclear repulsion energy        36.7326435905 Hartrees.
+       nuclear repulsion energy        36.7326435953 Hartrees.
  NAtoms=    7 NActive=    7 NUniq=    7 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    63 RedAO= T  NBF=    63
  NBsUse=    63 1.00D-06 NBFU=    63
  Initial guess read from the checkpoint file:  C:\Users\sagad\Documents\rayGit\FQ
- \quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTSB3LYP.chk
+ \quimicaComputacional\class4Metilo\estadoDeTransicion\metiloTsB3LYP.chk
  B after Tr=     0.000000    0.000000    0.000000
          Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
  Initial guess orbital symmetries:
@@ -4170,7 +4172,7 @@
  XXXZ=             -0.0011 YYYX=              4.4994 YYYZ=              0.0002 ZZZX=              0.0060
  ZZZY=             -0.0003 XXYY=            -26.9183 XXZZ=            -31.5348 YYZZ=             -7.7503
  XXYZ=             -0.0008 YYXZ=             -0.0061 ZZXY=             -0.5640
- N-N= 3.673264359051D+01 E-N=-5.124585950961D+02  KE= 1.714520832525D+02
+ N-N= 3.673264359534D+01 E-N=-5.124585951118D+02  KE= 1.714520832533D+02
   Exact polarizability:  43.163   0.217  20.021   0.000   0.000  19.386
  Approx polarizability:  50.146  -0.321  25.188   0.000   0.000  22.768
                           Isotropic Fermi Contact Couplings
@@ -4245,11 +4247,11 @@
 
  Calling FoFJK, ICntrl=    100127 FMM=F ISym2X=0 I1Cent= 0 IOpClX= 1 NMat=1 NMatS=1 NMatT=0.
  Full mass-weighted force constant matrix:
- Low frequencies --- -849.3556  -19.3415  -10.6557   -0.0009    0.0007    0.0007
+ Low frequencies --- -849.3556  -19.3415  -10.6557    0.0017    0.0017    0.0019
  Low frequencies ---    7.2676   54.7094  348.1140
  ******    1 imaginary frequencies (negative Signs) ****** 
  Diagonal vibrational polarizability:
-       38.9044144       0.6137897     964.0963738
+       38.9044140       0.6137897     964.0964548
  Harmonic frequencies (cm**-1), IR intensities (KM/Mole), Raman scattering
  activities (A**4/AMU), depolarization ratios for plane and unpolarized
  incident light, reduced masses (AMU), force constants (mDyne/A),
@@ -4273,7 +4275,7 @@
  Frequencies --   361.8137               775.0321               890.8837
  Red. masses --     1.0674                 1.6467                 1.7168
  Frc consts  --     0.0823                 0.5828                 0.8028
- IR Inten    --     8.5828                40.1581               361.0725
+ IR Inten    --     8.5828                40.1581               361.0724
   Atom  AN      X      Y      Z        X      Y      Z        X      Y      Z
      1   6     0.00   0.00  -0.04     0.20   0.06   0.00     0.17  -0.06   0.00
      2   1     0.53  -0.05   0.14    -0.19  -0.11  -0.02     0.12   0.02  -0.05
@@ -4497,7 +4499,7 @@
  RMS     Force            0.000004     0.000300     YES
  Maximum Displacement     0.000600     0.001800     YES
  RMS     Displacement     0.000229     0.001200     YES
- Predicted change in Energy= 3.287153D-10
+ Predicted change in Energy= 3.287088D-10
  Optimization completed.
     -- Stationary point found.
                            ----------------------------
@@ -4527,72 +4529,74 @@
  --------------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- 1|1|UNPC-DESKTOP-319GPER|Freq|UB3LYP|6-31+G(d,p)|C1H5O1(2)|SAGAD|04-Oc
+ 1|1|UNPC-DESKTOP-319GPER|Freq|UB3LYP|6-31+G(d,p)|C1H5O1(2)|SAGAD|05-Oc
  t-2020|0||#N Geom=AllCheck Guess=TCheck SCRF=Check GenChk UB3LYP/6-31+
- G(d,p) Freq||Title Card Required||0,2|C,0.7306644996,1.7755536285,-0.8
- 642204643|H,1.1237290183,2.2180632472,0.0510846446|H,1.1158243821,2.25
- 58859769,-1.7645542234|H,-0.3557774791,1.6875820388,-0.8648913373|H,1.
- 1773176704,0.6463836447,-0.9319067915|O,1.6040625016,-0.6071129577,-0.
- 8953029442|H,1.196825252,-0.9062809484,-0.0611959385||Version=IA32W-G0
- 9RevA.02|State=2-A|HF=-116.2614343|S2=0.75677|S2-1=0.|S2A=0.750021|RMS
- D=1.058e-009|RMSF=5.552e-006|ZeroPoint=0.0509807|Thermal=0.0555473|Dip
- ole=-0.4965897,0.4501305,0.5434668|DipoleDeriv=0.0930268,-0.2556224,0.
- 0031354,-0.2405636,0.6812888,-0.0040698,-0.0055935,0.0203188,0.0007138
- ,0.0410429,0.032067,-0.0439789,0.009675,-0.0655281,-0.0589174,-0.05337
- 83,-0.0349606,-0.036347,0.043271,0.0369945,0.0386145,0.010584,-0.06002
- 86,0.0642247,0.0538879,0.0215884,-0.0191314,-0.0906299,0.0075689,-0.00
- 02378,0.0410503,-0.046148,0.0053774,0.0027715,-0.0007541,0.0759832,0.0
- 435783,0.3360486,0.0028026,0.3416101,-0.8243431,0.0216591,-0.0004244,0
- .0306562,0.1485942,-0.4073409,-0.1786965,-0.1062384,-0.1309336,-0.0566
- 84,-0.066831,-0.1340075,0.0106211,-0.325841,0.2770518,0.0216399,0.1059
- 026,-0.0314222,0.3714432,0.038557,0.1367443,-0.0474698,0.1560282|Polar
- =21.9231513,-7.1002669,40.7560782,0.0142219,-0.9095243,19.8917061|PG=C
- 01 [X(C1H5O1)]|NImag=1||0.53533849,0.09390346,0.31054603,0.00169761,-0
- .00137226,0.56813068,-0.08337074,-0.04688456,-0.08286166,0.08326481,-0
- .05071471,-0.08213748,-0.10235325,0.04948581,0.08588312,-0.08485312,-0
- .09595794,-0.24854227,0.09304315,0.10599321,0.26265449,-0.08111103,-0.
- 04958800,0.07870790,0.00531341,0.00567112,-0.00951298,0.08085336,-0.05
- 368796,-0.08941493,0.10944717,0.00536661,0.00809395,-0.01215403,0.0523
- 4610,0.09470251,0.08107895,0.10282718,-0.24068279,0.00937092,0.0128999
- 5,-0.01629485,-0.08891769,-0.11358184,0.25397915,-0.33022882,-0.028908
- 61,-0.00016462,-0.00656743,0.00060209,0.00195794,-0.00661176,0.0007978
- 8,-0.00198794,0.35090644,-0.02119414,-0.03336915,0.00036651,-0.0132511
- 8,0.00090184,0.00099015,-0.01432746,0.00082007,-0.00090510,0.02766996,
- 0.03583037,-0.00042089,0.00024344,-0.05045889,-0.02597513,-0.00044840,
- 0.00296858,0.02547765,0.00021019,0.00290563,0.00016530,-0.00022492,0.0
- 4507515,-0.02928243,-0.00039080,0.00010486,0.00073207,-0.00404337,-0.0
- 0137960,0.00075763,-0.00318142,0.00165413,-0.00849607,0.02159264,0.000
- 97483,0.03496425,-0.00580471,-0.01282521,-0.00019675,0.00718384,-0.016
- 05043,0.00167826,0.00864714,-0.01955926,-0.00226800,-0.00013252,-0.008
- 30371,0.00003886,0.01325243,0.00104775,0.00324607,-0.00895555,-0.02943
- 012,0.00568005,-0.01556103,-0.00176639,-0.00519678,0.01683969,-0.00071
- 566,-0.00000631,0.00032167,-0.00029242,-0.00650266,-0.00135773,0.04703
- 400,-0.01257682,0.03441313,0.00445327,0.00049392,-0.00050785,0.0007953
- 2,0.00157139,-0.00230148,-0.00150685,0.00136786,-0.00130704,0.00005960
- ,-0.00022597,-0.02962012,0.00593712,0.10247469,0.03837328,-0.09154628,
- -0.00753011,-0.00149631,0.00339129,-0.00041833,-0.00315455,0.00547285,
- 0.00181587,-0.00008816,0.00350316,-0.00000529,-0.02103142,0.05891801,-
- 0.00432874,0.04841735,0.08468258,0.00216211,-0.00112778,-0.00033413,0.
- 00051463,0.00036845,0.00079310,-0.00101790,0.00044484,0.00119683,0.000
- 20758,-0.00042438,-0.00018740,0.00094156,0.00960783,-0.01429349,-0.188
- 25364,-0.12555760,0.38189371,0.00123136,-0.00254462,-0.00193736,0.0001
- 3396,-0.00049310,-0.00005072,-0.00077300,0.00066026,0.00030848,-0.0003
- 7021,0.00081723,-0.00028137,0.00155053,0.00647394,-0.00315748,-0.09310
- 506,-0.06102018,0.18544567,0.09133244,-0.00087522,-0.00125298,0.001638
- 68,-0.00040421,-0.00008230,-0.00013131,0.00040565,-0.00011519,-0.00078
- 806,0.00005936,0.00061742,0.00018613,-0.00619807,-0.00322715,0.0130417
- 0,-0.04909399,-0.06442162,0.11668863,0.05610647,0.06848182,-0.00291074
- ,0.00434291,0.00131751,0.00022804,-0.00089893,0.00018734,0.00045980,-0
- .00120601,-0.00038831,-0.00017194,-0.00012393,-0.00001064,0.00420688,-
- 0.00750247,-0.00053591,0.17851518,0.13602420,-0.36906861,-0.18032722,-
- 0.13063577,0.36849861||0.00000073,0.00001637,-0.00000379,-0.00000253,-
- 0.00000423,-0.00000099,-0.00000235,-0.00000570,0.00000223,0.00000458,-
- 0.00000245,0.00000040,0.00000363,-0.00000935,0.00000044,-0.00000700,0.
- 00000875,0.00000410,0.00000295,-0.00000340,-0.00000238|||@
+ G(d,p) Freq||Estado de transicion B3LYp||0,2|C,0.7306645,1.7755536285,
+ -0.8642204643|H,1.1237290197,2.2180632492,0.0510846433|H,1.1158243794,
+ 2.2558859766,-1.7645542249|H,-0.3557774784,1.6875820361,-0.8648913346|
+ H,1.1773176739,0.6463836452,-0.9319067898|O,1.6040625057,-0.607112956,
+ -0.8953029416|H,1.1968252447,-0.9062809494,-0.0611959426||Version=IA32
+ W-G09RevA.02|State=2-A|HF=-116.2614343|S2=0.75677|S2-1=0.|S2A=0.750021
+ |RMSD=1.058e-009|RMSF=5.552e-006|ZeroPoint=0.0509807|Thermal=0.0555473
+ |Dipole=-0.4965897,0.4501305,0.5434668|DipoleDeriv=0.0930268,-0.255622
+ 4,0.0031354,-0.2405636,0.6812888,-0.0040698,-0.0055935,0.0203188,0.000
+ 7138,0.0410429,0.032067,-0.0439789,0.009675,-0.0655281,-0.0589174,-0.0
+ 533783,-0.0349606,-0.036347,0.043271,0.0369945,0.0386145,0.010584,-0.0
+ 600286,0.0642247,0.0538879,0.0215884,-0.0191314,-0.0906299,0.0075689,-
+ 0.0002378,0.0410503,-0.046148,0.0053774,0.0027715,-0.0007541,0.0759832
+ ,0.0435783,0.3360486,0.0028026,0.3416101,-0.8243431,0.0216591,-0.00042
+ 44,0.0306562,0.1485942,-0.4073409,-0.1786965,-0.1062384,-0.1309336,-0.
+ 056684,-0.066831,-0.1340075,0.0106211,-0.325841,0.2770518,0.0216399,0.
+ 1059027,-0.0314222,0.3714432,0.038557,0.1367443,-0.0474698,0.1560282|P
+ olar=21.9231513,-7.1002669,40.7560782,0.0142219,-0.9095243,19.8917061|
+ PG=C01 [X(C1H5O1)]|NImag=1||0.53533849,0.09390346,0.31054603,0.0016976
+ 1,-0.00137226,0.56813068,-0.08337074,-0.04688456,-0.08286166,0.0832648
+ 1,-0.05071471,-0.08213748,-0.10235325,0.04948581,0.08588312,-0.0848531
+ 2,-0.09595794,-0.24854227,0.09304315,0.10599321,0.26265449,-0.08111103
+ ,-0.04958800,0.07870790,0.00531341,0.00567112,-0.00951298,0.08085336,-
+ 0.05368796,-0.08941493,0.10944717,0.00536661,0.00809395,-0.01215403,0.
+ 05234610,0.09470251,0.08107895,0.10282718,-0.24068279,0.00937092,0.012
+ 89995,-0.01629485,-0.08891769,-0.11358184,0.25397915,-0.33022882,-0.02
+ 890861,-0.00016462,-0.00656743,0.00060209,0.00195794,-0.00661176,0.000
+ 79788,-0.00198794,0.35090644,-0.02119414,-0.03336915,0.00036651,-0.013
+ 25118,0.00090184,0.00099015,-0.01432746,0.00082007,-0.00090510,0.02766
+ 996,0.03583037,-0.00042089,0.00024344,-0.05045889,-0.02597513,-0.00044
+ 840,0.00296858,0.02547765,0.00021019,0.00290563,0.00016530,-0.00022492
+ ,0.04507515,-0.02928243,-0.00039080,0.00010486,0.00073207,-0.00404337,
+ -0.00137960,0.00075763,-0.00318141,0.00165413,-0.00849607,0.02159264,0
+ .00097483,0.03496425,-0.00580471,-0.01282521,-0.00019675,0.00718384,-0
+ .01605043,0.00167826,0.00864714,-0.01955926,-0.00226800,-0.00013252,-0
+ .00830371,0.00003886,0.01325243,0.00104775,0.00324607,-0.00895555,-0.0
+ 2943012,0.00568005,-0.01556103,-0.00176639,-0.00519678,0.01683969,-0.0
+ 0071566,-0.00000631,0.00032167,-0.00029242,-0.00650266,-0.00135773,0.0
+ 4703400,-0.01257682,0.03441313,0.00445327,0.00049392,-0.00050785,0.000
+ 79532,0.00157139,-0.00230148,-0.00150685,0.00136786,-0.00130704,0.0000
+ 5960,-0.00022597,-0.02962012,0.00593712,0.10247469,0.03837328,-0.09154
+ 628,-0.00753011,-0.00149631,0.00339129,-0.00041833,-0.00315455,0.00547
+ 285,0.00181587,-0.00008816,0.00350316,-0.00000529,-0.02103142,0.058918
+ 01,-0.00432874,0.04841735,0.08468258,0.00216211,-0.00112778,-0.0003341
+ 3,0.00051463,0.00036845,0.00079310,-0.00101790,0.00044484,0.00119683,0
+ .00020758,-0.00042438,-0.00018740,0.00094156,0.00960783,-0.01429349,-0
+ .18825364,-0.12555760,0.38189370,0.00123136,-0.00254462,-0.00193736,0.
+ 00013396,-0.00049310,-0.00005072,-0.00077300,0.00066026,0.00030848,-0.
+ 00037021,0.00081723,-0.00028137,0.00155053,0.00647394,-0.00315748,-0.0
+ 9310507,-0.06102018,0.18544567,0.09133245,-0.00087522,-0.00125298,0.00
+ 163868,-0.00040421,-0.00008230,-0.00013131,0.00040565,-0.00011519,-0.0
+ 0078806,0.00005936,0.00061742,0.00018613,-0.00619807,-0.00322715,0.013
+ 04170,-0.04909400,-0.06442163,0.11668863,0.05610648,0.06848182,-0.0029
+ 1074,0.00434291,0.00131751,0.00022804,-0.00089893,0.00018734,0.0004598
+ 0,-0.00120601,-0.00038831,-0.00017194,-0.00012393,-0.00001064,0.004206
+ 88,-0.00750247,-0.00053591,0.17851518,0.13602420,-0.36906860,-0.180327
+ 22,-0.13063577,0.36849860||0.00000073,0.00001637,-0.00000379,-0.000002
+ 53,-0.00000423,-0.00000099,-0.00000235,-0.00000570,0.00000223,0.000004
+ 58,-0.00000245,0.00000040,0.00000363,-0.00000935,0.00000044,-0.0000070
+ 0,0.00000875,0.00000410,0.00000295,-0.00000340,-0.00000238|||@
 
 
- A SLIP OF THE FOOT YOU MAY SOON RECOVER, BUT A SLIP OF THE TONGUE
- YOU MAY NEVER GET OVER. -- BEN FRANKLIN
- Job cpu time:  0 days  0 hours  0 minutes 35.0 seconds.
+ TOM, TOM, THE BURGLAR'S SON
+ STOLE A MACHINE AND AWAY HE RUN
+ THE JOB WAS NEAT, BUT TOM GOT BEAT
+ BY THE TIME HE GOT HOME IT WAS OBSOLETE.
+ Job cpu time:  0 days  0 hours  0 minutes 16.0 seconds.
  File lengths (MBytes):  RWF=     10 Int=      0 D2E=      0 Chk=      1 Scr=      1
- Normal termination of Gaussian 09 at Sun Oct 04 14:26:38 2020.
+ Normal termination of Gaussian 09 at Mon Oct 05 12:32:37 2020.
