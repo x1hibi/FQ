@@ -1,7 +1,7 @@
 PWD c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1
 INPUT C:\Users\sagad\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\practice1.tex
-OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.log
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\Importance of the correlation energy, Hartree-Fock vs post-HF methods.tex
+OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.log
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -124,9 +124,9 @@ INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.aux
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.aux
-OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.aux
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux
+OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -139,14 +139,14 @@ INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.s
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.pdf
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+OUTPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.pdf
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -184,12 +184,12 @@ INPUT .\F2.png
 INPUT .\F2.png
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\sagad\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.bbl
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.bbl
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.bbl
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.bbl
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.aux
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
-INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\practice1.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
+INPUT c:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\practice1\build\Importance of the correlation energy, Hartree-Fock vs post-HF methods.out
 INPUT C:\Users\sagad\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\sagad\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb

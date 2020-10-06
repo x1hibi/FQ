@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex build/practice1"] 1601955354 "build/practice1.aux" "build/practice1.bbl" "build/practice1" 1601955355
+["bibtex build/Importance of the correlation energy, Hartree-Fock vs post-HF methods"] 1602000841 "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux" "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.bbl" "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods" 1602001040
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291867944 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "build/practice1.aux" 1601955355 2259 5614d58b9d2cdec97cc4aec6eb80e9c2 "pdflatex"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux" 1602001038 2259 5614d58b9d2cdec97cc4aec6eb80e9c2 "pdflatex"
   "references.bib" 1601884529 2848 a59e1bf9d65290ed7205603a4b77e9e0 ""
   (generated)
-  "build/practice1.blg"
-  "build/practice1.bbl"
-["pdflatex"] 1601955354 "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/practice1.tex" "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/practice1.pdf" "practice1" 1601955355
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.bbl"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.blg"
+["pdflatex"] 1602001037 "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/Importance of the correlation energy, Hartree-Fock vs post-HF methods.tex" "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.pdf" "Importance of the correlation energy, Hartree-Fock vs post-HF methods" 1602001040
   "C:/Users/sagad/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1600873573 11548 0e6eb0857e879c7721eb79d3302d6518 ""
   "C:/Users/sagad/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1600714763 10020124 a4b11c0164f4992ced81221dd2bfc826 ""
   "C:/Users/sagad/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1601868969 82507 a9eef8696c92627b87e9975edea03b2a ""
@@ -123,16 +123,16 @@
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1419274338 5114 9c1069474ff71dbc47d5006555e352d3 ""
   "F.png" 1601867643 41129 ec6c3b5d0ad828c181724a16160f51d6 ""
   "F2.png" 1601867653 72889 3c499af2ff55e7f966cbb1549d325024 ""
-  "build/practice1.aux" 1601955355 2259 5614d58b9d2cdec97cc4aec6eb80e9c2 "pdflatex"
-  "build/practice1.bbl" 1601955354 1185 03e5489853ee496a6cba5d7890f85a89 "bibtex build/practice1"
-  "build/practice1.out" 1601955355 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/practice1.aux" 1601955355 2259 5614d58b9d2cdec97cc4aec6eb80e9c2 ""
-  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/practice1.tex" 1601955350 9629 ce7af2b20b0f8494f74f2c76cbabf47a ""
-  "practice1.tex" 1601955350 9629 ce7af2b20b0f8494f74f2c76cbabf47a ""
+  "Importance of the correlation energy, Hartree-Fock vs post-HF methods.tex" 1602001038 9647 5eb593dd122eae81041e4b7407e96e16 ""
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux" 1602001038 2259 5614d58b9d2cdec97cc4aec6eb80e9c2 "pdflatex"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.bbl" 1602000841 1185 03e5489853ee496a6cba5d7890f85a89 "bibtex build/Importance of the correlation energy, Hartree-Fock vs post-HF methods"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.out" 1602001038 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/Importance of the correlation energy, Hartree-Fock vs post-HF methods.tex" 1602001038 9647 5eb593dd122eae81041e4b7407e96e16 ""
+  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux" 1602001038 2259 5614d58b9d2cdec97cc4aec6eb80e9c2 ""
   (generated)
-  "build/practice1.log"
-  "build/practice1.aux"
-  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/practice1.log"
-  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/practice1.pdf"
-  "build/practice1.out"
-  "build/practice1.pdf"
+  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.pdf"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.out"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.log"
+  "c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice1/build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.log"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.pdf"
+  "build/Importance of the correlation energy, Hartree-Fock vs post-HF methods.aux"

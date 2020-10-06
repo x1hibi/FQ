@@ -142,9 +142,9 @@
 
     \begin{lstlisting}[frame=single,gobble=10] 
             //parameters for B3LYP method
-            # freq B3LYP/6-31+g(d)
+            # opt freq B3LYP/6-31+g(d)
             //parameters for MP2 method
-            # freq MP2/6-31+g(d)
+            # opt freq MP2/6-31+g(d)
     \end{lstlisting}    
     
     \np{\bt{NOTE:} In the case of F is not necessary to use opt configuration because does not need geometry optimization.}
@@ -196,9 +196,9 @@
 
     \section*{Discussion}
 
-    \np{Comparing the percentage of error of each method can see those post-HF methods, in this case, B3LYP is based in \et{density Functional Theory}(DFT) and MP2 based in \et{Perturbation Theory} have an acceptable error, but the error of the HF method is not acceptable at all!, this is because HF does not consider the CE, and this is the reason why \bt{HF it is useless} for the calculation of systems with more than one electron.}
+    \np{Comparing the percentage of error of each method can see those post-HF methods, in this case, B3LYP is based in \et{density Functional Theory}(DFT) and MP2 based in \et{Perturbation Theory} have an acceptable error, but the error of the HF method is not acceptable at all!, this is because HF does not consider the $E_{corr}$, and this is the reason why \bt{HF it is useless} for the calculation of systems with more than one electron.}
 
-    \np{In this particular case to calculate the thermodynamic properties of $ F_ {2} $ and $ F $ the best method using the set of bases 6-31G is \bt{B3LYP} considering that the percentage error is the lowest compared to the others two and its low computational cost.}
+    \np{In this particular case to calculate the thermodynamic properties of $ F_ {2} $ and $ F $ the best method using the set of bases 6-31G is \bt{B3LYP} considering that the percentage error is the lowest compared to the others two and has a low computational cost.}
 
     %% END SECTION %%
     
