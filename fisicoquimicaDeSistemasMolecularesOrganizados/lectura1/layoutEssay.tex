@@ -1,0 +1,85 @@
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+
+\documentclass[10pt]{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 9in}]{geometry} 
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\spacing{1.5}
+\usepackage[superscript,biblabel]{cite}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,citecolor=blue}
+
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+
+%%% END NEW COMMANDS (shortcuts) %%%
+
+
+%%% START TITLE SETTINGS %%%
+\title{\bt{Macromoleculas en la estructura celular.}}
+\author{Perez Alvarado Luis Raymundo, Facultad de Quimica, UNAM}
+\date{6 de Octubre de 2020}
+%%% END TITLE SETTINGS %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+\begin{document}
+    \maketitle
+
+    El artículo \et{"Inside a living cell"} \cite{article:article} da un visión de la forma en que esta compuesta una célula usando como ejemplo una célula\et{E.Coli}, en este ensayo\cite{web:Elsevier} pretendo exponer mi punto de vista sobre las macromoléculas en el ambiente celular retomando varios puntos mecionados en dicho artículo.\np{}
+
+    Los métodos tales como rayos x y la microscopia electronica permiten obtener información de sistemas con un rango definido, en el caso de rayos X es posible analizar muestras de compuestos que han sido crsitaizadas y la información obtenida específica con respecto al compuesto estudiado, el cual al estar cristalizado estará en un estado estático, y si bien brinda mucha información hay que considerar que el sistema de estudio esta contituido por una cantidad de componentes, además el sistema real esta en medio acuoso y en este se pueden presentar diversas conformaciones por las interacciones con el medio que lo rodea.\np{}
+
+    Por otra parte usando la microscopía electrónica es posible observar nmicroestructuras con gran detalle podiendo apreciar la relacion estructural que tienen diversos componentes celulares y las diversas macromoléculas que la constituyen, pero no le es posible el analizar moléculas y proteínas,por separado de forma específica.\np{}
+
+    Ambos son metodos brindan mucha información y gracias a la combinación de ambos es posible dar una interpretación mas precisa del sistema por estudiar.\np{}
+    
+    Se proporcionan varios datos sobre el ambiente celular de usando como referencia la \et{E.Coli}, como el porcentaje de agua que contiene que es ~70\% lo cual nos indica que el 30\% es compuesto por otros compuestos, de los cuales sobresalen mayoritariamente las macromoleculas siendo las proteínas las que predominan. \np{}
+
+    Un ejemplo de su presencia se ve en el interiror de la pared celular que presenta una relación aproximada del 60:40 con los lípidos que la forman, lo que indica que practicamente $\frac{3}{5}$ de la parte interna esta hecha de proteínas, lo cual tiene sentido considerando que la presencia de proteínas embebidas en la pared, muchas de las cuales son canales para el intercambio de iones, moléculas, y proteínas con el medio.\np{}
+
+    El porcentaje que representan las proteínas en el peso seco de la célula que es del 55\%, de este se estima que 36\% de ese peso sea dedicado a la síntesis de las mismas proteínas, lo que nos indica que en citoplasma celular hay una abuandante cantidad de ribosomas encargandose de la producción de nuevas proteínas, y es indicativo a la demanda de proteinas necesaria para el funcionamiento de la célula.\np{}
+
+    Además dentro del ambiente celular hay otros componentes tales como ribosomas, ADN y ARN, los cuales ocupan una gran cantidad de espacio junto con las proteínas, todas ellas inmersas en una enorme cantidad de moléculas de agua.\np{}
+
+    Otro punto de gran interés se muestra en el núcleo celular la cual se lleva acabo la tarea de la replica del material genetico, para la duplicación celular en esta abunda ADN, ARN y ribososmas.\np{}
+
+    Un punto muy interesante que es presentado en el artículo es la consideración del desplazamiento de los componentes dentro de la célula, ya que usando aproximaciones de la velocidad en un medio idea, seria muy elevada $500\frac{cm}{s}$ lo cual es bastante considerando la distacia que podria recorrer en una célula, sin embargo se habla de la interferencia que se producen al estar junto a diversos componentes, lo cual es interesante, ya que además de pensar en las colisiones que se podrian dar, hay que considerar en las interacciones que podrian haber con estructuras de gran tamaño, el medio acuoso y otras moleculas, por lo que su dezplazamiento se ve reducido.\np{}
+
+    Lo anterior nos da una perspectiva de la presencia de macromoléculas en el entorno celular, recalcando en su importacia en el ambito biológico, ya que son de los componentes principales de esta y se encargan de diversas actividades escenciales.
+
+    %% START REFERENCES %% 
+
+    % DEFINE STYLE FORMAT%
+    \bibliographystyle{ieeetr}
+    % SPECIFY THE FILE NAMEw %
+    \bibliography{references}
+
+    %% END REFERENCES %% 
+\end{document}

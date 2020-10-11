@@ -1,0 +1,13 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\reactivos\hidroxilRadicalB3LYP.chk
+%nprocshared=4
+%mem=1500MB
+#opt freq B3LYP/6-31+g(d,p)
+
+Calculation of hidrixil radical with B3LYP
+
+0 2
+ O                  0.86330830    0.41353383    0.00000000
+ H                  1.82330830    0.41353383    0.00000000
+
+
+

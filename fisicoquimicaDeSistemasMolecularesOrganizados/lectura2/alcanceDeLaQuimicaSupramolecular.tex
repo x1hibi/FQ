@@ -1,0 +1,88 @@
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+
+\documentclass[10pt]{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 9in}]{geometry} 
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\spacing{1.5}
+\usepackage[superscript,biblabel]{cite}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,citecolor=blue}
+
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+
+%%% END NEW COMMANDS (shortcuts) %%%
+
+
+%%% START TITLE SETTINGS %%%
+\title{\bt{Alcance de la quimica supramolecular}}
+\author{Perez Alvarado Luis Raymundo, Facultad de Quimica, UNAM}
+\date{7 de Octubre de 2020}
+%%% END TITLE SETTINGS %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+\begin{document}
+    \maketitle
+
+    El artículo \et{"Supramolecular Chemistry"} \cite{article:article} hace incapie en los campos que se han abarcado con la química supramolecular asi como aquellos son estudiados actualmente, este ensayo\cite{web:Elsevier} pretende expresar algunas ideas mencionadas con gran relevancia en el área química donde las interacciones no covalentes toman un papel muy importante. \np{}
+
+    Entrando en contexto en la \et{química molecular} se encarga de estudiar a los compuestos que están unidos por medio de enlaces covalentes, debido a que es un área que ha sido ampliamente estudiada ha permitido el desarrollo de diversas estructuras moleculares muy complejas por medio de caminos bien definidos.\np{}
+
+    Por su parte la \et{química supramolecular} se encarga de estudiar a las especies químicas 
+    (normalmente macromoléculas) que presentan distintas conformaciones y uniones entre dos o más macromoléculas por medio de interaciones no covalentes.\np{}
+
+    Lo interesante de dichas conformaciones y los sistemas unidos por medio de interaciones intermoleculares como son electroestaticas, puente de hidrógeno y fuerzas de Van der Waals por mencionar algunas, sus propiedades peculiares las cuáles son de gran interés diversas áreas, como la química, física y la biología.\np{}
+    
+    Se menciona que una de las propiedades que impulso un aumento en la investigación en el área fue la capacidad de macromoléculas de hacer reconocimineto molecular, esto consiste en la capacidad reconocer a una molécula en específico y unirse con ella de forma no covalente \np{}
+    
+    Para tener una idea más clara de la importancia de esta característica, se usa como ejemplo a un grupo de macromoleculas biológicas capaces de realizar el reconocimineto molecular estas son conocidas como \et{enzimas}, estas tienen funciones específicas en todos los organismos ya que actúan como catalizadores para las reacciones que se realizan en los organismos vivos.\np{}
+
+    Esto genera un gran interés en las macromoléculas siendo usado como catalizadores para diversas reacciones lo cuál sería de gran impactor para diversos sectores como el industrial, el farmaceutico y la investigación.\np{}
+
+    En el caso de a industria el optimizar los procesos se pueden ver reflejado en una mejora en tiempo, dinero y/o reactivos, en otros como en el farmaceutico el asegurarse que un farmaco se una de forma selectiva a su objetivo genera que estos sean mucho mas eficientes. \np{}
+
+    Las interacciones intermoleculares juegan un papel de gran impotancia debido a que por medio de estas son capaces de hacer conformaciones tridimencionales que son capaces de estar unidas, debido a la suma todas las contribuciones de cada interacción intermolecular que es presentado en el agregado formado.\np{}
+
+    La funciones son variadas y se destacan 3 en específico las cuales son la unión selectiva, la adherencia controlada y diseño de arquitecturas deseadas en estado sólido.\np{}
+
+    Estas funcionalidades generaron un gran interés, especialmente el conocer la forma en como se ensamblan, lo cual dio en auge el estudio del autoensamblaje y auto organización de las macromoléculas, una forma para estudiar es por medio de algoritmos y programas que simulen dicho auntoensamblaje.\np{}
+
+    En conclusión las macromoléculas poseen propiedades de gran interés en diversos campos, las cuáles dependen de la conformación que se obtine por medio del autoensamblaje que esta dado por las interacciones intermoleculares que estan presentes en la misma macromolécula y el medio en que se encuentran y/o sus interacciones con una o más macromoleculas, por lo que su entendimiento es un tema bastante amplio de investigación.\np{}
+
+    %% START REFERENCES %% 
+
+    % DEFINE STYLE FORMAT%
+    \bibliographystyle{ieeetr}
+    % SPECIFY THE FILE NAMEw %
+    \bibliography{references}
+
+    %% END REFERENCES %% 
+\end{document}

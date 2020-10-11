@@ -1,0 +1,13 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\productos\waterHF.chk
+%nprocshared=4
+%mem=1500MB
+#opt freq HF/6-31+g(d,p)
+
+Calculation of water HF
+
+0 1
+ O                 -0.18932330   -0.56390977    0.00000000
+ H                  0.77067670   -0.56390977    0.00000000
+ H                 -0.50977788    0.34102607    0.00000000
+
+

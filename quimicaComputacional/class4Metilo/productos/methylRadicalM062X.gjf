@@ -1,0 +1,14 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\productos\methylRadicalM062X.chk
+%nprocshared=4
+%mem=1500MB
+#opt freq M062X/6-31+g(d,p)
+
+Calculation of methyl radical with M062X
+
+0 2
+ C                 -2.25516911   -0.05327038   -0.87365150
+ H                 -1.89851469   -1.06208038   -0.87365150
+ H                 -1.89849627    0.45112781    0.00000000
+ H                 -1.89849627    0.45112781   -1.74730301
+
+ 

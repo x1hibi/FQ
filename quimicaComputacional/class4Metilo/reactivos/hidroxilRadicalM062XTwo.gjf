@@ -1,0 +1,13 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\reactivos\hidroxilRadicalM062XTwo.chk
+%nprocshared=4
+%mem=1500MB
+#opt freq M062X/6-311++g(d,p)
+
+Calculation of hidrixil radical with M062X with 6-311++g(d,p)
+
+0 2
+ O                  0.86330830    0.41353383    0.00000000
+ H                  1.82330830    0.41353383    0.00000000
+
+
+

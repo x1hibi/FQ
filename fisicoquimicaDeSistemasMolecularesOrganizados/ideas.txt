@@ -1,0 +1,49 @@
+notas e ideas principales
+
+-interacciones selectivas(sustrato-enzima,drug stick to target, signal propagate between cells)
+
+-la quimica molecular en la construccion de sistemas moleculares complejos (rompiendo y creando enlaces covalentes de forma especifica)
+
+-las interacciones no cavalentes son estudadas en un campo de la quimica supramolecualar, que es el ensalblaje molecular y las interaciones intermoleculares, estas se estudian en las denominadas macromoleculas
+
+-diversidad en la quimica supramolecular Q,F,B
+
+-sus origenes derivan de la quimica organica,, quimica de coordinacion, bioquimica y procesos biologicos
+
+-los inicios empezaron en origenes por la union de cationes por macromolecuelas, lo cual, el reconocimiento molecular sale como un nuevo dominio de la quimica macro molecular
+
+-crecimineto del desarrollo (sintesis)de receptores de diversos tipos de cationes, aniones y sustratos organizcos, inorganicos o bilogicos, los cuales se dan por interacciones electrostaticas, h bond,van derwals
+
+-el rec requiere el guardado de la estructura y su recuperacion de info de la estrcurtra supramolecualr 
+
+-el reconocimineto y catalisis de  1)reconcimineto del sustrato por la macromolecula y 2) la transformacion a productos del sustrato 
+
+-en comparacion de las enzinas tiene una alta eficiencia y son selectivas a la reaciones que no hacen las enzimas
+
+-esto abra un gran area de desarollo por la especificidad y selectividad de las macro moleculas, muchas invertigaciones se deben  hacer para el entendimiento de las reacciones y sus aplicaciones anuvel industrial. 
+
+-los receptores al ser modificados pueden servir para trasportar uno o varios sustratos, como ejemplo s epensaria en un sensor selectivo de membrana o un transportador de medicamentos,pensando en barreras biologicas
+
+- reconocimineto, reactivdad y transporte son las caracteristicas funcionales de las especies macromoleculares, 
+
+-constrcuciion de dispositivos supramoleculares, de componenetes photoactivos, o ion activos, que operan con photones, electronesy iones, asi como otrso que se pueden imaginar 
+
+-este campo puede entrar en campos fisico como los microlelectronics, microoptics, asi como obejticos como la 
+
+-en la quumica molecular, en la genracion de una senal, tranferencia, conversion y deteccion, estequiometris, todo esto para porcesos quimicos y fisicos
+
+-uno de los aconteciminetos mas receintes es la implementacion de la info molecualr y reconocmiento como un medio para contolar la evolucion de especies molecualres, siendo el autoensamblade especies supramolecualrea la onda por medio de algoritmos computaciones
+
+- el auto ensamblaje y auto organizacion se ha implementado en sistemas incorganicos, con metales de coordinacion, h-bodn, interacciones aceptor donador, donde se ha observado unaforacion espontanea de dobles, triples, y compouestos de jaula, 
+
+- se ha descubierto por medio del estudio del autoensamblaje que los complejos elicoidales se forman atravez de autoreconocimiento, lo que implica al diseno programado de mexclas compiuetas capaces de fromacar superestrcuturas definicdas
+
+- el estudio del auto ensamblaje vio programas y algoritmos interaccionales 
+
+- ade,as de esto la quimica supra molecular se encarga de poli conjuntos molecuares fromados de froma espontanea como peliculas, caspas, menbrabas, solidas, vesiculas, miscelas, etc...
+
+-este es el gran campo de invertigacion en el reconocimiento molecuar, con prop novedosas como uniones selectivas, de sustratos a capas y superficies, dise;o de materiales sura moleculares, esta tambien se involucra en la quimica del estado solido e ingenieria de criatles, union selectiva y adherencia controlada 
+
+-informacion de la quimica supramolecular, capacidad de acomodos espontaneos a partir de sus compoennetes y realizar tareas complejas apartir de la informacion y hay mas por invertigar.
+
+

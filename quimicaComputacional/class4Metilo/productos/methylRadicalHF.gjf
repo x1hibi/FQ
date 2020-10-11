@@ -1,0 +1,14 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\productos\methylRadicalHF.chk
+%nprocshared=4
+%mem=1500MB
+#opt freq HF/6-31+g(d,p)
+
+Calculation of methyl radical with HF
+
+0 2
+ C                 -2.25516911   -0.05327038   -0.87365150
+ H                 -1.89851469   -1.06208038   -0.87365150
+ H                 -1.89849627    0.45112781    0.00000000
+ H                 -1.89849627    0.45112781   -1.74730301
+
+ 

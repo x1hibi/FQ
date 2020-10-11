@@ -1,0 +1,16 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class4Metilo\reactivos\methaneM062X.chk
+%nprocshared=4
+%mem=1500MB
+#opt freq M062X/6-31+g(d,p)
+
+Calculation of methane with m062x
+
+0 1
+ C                 -5.60103383    1.03695517   -0.87365150
+ H                 -5.24437941    0.02814517   -0.87365150
+ H                 -5.24436099    1.54135336    0.00000000
+ H                 -5.24436099    1.54135336   -1.74730301
+ H                 -6.67103383    1.03696835   -0.87365150
+
+
+
