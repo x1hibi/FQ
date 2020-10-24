@@ -43,15 +43,15 @@
 **NOTAS:**
 
 - Se abrevia Células de Langerhans a CL y Células dendríticas a CD.
-- Las palabras que están en corchetes representan sinónimos u palabras alternas, las cuales son separadas con una diagonal Ej. [*Texto 1 / Texto 2*]
-- Las palabras con un asterisco (*) son palabras que pueden o no estar, Ej. posible\**.
-- La sintaxis mostrada es : **Verbo** + **`Objeto`** + *Finalidad*.
+- Las palabras que están en corchetes representan sinónimos u palabras alternas, las cuales son separadas con una diagonal. Ej. [*Texto 1 / Texto 2*]
+- Las palabras con un asterisco (\*) son palabras que pueden o no estar. Ej. posible\**.
+- La sintaxis empleada en los siguientes objetivos es: **Verbo** + **`Objeto`** + *Finalidad*.
 
 > ❌ **Identificar** [de forma específica]* las **`[CL/CD]`** en epidermis de vertebrados no mamíferos *[empleando/usando/utilizando] las impregnaciones ZIO y cloruro de oro*. 
 
->✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación  específica\* [de/para] las [CL/CD] en epidermis de vertebrados no mamíferos*.
+>✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación  específica\* de las [CL/CD] en epidermis de vertebrados no mamíferos*.
 
->✔️ **Analizar** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación [de/para] las [CL/CD] en epidermis de vertebrados no mamíferos*.
+>✔️ **Analizar** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación de las [CL/CD] en epidermis de vertebrados no mamíferos*.
 
 >✔️ **Demostrar** si las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica\* de las [CL/CD] en epidermis de vertebrados no mamíferos*.
 
