@@ -1,0 +1,68 @@
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+
+\documentclass[10pt]{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 9in}]{geometry} 
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\spacing{1.5}
+\usepackage[superscript,biblabel]{cite}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,citecolor=blue}
+
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+
+%%% END NEW COMMANDS (shortcuts) %%%
+
+
+%%% START TITLE SETTINGS %%%
+\title{\bt{Termodinámica y el efecto hidrofóbico en la organización de los seres vivos}}
+\author{Pérez Alvarado Luis Raymundo, Facultad de Química, UNAM}
+\date{16 de octubre de 2020}
+%%% END TITLE SETTINGS %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+\begin{document}
+
+    %% MAKE TITLE %% 
+    \maketitle
+    
+
+
+
+    %% START REFERENCES %% 
+
+    % DEFINE STYLE FORMAT%
+    \bibliographystyle{ieeetr}
+    % SPECIFY THE FILE NAMEw %
+    \bibliography{references}
+
+    %% END REFERENCES %% 
+\end{document}

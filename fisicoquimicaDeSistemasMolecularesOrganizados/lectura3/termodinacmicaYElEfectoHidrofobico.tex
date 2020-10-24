@@ -1,0 +1,91 @@
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+
+\documentclass[10pt]{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 9in}]{geometry} 
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\spacing{1.5}
+\usepackage[superscript,biblabel]{cite}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,citecolor=blue}
+
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+
+%%% END NEW COMMANDS (shortcuts) %%%
+
+
+%%% START TITLE SETTINGS %%%
+\title{\bt{Termodinámica y el efecto hidrofóbico en la organización de los seres vivos}}
+\author{Pérez Alvarado Luis Raymundo, Facultad de Química, UNAM}
+\date{16 de octubre de 2020}
+%%% END TITLE SETTINGS %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+\begin{document}
+    \maketitle
+
+    El artículo \et{The Hydrophobic Effect and the Organization of Living Matter} \cite{article:article} el autor se encarga de resaltar la importancia de la Termodinámica, así como la contribución del efecto hidrofóbico durante la síntesis de moléculas en seres vivos y su control, así como el ensamblaje de dichas moléculas en estructuras organizadas, en el presente ensayo\cite{web:Elsevier} se comentarán algunos de los puntos de gran interés visto en el artículo. \np{}
+
+    El análisis termodinámico es una herramienta que es usada en diversas áreas, en este caso se usa para poder explicar fenómenos de interés biológico y químico, esto por medio del equilibrio termodinámico ya que suponemos que diversos procesos pueden ser considerados como procesos que ocurren en equilibrio, siendo increíble debido a la naturaleza tan dinámica que existe dentro de los seres vivos.\np{}
+
+    Gracias al potencial químico nos es posible el definir el estado en equilibrio de un sistema complejo, en el caso de sistemas biológicos el potencial químico debe cumplir que debe ser en mismo para un componente que para la fase o sitio accesible donde se encuentre, $\mu_{a} = \mu_{b}$. donde por ejemplo "a" es un componente y "b" es una fase y ambos comparten el mismo potencial, en contribución de Gurney este mismo potencial puede ser expresado en por medio de una suma $\mu_{a} = \mu_{u_{a}}+RTln(X) $ donde $\mu_{u_{a}}$ es llamado el potencial unitario para un componente "a", el cual representa la energía libre del movimiento de la molécula aislada, así como las interacciones entre moléculas vecinas propias y del disolvente el cual no brinda información de nuestro sistema. \np{}
+
+    La termodinámica nos ayuda a conocer el lugar preferente de las moléculas que ya han sido sintetizadas, por medio de la relación propuesta de Gurney podemos saber que la diferencia $\mu_{u_{a}}$ con respecto a otro componente está dada por únicamente por las interacciones con el disolvente, por medio de la diferencias es posible predecir las concentraciones relativas $X_{a,b}$\ en entornos similares \np{}
+    
+    Las fuerzas hidrofóbicas participan en la organización de las moléculas, como es el caso del plegamiento de las proteínas, el autor menciona que no son las únicas, pero considera que las fuerzas hidrofóbicas son de vital importancia debido a su capacidad de generar estructuras no rígidas, esto debido a que la deformabilidad de una molécula es requerida para formar estructuras de mayor complejidad.\np{}
+    
+    Los hidrocarburos presentan este efecto debido a que su fuerza de interacción entre el soluto y el disolvente es muy baja en comparación de solutos polares, lo cual también explica su baja solubilidad en solventes polares, ya que esta depende de la fuerzas atractivas entre el soluto y el disolvente, se resalta que las fuerzas de atracción en las cadenas de hidrocarburos es de las más débiles que existen.\np{}
+    
+    El efecto hidrofóbico se ve reflejado en la formación de estructuras definidas las cuáles son formadas cuando existe una concentración alta de moléculas anfipáticas las cuales debido a su baja interacción con un disolvente polar, agua en el caso de un sistema biológico están tienden a conformar estructuras donde no hay una interacción directa con el disolvente y la hidrofílica que en contacto directo con el disolvente, quedando la parte hidrofóbica cubierta por otras cadenas del mismo soluto. \np{}
+    
+    Lo anterior nos conduce a la formación micelas y bicapas, en el artículo se habla de la importancia de los factores geométricos y termodinámicos que intervienen para su formación, tales como la inestabilidad energética para una geometría esférica, se apunta a una forma ovalada en la cual el diámetro debe ser menor o igual a dos veces la longitud del monómero que la conforma, así como la concentración mínima requerida para que sea favorable la formación de estas, ya que se requieren una cantidad mínima de monómeros para su formación la concentración mínima para la formación de las micelas se conoce como la concentración micelar crítica. \np{}
+
+    En el caso de los fosfolípidos el contener dos cadenas hidrofóbicas es lo que diferencia las estructuras que son capaz de formar, que son las bicapas y vesículas, análogo a las micelas los fosfolípidos se agrupan para formar una estructura circular, la cual se diferencia que para ser aisladas las cadenas hidrofóbicas formando una doble capa en la cual se aíslan los grupos hidrofóbicos por medio de encapsularse en una agrupación del monómero en forma de una capa, la cual está unida por medio de interacciones débiles con otra capa formando una bicapa de fosfolípidos, cuando esta es pequeña esta se cierra encerrado en su interior agua para mantener las interacciones con la capa interna formando así un entorno cerrado del exterior aislado por la bicapa que fue formado, cuando esta capa se extiende y se denomina la bicapa lipídica.\np{}
+    
+    Estas estructuras formadas son eslabones necesarios para la organización celular, en el caso de las vesículas forman un espacio aislado de su entorno el cual de forma inicial no tienen contacto y su composición no debe ser igual ni estar en equilibrio con el medio externo. \np{}
+    
+    Lo anterior cambia de forma radical al ser modificadas por medio de reguladores que se pueden encargar en interactuar de forma específica y selectiva con el medio externo, las moléculas que son capaces son las proteínas, las cuales cuando están inmersas en un medio acuoso son capaces de obtener conformaciones específicas, por medio de estudios \et{in vitro} se sabe que las proteínas pueden generar la misma estructura de un medio celular que en uno distinto, por lo que su proceso de plegamiento es un proceso termodinámica controlado, en el cual la proteína busca inicialmente la conformación más estable en el disolvente,la estructura que puede ser formada después de ese estadio se debe a las interacciones entre en disolvente y las moléculas de la misma proteína (las fuerzas hidrofóbicas, puentes de hidrógeno e impedimentos estéricos). \np{}
+    
+    Las proteínas que se encuentran unidas en las membranas pueden desempeñar funciones de reconocimiento y recepción debido a que se encuentran expuestas, lo cual ya se encarga de que exista contacto con el medio externo, en contraste con las proteínas transmembranales estas tienen una estructura más compleja debido a su capacidad de permitir el paso de iones o moléculas polares de forma selectiva. \np{}
+    
+    Finalmente se toma en consideración el hecho de que las interacciones que brindan una flexibilidad a las vesículas y bicapas son las fuerzas hidrofóbicas, ya que provee a las membranas celulares la capacidad de poder ser deformables, lo cual permite una gran diversidad estructuras las cuáles no serían posibles si las interacciones formarán estructuras rígidas, esto nos da el panorama de cómo el efecto hidrofóbico tiene un gran peso en la organización celular.\np{}
+    \np{}
+
+    \paragraph{}
+    %% START REFERENCES %% 
+
+    % DEFINE STYLE FORMAT%
+    \bibliographystyle{ieeetr}
+    % SPECIFY THE FILE NAMEw %
+    \bibliography{references}
+
+    %% END REFERENCES %% 
+\end{document}

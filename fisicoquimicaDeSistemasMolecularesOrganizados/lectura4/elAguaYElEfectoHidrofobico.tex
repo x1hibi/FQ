@@ -1,0 +1,96 @@
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+
+\documentclass[10pt]{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 9in}]{geometry} 
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\spacing{1.5}
+\usepackage[superscript,biblabel]{cite}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,citecolor=blue}
+
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+
+%%% END NEW COMMANDS (shortcuts) %%%
+
+
+%%% START TITLE SETTINGS %%%
+\title{\bt{El agua y el efecto hidrofóbico}}
+\author{Pérez Alvarado Luis Raymundo, Facultad de Química, UNAM}
+\date{22 de octubre de 2020}
+%%% END TITLE SETTINGS %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+\begin{document}
+    \maketitle
+
+    El artículo \et{Hydrophobic Effect} \cite{article:article} habla de los aspectos termodinámicos del efecto hidrofóbico, así como el agua como disolvente que posee características del agua que junto con el efecto hidrofóbico lo hacen un disolvente con diversas particularidades el presente ensayo\cite{web:Elsevier} se comentarán algunos que fueron discutidos. \np{}
+
+    Una distinción que presentan solutos que presentan carácter polar en comparación de otros no polares o de baja polaridad es su capacidad de ser solubles en disolventes con una polaridad semejante, lo cual se ve de forma contraria en la solubilidad de los solutos no polares ya que su solubilidad es muy baja con respecto a solutos polares, lo cual les da la denominación de ser sustancias hidrofóbicas.\np{}
+
+    La termodinámica puede usarse en el análisis de la solubilidad de solutos con diferentes polaridades, considerando como procesos a las interacciones entre un soluto y un disolvente, y por medio de criterios termodinámicos se puede predecir si los procesos serán favorables o no en las interacciones soluto-disolvente.\np{}
+
+    En el artículo se muestra el comportamiento termodinámico que presenta un soluto no polar cuando es transferido de un solvente no polar a uno polar (en este caso particular se toma como ejemplo la transferencia del etano de tetracloruro de carbono a agua), en la cual se observa que el proceso de transferir el $CH_{3}CH_{3}$ de $CCL_{4}$ a agua genera una energía libre positiva ($\Delta G^o > 0$), observando las contribuciones que conforman al $\Delta G^o$ vemos que a temperaturas mayores a $50^o C$ la entalpía no es favorable ($\Delta H^o > 0$) y a temperaturas menores de $110^o C$ la entropía tampoco lo es ($\Delta S^o < 0$). \np{}
+
+    Con los datos que son expuestos del proceso se sabe que las contribuciones de la energía libre $\Delta H^o$ y $\Delta S^o$ dependen de la temperatura de forma significativa, en el caso del $\Delta G^o$ en dicho experimento se muestran sólo ligeras variaciones de su valor, en el caso de la entalpía su cambio con respecto en la temperatura implica un cambio en la capacidad calorífica a presión constante ($\Delta C_{p}$). \np{}
+
+    También se habla de la solvatación del soluto en sus distintos estados de agregación cuando se hace la transferencia de un disolvente a otro, y como por medio de relaciones algebraicas es posible relacionar dichos procesos con las funciones termodinámicas ya conocidas, usando como referencias procesos de transición como condensación-vaporización y congelación-fusión. \np{}
+
+    Lo anterior nos muestra que el análisis se puede hacer para los solutos en distintas fases, y más aún que extrapolando, de forma general el comportamiento termodinámico para sustancias no polares en disolventes polares \bt{es un proceso no favorable}.\np{} 
+
+    En contraste los solutos polares en medios polares son procesos favorables lo que se interpreta como interacciones atractivas favorables entre el soluto y el disolvente, lo cual es fácil de interpretar al comparar el valor de $\Delta C_{p}$ de un mismo soluto en distintos disolventes, lo cual se muestra en una tabla en el artículo donde se muestran los valores de $\Delta H^o$ y $\Delta S^o$ y observa que los procesos son favorables para disolventes no polares para el caso del $CH_{3}CH_{3}$ que fue usado para el ejemplo.\np{}
+
+    En una comparación que se realiza en el mismo artículo en distintos hidrocarburos de distinta longitud y con terminaciones polares y no polares en su cadena, se comparan las contribuciones termodinámicas entre ellos, donde se observa que el $\Delta H^o$ es la contribución que cambia de forma significativa cuando se cambia de una terminación no polar a una polar, el cambio de la $\Delta S^o$ es pequeño con respecto al $\Delta H^o$, cuando se comparan cadenas similares donde solo cambia el tamaño de la cadena las contribuciones de $\Delta H^o$ y $\Delta S^o$ disminuyen de forma similar en sus valores.\np{}
+    
+    Con la evidencia anterior se muestra que en los solutos polares y no polares la contribución que dicta si el proceso es favorecido o no es la $\Delta H^o$, y que el cambio del tamaño de una cadena afecta de forma proporcional a las contribuciones de la energía libre.   \np{}
+
+    El agua a comparación de otros disolvente polares presenta características que lo hacen de gran interés.\np{}
+
+    El agua cuenta con la capacidad de formar múltiples puentes de hidrógeno, lo cual la diferencia de otras sustancias que son capaces de formar puentes de hidrógeno, estas tienen la capacidad de formar redes 3D gracias a sus múltiples puentes de hidrógeno, una de las implicaciones de esta es la formación de clatratos que son estructuras 
+    3D formadas por agua para encerrar a solutos. \np{}
+    
+    Las interacciones que pueden tener las moléculas del agua con solutos de distintas polaridades es variada, se ha usando la termodinámica empleando métodos computacionales para calcular dichas interacciones, y se ha encontrado que las moléculas tiene orientaciones favorecidas dependiendo del tipo de soluto, lo cual muestra la diversidad que genera las interaccione en medios acuosos y las complejas redes 3D que pueden ser creadas.\np{}
+   
+    Otro punto interesante e importante a destacar es que las propiedades de un soluto cuando interactúa con solventes capaces de formar puentes de hidrógeno ya que dicha capacidad proporciona un cambio significativo en propiedades como el punto de ebullición ($T_{ebullición}$), el cual aumenta y analizando esto entendemos que requiere más energía para poder romper dichas interacciones en comparación de solutos que están en disolventes donde no se forman dichas interacciones, estas mismas aumentan la tensión superficial ($\gamma$) y bajan la  compresibilidad isotérmica ($\kappa$) y el coeficiente de expansión ($\alpha$).  \np{}
+    
+    Por último la influencia del efecto hidrofóbico afecta de forma directa el plegamiento de las proteínas debido a que su estructura busca evitar el contacto de los componentes hidrofóbicos con el medio acuoso en los sistemas biológicos, lo cual propicia que los grupos hidrofílicos queden expuestos al disolvente y los componentes no polares dentro de la estructura y definan de forma más específica las posibles conformaciones posibles para una proteína.
+    
+
+    \paragraph{}
+    %% START REFERENCES %% 
+
+    % DEFINE STYLE FORMAT%
+    \bibliographystyle{ieeetr}
+    % SPECIFY THE FILE NAMEw %
+    \bibliography{references}
+
+    %% END REFERENCES %% 
+\end{document}

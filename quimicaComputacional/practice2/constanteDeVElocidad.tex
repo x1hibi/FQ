@@ -4,7 +4,7 @@
 
 \documentclass[twocolumn]{article}
 \usepackage{xcolor} 
-\usepackage[a4paper, total={7.1in, 9.5in}]{geometry} 
+\usepackage[a4paper, total={7.25in, 9.5in}]{geometry} 
 \usepackage{multirow}
 \usepackage{lipsum}
 \usepackage{hyperref}
@@ -39,16 +39,17 @@
 % This is an equation shortcut
 \newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
 % Table title with bold text and correct space%
-\newcommand{\titleTable}[2]{\np{\bt{Table #1} #2}}
+\newcommand{\titleTable}[2]{\np{\bt{Table #1} #2}}% Graph title with bold text and correct space%
+\newcommand{\titleGraph}[2]{\np{\bt{Graph #1} #2}}
 % Table body with border %
 \newcommand{\bodyTable}[2]{\begin{center} \begin{tabular}{|#1|} \hline #2 \hline \end{tabular} \end{center} }
 %%% END NEW COMMANDS (shortcuts) %%%
 
 
 %%% START TITLE SETTINGS %%%
-\title{State transition and speed constant }
+\title{State transition and rate constant}
 \author{Perez Alvarado Luis Raymundo, School of Chemistry, UNAM}
-\date{08/010/2020}
+\date{08/10/2020}
 %%% END TITLE SETTINGS %%%
 
 %%%%% END PREAMBLE HEADER %%%%%
@@ -66,7 +67,7 @@
 
             %% CREATE A ABSTRACT (START,MAX 250 CHARACTERS) %%
             \begin{abstract}
-                \item The correlation energy plays an important role in computational chemistry because most of the systems studied are of n electrons, in this report the enthalpy of formation of $F_{2}$ is calculated with the HF, MP2 and B3LYP methods with the set base 6-31G using \et{Gaussian 09}, and it was observed that using MP2 and B3LYP acceptable values are obtained, but not in HF because it does not consider the correlation energy.
+                \item 
                 \item 
             \end{abstract}
             %% CREATE A ABSTRACT (END) %%
@@ -114,7 +115,7 @@
 
     % START FIGURE %
     \begin{figure}[h]
-        %Reactives%
+        % Reactive %
         \centering
         \begin{minipage}[b]{0.225\textwidth}
             \centering
@@ -125,7 +126,7 @@
         \begin{minipage}[b]{0.25\textwidth}
           \centering
           \includegraphics[scale=0.4]{hidroxilRadical.png}
-          \caption{Hidroxil radical.}
+          \caption{Hydroxyl radical.}
         \end{minipage}
         %Transition state%
         \begin{minipage}[b]{0.45\textwidth}
@@ -148,9 +149,9 @@
         \end{minipage}
     \end{figure}
     % END FIGURE %
-    \nec{ CH_{4}+\cdot~ OH \rightarrow [ CH_{3}\mbox{-}~\mbox{-}H\mbox{-}~\mbox{-}OH]^{\mp} \rightarrow CH_{3}\cdot+H_{2}O}
+    \nec{ CH_{4}+\cdot~ OH \rightarrow [ CH_{3}\mbox{-}~\mbox{-}H\mbox{-}~\mbox{-}OH]^{\dagger} \rightarrow CH_{3}\cdot+H_{2}O}
 
-    \np{The global reaction is describe in }
+    \np{The global reaction is describe in 5\n}
     
 
 
@@ -176,8 +177,33 @@
     \np{\bt{NOTE:} In the case of F is not necessary to use opt configuration because does not need geometry optimization.}
     
     \section*{Results}
+    
+    \np{Through the data calculated in table 2, the reaction profile was plotted (Fig 2)}
 
-    \np{Finishing the calculations of the three methods the value \et{Sum of electronic and thermal enthalpies} (ETE) is obtained of the output files with .log extension.}
+    \titleGraph{1}{Free energy VS Reaction coordenate}
+
+    \np{Through the data calculated in table 2, the reaction profile was plotted (Fig 1)}
+
+    \vspace{-0.5cm}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.49\textwidth]{reactionProfileFreeEnergy.png}
+        \caption{Profile reaction.}
+    \end{figure}
+
+    \titleGraph{2}{Enthalpy VS Reaction coordenate}
+
+    \np{asdasd}
+
+    \vspace{-0.5cm}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.49\textwidth]{reactionProfileEnthalpy.png}
+        \caption{Profile reaction.}
+    \end{figure}
+
+
+
 
     % START A TABLE %
     % TABLE TITLE %
