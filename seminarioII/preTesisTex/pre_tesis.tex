@@ -2,17 +2,13 @@
 
 %%% START REQUIRED PACKAGES %%%
 
-\documentclass[10pt]{article}
+\documentclass[10pt]{report}
 \usepackage{xcolor} 
-\usepackage[a4paper, total={6in, 9in}]{geometry} 
-\usepackage{lipsum}
+% \usepackage[a4paper, total={6in, 9in}]{geometry} 
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{babel}
-\usepackage{setspace}
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
-\spacing{1.5}
+\usepackage{import}
 \usepackage[superscript,biblabel]{cite}
 \usepackage[export]{adjustbox}
 \usepackage{amsmath}
@@ -51,10 +47,11 @@
 %%%%% END PREAMBLE HEADER %%%%%
 \begin{document}
 
-    %% MAKE TITLE %% 
-    \maketitle
+    %% GENERAL OBJECTIVE %% 
+    \import{./componentes/objetivoGeneral}{objetivoGeneral.tex}
     
-
+    
+    
 
 
     %% START REFERENCES %% 
@@ -65,4 +62,6 @@
     \bibliography{references}
 
     %% END REFERENCES %% 
+
+
 \end{document}
