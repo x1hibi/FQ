@@ -1,4 +1,4 @@
-# Estructuración del objetivos específicos de la investigación 
+# Estructuración del objetivo general investigación 
 
 ## Estructura [**1**]
 
@@ -13,7 +13,7 @@
 
 ## Características 
 
-Deben ser mínimo tres, deben ser enumerados por {importancia, lógica, orden temporal}, deben ser medibles y observables, deben responder a problemas específicos y que contribuyan al logro de cumplir el objetivo general.  
+Solo puede haber uno, expone el propósito principal de la investigación, tiene relación con el área temática que se pretende estudiar y con el título del trabajo.
 
 ## Preguntas para estructurar el objetico general [**1**]
 
@@ -30,23 +30,23 @@ Deben ser mínimo tres, deben ser enumerados por {importancia, lógica, orden te
 
 *Pregunta general*:
 
-    ¿Las impregnaciones ZIO y cloruro de oro son técnicas capaces de identificar de forma específicas a CL/CD en epidermis de vertebrados no mamíferos?.
+    ¿Las impregnaciones ZIO y cloruro de oro son técnicas capaces de identificar de forma específicas las células dendríticas epidérmicas de vertebrados no mamíferos?.
 
 *Pregunta general extendida por objetivos específicos*:
 
-    ¿Las impregnaciones ZIO y cloruro de oro son técnicas capaces de identificar de forma específicas a CL/CD en epidermis de vertebrados no mamíferos (grupo representativo) y si los resultados son similares a los de la histoquímica enzimática para ATPasa?.
+    ¿Las impregnaciones ZIO y cloruro de oro son técnicas capaces de identificar de forma específicas las células dendríticas epidérmicas de un grupo seleccionado de vertebrados no mamíferos y si los resultados son iguales estadísticamente a los de la histoquímica enzimática para ATPasa?.
 
 
 ### Definir los elementos del objetivo general
 
 - *Selección de posibles verbos* [**1**] 
 
-    - Los posibles verbos para la redacción del objetivo general:    *Identificar❌, Analizar, Demostrar, Plantear y Proponer*.
+    - Los posibles verbos para la redacción del objetivo general:*Identificar❌, Analizar✔️, Demostrar✔️, Plantear❌✔️ y Proponer✔️*.
 
 - *Selección del objeto* 
 
     - Impregnaciones ZIO y cloruro de oro.✔️
-    - Células de Langerhans(CL) / Células dendríticas(CD).❌
+    - Células dendríticas epidérmicas.❌
 
 - *Finalidad de la investigación* 
 
@@ -61,31 +61,31 @@ Deben ser mínimo tres, deben ser enumerados por {importancia, lógica, orden te
 
 ---
 
-> ❌ **Identificar** [de forma específica]* las **`células dendríticas epidérmicas`**  de un grupo [representativo/específico/seleccionado] vertebrados no mamíferos *[empleando/usando/utilizando] las impregnaciones ZIO y cloruro de oro*. 
+> ❌ **Identificar** de forma específica las **`células dendríticas epidérmicas`**  de un grupo [seleccionado/elegido/escogido] vertebrados no mamíferos *[empleando/usando/utilizando] las impregnaciones ZIO y cloruro de oro*. 
 ---
->✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos*.
+>❌✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de vertebrados no mamíferos*.
 
 *objetivo extendido:*
 
->>✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos y que sus resultados son comparables estadísticamente\* con los de la histoquímica enzimática para ATPasa*.
+>>❌✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y que sus resultados son [comparables/semejantes] estadísticamente con los de la histoquímica enzimática para ATPasa*.
 ---
->✔️ **Analizar** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos*.
+>✔️ **Analizar** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos*.
 
 *objetivo extendido:*
 
->>✔️ **Analizar** las **`impregnaciones ZIO y cloruro de oro`** como posibles\* *técnicas de identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos y sus resultados en comparación con la histoquímica enzimática para ATPasa*.
+>>✔️✔️ **Analizar** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y su comparación estadística de la densidad celular con la histoquímica enzimática para ATPasa*.
 ---
->✔️ **Demostrar** [si/que] las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos*.
+>✔️ **Demostrar** que las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos*.
 
 *objetivo extendido:*
 
->>✔️ **Demostrar** [que/si] las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos y que sus resultados son comparables estadísticamente\* con [la/los de la] histoquímica enzimática para ATPasa*.
+>>✔️✔️ **Demostrar** que las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y que su densidad celular es estadísticamente [iguale/semejante/equivalente] a la [de la]\*  histoquímica enzimática para ATPasa*.
 ---
->✔️ **Proponer** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas [de/para la] identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos*.
+>✔️ **Proponer** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [iguales/semejantes/equivalentes] de vertebrados no mamíferos*.
 
 *objetivo extendido:*
 
->>✔️ **Proponer** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas [de/para la] identificación específica\* de células dendríticas epidérmicas de un grupo [representativo/específico/seleccionado] de vertebrados no mamíferos y que sus resultados son comparables estadísticamente\* con [la/los de la] histoquímica enzimática para ATPasa*.
+>>✔️✔️ **Proponer** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y que su densidad celular es estadísticamente [igual/semejante/equivalente] a la [de la]\* histoquímica enzimática para ATPasa*.
 ---
 
 ### Fuentes:
