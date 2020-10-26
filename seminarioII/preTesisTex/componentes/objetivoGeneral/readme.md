@@ -34,7 +34,7 @@ Solo puede haber uno, expone el propósito principal de la investigación, tiene
 
 *Pregunta general extendida por objetivos específicos*:
 
-    ¿Las impregnaciones ZIO y cloruro de oro son técnicas capaces de identificar de forma específicas las células dendríticas epidérmicas de un grupo seleccionado de vertebrados no mamíferos y si los resultados son iguales estadísticamente a los de la histoquímica enzimática para ATPasa?.
+    ¿Las impregnaciones ZIO y cloruro de oro son técnicas capaces de identificar de forma específicas las células dendríticas epidérmicas de un grupo seleccionado de vertebrados no mamíferos y si la densidad celular es estadísticamente igual a la de la histoquímica enzimática para ATPasa?.
 
 
 ### Definir los elementos del objetivo general
@@ -79,7 +79,7 @@ Solo puede haber uno, expone el propósito principal de la investigación, tiene
 
 *objetivo extendido:*
 
->>✔️✔️ **Demostrar** que las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y que su densidad celular es estadísticamente [iguale/semejante/equivalente] a la [de la]\*  histoquímica enzimática para ATPasa*.
+>>✔️✔️ **Demostrar** que las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y que su densidad celular es estadísticamente [igual/semejante/equivalente] a la [de la]\*  histoquímica enzimática para ATPasa*.
 ---
 >✔️ **Proponer** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [iguales/semejantes/equivalentes] de vertebrados no mamíferos*.
 

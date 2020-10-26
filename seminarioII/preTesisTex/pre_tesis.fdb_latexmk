@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex pre_tesis"] 1603662512 "pre_tesis.aux" "pre_tesis.bbl" "pre_tesis" 1603662539
+["bibtex pre_tesis"] 1603695177 "pre_tesis.aux" "pre_tesis.bbl" "pre_tesis" 1603695180
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "pre_tesis.aux" 1603662539 1047 d3f6e4f3442875f971ee0e1b4566db7a "xelatex"
+  "pre_tesis.aux" 1603695179 1168 f132d61d4fc75079051e3ff14ddc198e "xelatex"
   "references.bib" 1603526649 1338 64a9f8ca9498ef3b59dea2d30b85d103 ""
   (generated)
-  "pre_tesis.blg"
   "pre_tesis.bbl"
-["xdvipdfmx"] 1603662539 "pre_tesis.xdv" "pre_tesis.pdf" "pre_tesis" 1603662539
-  "pre_tesis.xdv" 1603662539 3648 6f61de512a85e543d93de86881a71ef9 "xelatex"
+  "pre_tesis.blg"
+["xdvipdfmx"] 1603695179 "pre_tesis.xdv" "pre_tesis.pdf" "pre_tesis" 1603695180
+  "pre_tesis.xdv" 1603695179 4752 b471ccb9dc6fe8d01f278a6d8550ae86 "xelatex"
   (generated)
   "pre_tesis.pdf"
-["xelatex"] 1603662538 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" "pre_tesis.xdv" "pre_tesis" 1603662539
+["xelatex"] 1603695178 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" "pre_tesis.xdv" "pre_tesis" 1603695180
   "C:/Users/sagad/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1602000351 23193880 d18aa598db06abc7edb07c1805cb3dbd ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136793854 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -72,20 +72,22 @@
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty" 1575059482 22520 c4c2dab203104295e1e618be7e5c0f5b ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xdvipdfmx.def" 1593421250 23471 d7927ec67cae4c632d9926c588a0178b ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty" 1575399536 5766 13a9e8766c47f30327caf893ece86ac8 ""
+  "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/ms/everysel.sty" 1564754727 4752 936bfb87af7b91b6496a2317f80db16b ""
+  "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1564754774 10290 f2895af67a8ceb11ae60d6efbed7dc62 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" 1603662537 1748 2c1e31c1690218c1896a736e1182110d ""
-  "componentes/objetivoGeneral/objetivoGeneral.tex" 1603662501 250 809bb6a0ca521e98d0b2b0799f717afd ""
-  "pre_tesis.aux" 1603662539 1047 d3f6e4f3442875f971ee0e1b4566db7a "xelatex"
-  "pre_tesis.bbl" 1603662512 52 0eba253fc001332e731e8aba3f23127b "bibtex pre_tesis"
-  "pre_tesis.out" 1603662538 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "pre_tesis.tex" 1603662537 1748 2c1e31c1690218c1896a736e1182110d ""
+  "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" 1603695175 1749 373b3256d8ba6df600fe35430b4cc811 ""
+  "componentes/objetivoGeneral/objetivoGeneral.tex" 1603695172 371 9db0b1812eab5e1b1877ebbe6bc651ea ""
+  "pre_tesis.aux" 1603695179 1168 f132d61d4fc75079051e3ff14ddc198e "xelatex"
+  "pre_tesis.bbl" 1603695178 52 0eba253fc001332e731e8aba3f23127b "bibtex pre_tesis"
+  "pre_tesis.out" 1603695179 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "pre_tesis.tex" 1603695175 1749 373b3256d8ba6df600fe35430b4cc811 ""
   (generated)
-  "pre_tesis.log"
-  "pre_tesis.xdv"
-  "pre_tesis.out"
   "pre_tesis.aux"
+  "pre_tesis.xdv"
+  "pre_tesis.log"
+  "pre_tesis.out"
