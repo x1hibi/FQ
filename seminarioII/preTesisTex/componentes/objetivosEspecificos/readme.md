@@ -52,7 +52,7 @@ solo si el experimento es positivo para alguna de las técnicas
 
     en que condiciones se obtiene los mejores resultados?
 
-> **Determinar** **`las condiciones de temperatura, pH, medio de reacción,tiempo de reacción, ruta de sintesis del producto y concentración de óptimos`** *para la optimización de las impregnaciones ZIO y cloruro de oro*.
+> **Determinar** **`las condiciones de temperatura, pH, medio de reacción(componentes del medio),tiempo de reacción, ruta de sintesis del producto y concentración de óptimos`** *para la optimización de las impregnaciones ZIO y cloruro de oro*.
 
     en que valores de ph y concentración existen los productos de reacción de las impregnaciones?
 
@@ -70,30 +70,32 @@ solo si el experimento es positivo para alguna de las técnicas
 
 ## Objetivos específicos más relevantes 
 
-    ¿Que metodología es adecuada para la obtención de las láminas epidérmicas?
+    ¿Que metodología es usado para obtención de las láminas epidérmicas?
 
-> ✔️**Detallar** la **`metodología`** para la *obtención óptima de las muestras de epidermis de los especímenes*.
+> ✔️**Especificar** la **`metodología empleada`** para la *obtención apropiada de las muestras de epidermis de los especímenes*.
 
     Como es la morfología normal de las células dendríticas?
 
-> ✔️**Identificar** la **`morofología característica de las células dendríticas epidérmicas en las muestras procesadas con la histoquímica enzimática para ATPasa`** *para su posterior identificación en las muestras procesadas con las impregnaciones ZIO y cloruro de oro*.
+> ✔️**Identificar** la **`morofología normal de las células dendríticas epidérmicas en las muestras procesadas con la histoquímica enzimática para ATPasa`** *para su posterior identificación en las muestras procesadas con las impregnaciones empleadas*.
 
     en que condiciones se obtienen resultados óptimos?
 
-> **Determinar** **`las condiciones de temperatura, pH, medio de reacción,tiempo de reacción, ruta de sintesis del producto y concentración los reactivos`** *para la optimización de las impregnaciones ZIO y cloruro de oro*. 
+> **Determinar** **`las condiciones de temperatura, pH, tiempo de reacción y concentración los reactivos`** *para la obtención de resultados repetibles y óptimos en las impregnaciones ZIO y cloruro de oro*. 
 
     Las impregnaciones ZIO y cloruro de oro son capaces de identificar células dendríticas epidérmicas?
 
-> **Interpretar** las **`muestras procesadas con las impregnaciones ZIO y cloruro de oro`** *para la identificación de las células dendríticas epidérmicas* . 
+> **Interpretar** las **`morfologías celulares observadas en las muestras procesadas con las impregnaciones`** *para la identificación de las células dendríticas epidérmicas.
 
     cúantas células dendríticas hay por unidad de área?
 
-> **Determinar** el **`número de células dendríticas`** *por cm2 en las muestras procesada para obtener un conjunto de datos que permita hacer una comparación estadística de la densidad celular en cada técnicas*.
+> **Determinar** el **`número de células dendríticas por cm2 en las muestras procesadas`** * para la obtención de conjuntos de datos que permitan una comparación estadística de la densidad celular de las impregnaciones realizadas y la histoquímica enzimática para ATPasa*.
 
     Las densidades de células dendríticas obtenidas de las impregnaciones son estadisticamente iguales a las de la histoquímica enzimámica para ATPasa?
 
-> ✔️**Comparar** **`los conteos de células dendríticas de las impregnaciones y la histoquímica enzimática`** *utilizando una prueba t de Student corroborando la hipótesis nula planteada*.
+> ✔️**Comparar** **`las densidades célulares de las impregnaciones realizadas y la histoquímica enzimática para ATPasa`** *mediante una prueba t de Student para la corroboración de la hipótesis nula planteada*.
 
+
+conectores para la unión del objeto con la finalidad: para, que, de, en, el, es,son,
 
 
 
