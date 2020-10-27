@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex pre_tesis"] 1603695177 "pre_tesis.aux" "pre_tesis.bbl" "pre_tesis" 1603695180
+["bibtex pre_tesis"] 1603742514 "pre_tesis.aux" "pre_tesis.bbl" "pre_tesis" 1603742517
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "pre_tesis.aux" 1603695179 1168 f132d61d4fc75079051e3ff14ddc198e "xelatex"
+  "pre_tesis.aux" 1603742515 5528 8f7ddc420a210f4cdd999a21f3633949 "xelatex"
   "references.bib" 1603526649 1338 64a9f8ca9498ef3b59dea2d30b85d103 ""
   (generated)
   "pre_tesis.bbl"
   "pre_tesis.blg"
-["xdvipdfmx"] 1603695179 "pre_tesis.xdv" "pre_tesis.pdf" "pre_tesis" 1603695180
-  "pre_tesis.xdv" 1603695179 4752 b471ccb9dc6fe8d01f278a6d8550ae86 "xelatex"
+["xdvipdfmx"] 1603742516 "pre_tesis.xdv" "pre_tesis.pdf" "pre_tesis" 1603742517
+  "pre_tesis.xdv" 1603742515 39252 5ed4902ae89e3caf06ab743e7ca178d5 "xelatex"
   (generated)
   "pre_tesis.pdf"
-["xelatex"] 1603695178 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" "pre_tesis.xdv" "pre_tesis" 1603695180
+["xelatex"] 1603742514 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" "pre_tesis.xdv" "pre_tesis" 1603742517
   "C:/Users/sagad/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1602000351 23193880 d18aa598db06abc7edb07c1805cb3dbd ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136793854 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -80,14 +80,19 @@
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
-  "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" 1603695175 1749 373b3256d8ba6df600fe35430b4cc811 ""
+  "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" 1603742513 2316 5d704617a5813f9f8fd28606b1ec4980 ""
+  "componentes/contribucionDeLaInvestigacion/contribucionDeLaInvestigacion.tex" 1603738263 206 bef5ab7c9545688a21f3e70f16a813e6 ""
+  "componentes/hipotesis/hipotesis.tex" 1603733245 541 fdb53dc2f74b8a2c5bf647cb75e76843 ""
+  "componentes/justificacion/justificacion.tex" 1603742192 1157 08607b68ddf473d03be03d5dc12380fa ""
   "componentes/objetivoGeneral/objetivoGeneral.tex" 1603695172 371 9db0b1812eab5e1b1877ebbe6bc651ea ""
-  "pre_tesis.aux" 1603695179 1168 f132d61d4fc75079051e3ff14ddc198e "xelatex"
-  "pre_tesis.bbl" 1603695178 52 0eba253fc001332e731e8aba3f23127b "bibtex pre_tesis"
-  "pre_tesis.out" 1603695179 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "pre_tesis.tex" 1603695175 1749 373b3256d8ba6df600fe35430b4cc811 ""
+  "componentes/objetivosEspecificos/objetivosEspecificos.tex" 1603733430 1341 f2536acba001ad360ffe683e2d61292e ""
+  "componentes/planteamientoDelProblema/planteamientoDelProblema.tex" 1603742110 367 229cdd0669681094c07ff19f89c67de0 ""
+  "pre_tesis.aux" 1603742515 5528 8f7ddc420a210f4cdd999a21f3633949 "xelatex"
+  "pre_tesis.bbl" 1603742514 52 0eba253fc001332e731e8aba3f23127b "bibtex pre_tesis"
+  "pre_tesis.out" 1603742515 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "pre_tesis.tex" 1603742513 2316 5d704617a5813f9f8fd28606b1ec4980 ""
   (generated)
-  "pre_tesis.aux"
-  "pre_tesis.xdv"
   "pre_tesis.log"
+  "pre_tesis.aux"
   "pre_tesis.out"
+  "pre_tesis.xdv"

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  26 OCT 2020 00:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  26 OCT 2020 14:01
 entering extended mode
 **c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex
 (c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex
@@ -356,19 +356,39 @@ LaTeX Info: Redefining \nameref on input line 49.
 
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 49.
- (componentes/objetivoGeneral/objetivoGeneral.tex) (pre_tesis.bbl
-Overfull \hbox (4.17891pt too wide) in paragraph at lines 1--1
+ (componentes/planteamientoDelProblema/planteamientoDelProblema.tex) (componentes/justificacion/justificacion.tex
+Overfull \hbox (6.76001pt too wide) in paragraph at lines 3--3
+ []\TU/lmr/m/n/10 La investigación de las células dendríticas en mamíferos no vertebrados es reducido
+ []
+
+) (componentes/contribucionDeLaInvestigacion/contribucionDeLaInvestigacion.tex
+Overfull \hbox (13.29404pt too wide) in paragraph at lines 3--3
+\TU/lmr/m/n/10 diversas especies, así como elevados costos(inmunohistoquímica), tiempos reducidos
+ []
+
+
+Overfull \hbox (2.41pt too wide) in paragraph at lines 3--3
+\TU/lmr/m/n/10 ATPasa) y el limitado acceso a instrumental de alto costo(microscopio electrónico
+ []
+
+) (componentes/objetivoGeneral/objetivoGeneral.tex) (componentes/objetivosEspecificos/objetivosEspecificos.tex
+Overfull \hbox (4.17891pt too wide) in paragraph at lines 3--3
  []\TU/lmr/m/n/10 Analizar a las impregnaciones ZIO y cloruro de oro como técnicas de identificación
  []
 
 
-Overfull \hbox (16.57002pt too wide) in paragraph at lines 1--1
+Overfull \hbox (16.57002pt too wide) in paragraph at lines 3--3
 \TU/lmr/m/n/10 específica de células dendríticas epidérmicas de un grupo seleccionado de vertebrados
  []
 
 
-Overfull \hbox (15.97002pt too wide) in paragraph at lines 1--1
+Overfull \hbox (15.97002pt too wide) in paragraph at lines 3--3
 \TU/lmr/m/n/10 no mamíferos y su comparación estadística de la densidad celular con la histoquímica
+ []
+
+
+Overfull \hbox (9.63pt too wide) in paragraph at lines 9--9
+\TU/lmr/m/n/10 muestras procesadas con la histoquímica enzimática para ATPasa para su posterior
  []
 
 (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-print.def
@@ -376,29 +396,44 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
 
 ]
+Overfull \hbox (12.302pt too wide) in paragraph at lines 11--11
+ []\TU/lmr/m/n/10 Determinar las condiciones de temperatura, pH, tiempo de reacción y concentración
+ []
+
+) (componentes/hipotesis/hipotesis.tex
+Overfull \hbox (16.96pt too wide) in paragraph at lines 2--2
+ []\TU/lmr/m/n/10 Comparar las densidades célulares de las impregnaciones realizadas y la histoquímica
+ []
+
+
+Overfull \hbox (0.95003pt too wide) in paragraph at lines 2--2
+\TU/lmr/m/n/10 enzimática para ATPasa mediante una prueba t de Student para la corroboración
+ []
+
+) (pre_tesis.bbl [2]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
- [2
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+ [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (pre_tesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `pre_tesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 11213 strings out of 414071
- 158761 string characters out of 2894591
- 437629 words of memory out of 3000000
- 28728 multiletter control sequences out of 15000+200000
- 533208 words of font info for 34 fonts, out of 3000000 for 9000
+ 11246 strings out of 414071
+ 160297 string characters out of 2894591
+ 441629 words of memory out of 3000000
+ 28734 multiletter control sequences out of 15000+200000
+ 533216 words of font info for 35 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 37i,5n,37p,473b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,5n,47p,1287b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on pre_tesis.xdv (2 pages, 4752 bytes).
+Output written on pre_tesis.xdv (3 pages, 39252 bytes).

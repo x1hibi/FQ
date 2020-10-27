@@ -70,30 +70,29 @@ solo si el experimento es positivo para alguna de las técnicas
 
 ## Objetivos específicos más relevantes 
 
-    ¿Que metodología es usado para obtención de las láminas epidérmicas?
+    ¿Que metodología es empleada para obtención adecuada de las láminas epidérmicas?
 
-> ✔️**Especificar** la **`metodología empleada`** para la *obtención apropiada de las muestras de epidermis de los especímenes*.
+> ✔️**Especificar** la **`metodología empleada`** *para la obtención apropiada de las muestras de epidermis de los especímenes*.
 
-    Como es la morfología normal de las células dendríticas?
+    Como es la morfología normal de las células dendríticas epidérmicas?
 
-> ✔️**Identificar** la **`morofología normal de las células dendríticas epidérmicas en las muestras procesadas con la histoquímica enzimática para ATPasa`** *para su posterior identificación en las muestras procesadas con las impregnaciones empleadas*.
+> ✔️**Identificar** la **`morfología normal de las células dendríticas epidérmicas en las muestras procesadas con la histoquímica enzimática para ATPasa`** *para su posterior identificación en las muestras procesadas con las impregnaciones ZIO y cloruro de oro*.
 
-    en que condiciones se obtienen resultados óptimos?
+    en que condiciones se obtienen resultados óptimos y repetibles(confiables)?
 
-> **Determinar** **`las condiciones de temperatura, pH, tiempo de reacción y concentración los reactivos`** *para la obtención de resultados repetibles y óptimos en las impregnaciones ZIO y cloruro de oro*. 
+> **Determinar** **`las condiciones de temperatura, pH, tiempo de reacción y concentración de los reactivos`** *para la obtención de resultados óptimos y repetibles en las impregnaciones ZIO y cloruro de oro*. 
 
     Las impregnaciones ZIO y cloruro de oro son capaces de identificar células dendríticas epidérmicas?
 
-> **Interpretar** las **`morfologías celulares observadas en las muestras procesadas con las impregnaciones`** *para la identificación de las células dendríticas epidérmicas.
+> **Interpretar** las **`morfologías celulares observadas en las muestras procesadas con las impregnaciones`** *para la identificación de las células dendríticas epidérmicas*.
 
     cúantas células dendríticas hay por unidad de área?
 
-> **Determinar** el **`número de células dendríticas por cm2 en las muestras procesadas`** * para la obtención de conjuntos de datos que permitan una comparación estadística de la densidad celular de las impregnaciones realizadas y la histoquímica enzimática para ATPasa*.
+> **Determinar** por medio de conteos en microfotografías **`el número de células dendríticas que hay en 3mm2 en las muestras procesadas`** *para la obtención de conjuntos de datos que permitan la comparación estadística de la densidad celular entre las impregnaciones realizadas y la histoquímica enzimática para ATPasa*.
 
     Las densidades de células dendríticas obtenidas de las impregnaciones son estadisticamente iguales a las de la histoquímica enzimámica para ATPasa?
 
-> ✔️**Comparar** **`las densidades célulares de las impregnaciones realizadas y la histoquímica enzimática para ATPasa`** *mediante una prueba t de Student para la corroboración de la hipótesis nula planteada*.
-
+> ✔️**Comparar** **`las densidades célulares de las impregnaciones realizadas y la histoquímica enzimática para ATPasa`** mediante una prueba t de Student *para la corroboración de la hipótesis nula planteada*.
 
 conectores para la unión del objeto con la finalidad: para, que, de, en, el, es,son,
 
