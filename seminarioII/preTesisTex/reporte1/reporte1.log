@@ -1,0 +1,599 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  3 NOV 2020 17:30
+entering extended mode
+**c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex
+(c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/06/10 3.45 The Babel package
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/06/10 3.45 Babel common definitions
+\babel@savecnt=\count171
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def))
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count172
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthography)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 121.
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
+Language: french 2020/10/10 v3.5l French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language22) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language22) on input line 92.
+\FB@nonchar=\count173
+Package french.ldf Info: No need for active punctuation characters
+(french.ldf)             with this version of XeTeX!
+(french.ldf)             reported on input line 332.
+\FB@punctthick=\XeTeXcharclass1
+\FB@punctthin=\XeTeXcharclass2
+\FB@punctnul=\XeTeXcharclass3
+\FB@guilo=\XeTeXcharclass4
+\FB@guilf=\XeTeXcharclass5
+\FB@guilnul=\XeTeXcharclass6
+\FBguill@level=\count174
+\FBold@everypar=\toks15
+\FB@Mht=\dimen136
+\mc@charclass=\count175
+\mc@charfam=\count176
+\mc@charslot=\count177
+\std@mcc=\count178
+\dec@mcc=\count179
+\listindentFB=\dimen137
+\descindentFB=\dimen138
+\labelindentFB=\dimen139
+\labelwidthFB=\dimen140
+\leftmarginFB=\dimen141
+\parindentFFN=\dimen142
+\FBfnindent=\dimen143
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks16
+\es@quotdepth=\count180
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtex.sty (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aconfig.sty
+LaTeX2e detected 
+BABEL detected
+\a@moduledate=\count181
+\a@maindate=\count182
+)
+Package: arabtex 2003/08/22  3.11 ArabTeX main module
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabaux.sty
+Package: arabaux 2003/05/21  3.11 auxiliary macros for ArabTeX
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\acmd.sty
+Package: acmd 2003/08/20  3.11 Arabic command processing 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afonts.sty
+Package: afonts 1995/11/16  3.04 define Naskh font 
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afonts2.sty
+Package: afonts2 1998/10/19  3.10 define Naskh fonts for LaTeX2e
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\ascan.sty
+Package: ascan 2003/08/22  3.11 standard ZDMG input encoding 
+ (ArabTeX) scanner for code `arabtex' installed. (ArabTeX) input encoding set to ArabTeX standard conventions.) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aparse.sty
+Package: aparse 2003/05/26  3.11 get syllables 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\awrite.sty
+Package: awrite 2003/06/05  3.11 build output word 
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\xarbsymb.sty
+Package: xarbsymb 1998/07/15  3.07 symbolic output encoding 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabskel.sty
+Package: arabskel 2000/06/04  3.10 character skeleton definitions 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\xarbskel.sty
+Package: xarbskel 1999/07/17  3.09 character skeleton definitions 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aboxes.sty
+Package: aboxes 2003/05/28  3.11 build output boxes
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtoks.sty
+Package: arabtoks 1999/07/17  3.09 ArabTeX CS token definitions 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabchrs.sty
+Package: arabchrs 1998/07/11  3.07 letter token definitions 
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aligs.sty
+Package: aligs 2003/05/26  3.11 compute ligatures
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aoutput.sty
+Package: aoutput 2000/06/04  3.10 build output lines
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\abidir.sty
+Package: abidir 2003/08/22  3.11 bidirectional linebreaking
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\atrans.sty
+Package: atrans 2003/06/14  3.11 generate the transliteration 
+ (ArabTeX) ZDMG transliteration.) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alatex.sty
+Package: alatex 2003/05/04  3.11 ArabTeX extensions for LaTeX 
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afoot.sty
+Package: afoot 2003/05/12  3.11 ArabTeX footnotes
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\abjad.sty
+Package: abjad 2003/04/26  3.11 abjad numerals 
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alists.sty
+Package: alists 2003/04/26  3.11 inverted list macros
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\asect.sty
+Package: asect 2003/04/26  3.11 section macros for Arabic
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\atabg.sty
+Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
+)
+Invalid UTF-8 byte or sequence at line 1299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1300 replaced by U+FFFD.
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006)
+Package: apatch 2006/07/02  3.11s last minute patches 
+)
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... ) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
+)
+\XKV@depth=\count278
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box60
+)
+\tc@llx=\dimen168
+\tc@lly=\dimen169
+\tc@urx=\dimen170
+\tc@ury=\dimen171
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen172
+\adjbox@Height=\dimen173
+\adjbox@Depth=\dimen174
+\adjbox@Totalheight=\dimen175
+\adjbox@pwidth=\dimen176
+\adjbox@pheight=\dimen177
+\adjbox@pdepth=\dimen178
+\adjbox@ptotalheight=\dimen179
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count279
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count280
+\@vwid@loff=\dimen180
+\@vwid@roff=\dimen181
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
+\Gm@bindingoffset=\dimen182
+\Gm@wd@mp=\dimen183
+\Gm@odd@mp=\dimen184
+\Gm@even@mp=\dimen185
+\Gm@layoutwidth=\dimen186
+\Gm@layoutheight=\dimen187
+\Gm@layouthoffset=\dimen188
+\Gm@layoutvoffset=\dimen189
+\Gm@dimlist=\toks40
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfig\geometry.cfg)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count284
+\bibleftmargin=\skip51
+\bibindent=\skip52
+\bibparsep=\skip53
+\bibitemsep=\skip54
+\biblabelsep=\skip55
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count287
+\calc@Cskip=\skip58
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen192
+)) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen193
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+\big@size=\dimen194
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count293
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip16
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks42
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks43
+\eqnshift@=\dimen195
+\alignsep@=\dimen196
+\tagshift@=\dimen197
+\tagwidth@=\dimen198
+\totwidth@=\dimen199
+\lineht@=\dimen256
+\@envbody=\toks44
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count300
+\l_MT_multwidth_dim=\dimen257
+\origjot=\skip62
+\l_MT_shortvdotswithinadjustabove_dim=\dimen258
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen259
+\l_MT_above_intertext_sep=\dimen260
+\l_MT_below_intertext_sep=\dimen261
+\l_MT_above_shortintertext_sep=\dimen262
+\l_MT_below_shortintertext_sep=\dimen263
+\xmathstrut@box=\box64
+\xmathstrut@dim=\dimen264
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count301
+\l__pdf_internal_box=\box65
+\g__pdf_backend_object_int=\count302
+\g__pdf_backend_annotation_int=\count303
+) (reporte1.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+)
+\openout1 = `reporte1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 45.
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
+LaTeX Info: Redefining \degres on input line 45.
+LaTeX Info: Redefining \dots on input line 45.
+LaTeX Info: Redefining \up on input line 45.
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(27.74144pt, 542.025pt, 27.74144pt)
+* v-part:(T,H,B)=(53.27475pt, 711.85994pt, 79.91216pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=542.025pt
+* \textheight=711.85994pt
+* \oddsidemargin=-44.52855pt
+* \evensidemargin=-44.52855pt
+* \topmargin=-55.99524pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@maskedRefs=\count304
+(C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/apacite\spanish.apc
+File: spanish.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 138.
+LaTeX Info: Redefining \BHBI on input line 139.
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
+Invalid UTF-8 byte or sequence at line 1299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1300 replaced by U+FFFD.
+\a@lines=\count305
+\a@Lwidth=\dimen265
+\a@displaywidth=\dimen266
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching) (componentes/resumen/resumen.tex
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
+) (componentes/introduccion/introduccion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+File: ImpregancionZIO.jpg Graphic file (type bmp)
+<ImpregancionZIO.jpg>
+File: ImpregancionAu.jpg Graphic file (type bmp)
+<ImpregancionAu.jpg>
+) (componentes/materialesYMetodos/materialesYMetodos.tex
+Underfull \hbox (badness 5711) in paragraph at lines 7--8
+[]\TU/lmr/m/n/12 Se realizó el sacrificio de los especímenes
+ []
+
+[2]) (componentes/resultados/resultados.tex
+File: atpControl.jpg Graphic file (type bmp)
+<atpControl.jpg>
+
+Overfull \hbox (3.11813pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+File: atpExp.jpg Graphic file (type bmp)
+<atpExp.jpg>
+File: CL1.jpg Graphic file (type bmp)
+<CL1.jpg>
+
+Overfull \hbox (4.40784pt too wide) in paragraph at lines 29--30
+ [][] 
+ []
+
+File: CL2.jpg Graphic file (type bmp)
+<CL2.jpg>
+) (componentes/discusion/discusion.tex) (reporte1.bbl
+Underfull \hbox (badness 2744) in paragraph at lines 16--33
+\TU/lmr/m/n/12 ta separation and atpase langerhans cell
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 16--33
+\TU/lmr/m/n/12 staining in the mouse epidermis.  \TU/lmr/m/it/12 Jour-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 16--33
+\TU/lmr/m/n/12 - 107.  doi: https://doi.org/10.1111/1523-
+ []
+
+[3]
+Underfull \hbox (badness 1596) in paragraph at lines 159--176
+\TU/lmr/m/it/12 ve Dermatology\TU/lmr/m/n/12 , \TU/lmr/m/it/12 35\TU/lmr/m/n/12 (4), 239 - 243.  doi:
+ []
+
+Runaway argument?
+{http://www.dof.gob.mx/nota_detalle.php?\PrintBackRefs {\CurrentBib }\ETC.
+reporte1.bbl:273: Paragraph ended before \url was complete.
+<to be read again> 
+                   \par 
+l.273 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+reporte1.bbl:274: Missing } inserted.
+<inserted text> 
+                }
+l.274 \end{thebibliography}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [4
+
+] (reporte1.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+)
+
+ *File List*
+ article.cls    2019/12/20 v1.4l Standard LaTeX document class
+  size12.clo    2019/12/20 v1.4l Standard LaTeX file (size option)
+   babel.sty    2020/06/10 3.45 The Babel package
+ bblopts.cfg    2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+ ngerman.ldf    2020/07/21 v2.12 German support for babel (post-1996 orthography)
+  french.ldf    2020/10/10 v3.5l French support from the babel system
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+ spanish.ldf
+scalefnt.sty    
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+  import.sty    2020/04/01  v 6.2
+graphicx.sty    2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+   xetex.def    2017/06/24 v5.0h Graphics/color driver for xetex
+adjustbox.sty    2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+ adjcalc.sty    2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+trimclip.sty    2020/08/19 v1.2 Trim and clip general TeX material
+collectbox.sty    2012/05/17 v0.4b Collect macro arguments as boxes
+tc-xetex.def    2019/01/04 v2.2 Clipping driver for xetex
+ifoddpage.sty    2016/04/23 v1.1 Conditionals for odd/even page detection
+varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
+geometry.sty    2020/01/02 v5.9 Page Geometry
+  ifvtex.sty    2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+   iftex.sty    2020/03/06 v1.0d TeX engine tests
+geometry.cfg
+ apacite.sty    2013/07/21 v6.03 APA citation
+mathtools.sty    2020/03/24 v1.24 mathematical typesetting tools
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2017/03/31 v1.3 programming setup (MH)
+ amsmath.sty    2020/01/20 v2.17e AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+l3backend-xdvipdfmx.def    2020-06-29 L3 backend support: xdvipdfmx
+  ts1cmr.fd    2019/12/16 v2.5j Standard LaTeX font definitions
+ spanish.apc    2013/07/21 v6.03 apacite language file
+  apatch.sty    2006/07/02  3.11s last minute patches 
+./componentes/resumen/resumen.tex
+./componentes/introduccion/introduccion.tex
+ImpregancionZIO.jpg    Graphic file (type bmp)
+ImpregancionAu.jpg    Graphic file (type bmp)
+./componentes/materialesYMetodos/materialesYMetodos.tex
+./componentes/resultados/resultados.tex
+atpControl.jpg    Graphic file (type bmp)
+  atpExp.jpg    Graphic file (type bmp)
+     CL1.jpg    Graphic file (type bmp)
+     CL2.jpg    Graphic file (type bmp)
+./componentes/discusion/discusion.tex
+reporte1.bbl
+ ***********
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8360 strings out of 414071
+ 109916 string characters out of 2894591
+ 425840 words of memory out of 3000000
+ 25802 multiletter control sequences out of 15000+200000
+ 537232 words of font info for 56 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 37i,12n,69p,1173b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on reporte1.xdv (4 pages, 113600 bytes).

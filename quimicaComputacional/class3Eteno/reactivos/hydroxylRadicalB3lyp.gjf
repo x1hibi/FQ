@@ -1,0 +1,11 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class3Eteno\reactivos\hydroxylRadicalB3lyp.chk
+%nprocshared=4
+%mem=500mb
+# opt freq=noraman 6-31+g(d,p) b3lyp
+
+Hydroxyl radical B3LYP
+
+0 2
+ O                 -2.82939258   -0.18628141    0.00000000
+ H                 -3.14984716    0.71865442    0.00000000
+

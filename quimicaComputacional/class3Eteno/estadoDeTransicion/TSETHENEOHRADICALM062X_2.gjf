@@ -1,0 +1,9 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class3Eteno\estadoDeTransicion\TSETHENEOHRADICALM062X.chk
+%nprocshared=4
+%mem=500mb
+# opt=(readfc,ts,noeigen) geom=check guess=check freq=noraman 6-31+g(d,p) iop(1/8=3) m062x
+
+Transition state Ethene OH radical with M062X 2 ending converged
+
+0 2
+

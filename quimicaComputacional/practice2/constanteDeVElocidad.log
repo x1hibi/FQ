@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  21 OCT 2020 00:51
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  13 NOV 2020 21:58
 entering extended mode
 **c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice2/constanteDeVElocidad.tex
 (c:/Users/sagad/Documents/rayGit/FQ/quimicaComputacional/practice2/constanteDeVElocidad.tex
@@ -19,23 +19,6 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: xetex.def on input line 225.
- (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
@@ -215,18 +198,50 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
-)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
 \Gin@req@height=\dimen152
 \Gin@req@width=\dimen153
+) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box49
+\extrarowheight=\dimen155
+\NC@list=\toks18
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box50
+)
+\everycr=\toks19
+\minrowclearance=\skip54
+)
+\rownum=\count268
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks18
-\XKV@tempa@toks=\toks19
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count268
+\XKV@depth=\count269
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -234,85 +249,85 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box49
+\collectedbox=\box51
 )
-\tc@llx=\dimen154
-\tc@lly=\dimen155
-\tc@urx=\dimen156
-\tc@ury=\dimen157
+\tc@llx=\dimen156
+\tc@lly=\dimen157
+\tc@urx=\dimen158
+\tc@ury=\dimen159
 Package trimclip Info: Using driver 'tc-xetex.def'.
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
 File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen158
-\adjbox@Height=\dimen159
-\adjbox@Depth=\dimen160
-\adjbox@Totalheight=\dimen161
-\adjbox@pwidth=\dimen162
-\adjbox@pheight=\dimen163
-\adjbox@pdepth=\dimen164
-\adjbox@ptotalheight=\dimen165
+\adjbox@Width=\dimen160
+\adjbox@Height=\dimen161
+\adjbox@Depth=\dimen162
+\adjbox@Totalheight=\dimen163
+\adjbox@pwidth=\dimen164
+\adjbox@pheight=\dimen165
+\adjbox@pdepth=\dimen166
+\adjbox@ptotalheight=\dimen167
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count269
+\c@checkoddpage=\count270
 ) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box50
-\sift@deathcycles=\count270
-\@vwid@loff=\dimen166
-\@vwid@roff=\dimen167
+\@vwid@box=\box52
+\sift@deathcycles=\count271
+\@vwid@loff=\dimen168
+\@vwid@roff=\dimen169
 )) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen168
+\@emptytoks=\toks22
+\ex@=\dimen170
 )) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen169
+\pmbraise@=\dimen171
 ) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count271
+\inf@bad=\count272
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count272
-\leftroot@=\count273
+\uproot@=\count273
+\leftroot@=\count274
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count274
-\DOTSCASE@=\count275
+\classnum@=\count275
+\DOTSCASE@=\count276
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-\big@size=\dimen170
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count276
-\c@MaxMatrixCols=\count277
+\macc@depth=\count277
+\c@MaxMatrixCols=\count278
 \dotsspace@=\muskip17
-\c@parentequation=\count278
-\dspbrk@lvl=\count279
-\tag@help=\toks21
-\row@=\count280
-\column@=\count281
-\maxfields@=\count282
-\andhelp@=\toks22
-\eqnshift@=\dimen171
-\alignsep@=\dimen172
-\tagshift@=\dimen173
-\tagwidth@=\dimen174
-\totwidth@=\dimen175
-\lineht@=\dimen176
-\@envbody=\toks23
-\multlinegap=\skip53
-\multlinetaggap=\skip54
-\mathdisplay@stack=\toks24
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks23
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks24
+\eqnshift@=\dimen173
+\alignsep@=\dimen174
+\tagshift@=\dimen175
+\tagwidth@=\dimen176
+\totwidth@=\dimen177
+\lineht@=\dimen178
+\@envbody=\toks25
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -378,7 +393,7 @@ LaTeX Font Info:    ... okay on input line 58.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box53
+\AtBeginShipoutBox=\box55
 Package hyperref Info: Link coloring ON on input line 58.
 (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -387,7 +402,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count284
 )
 LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
@@ -396,7 +411,7 @@ LaTeX Info: Redefining \nameref on input line 58.
 \@outlinefile=\write3
 \openout3 = `constanteDeVElocidad.out'.
 
-\c@lstlisting=\count284
+\c@lstlisting=\count285
 File: methane.png Graphic file (type bmp)
 <methane.png>
 File: hidroxilRadical.png Graphic file (type bmp)
@@ -426,7 +441,7 @@ File: reactionProfileEnthalpy.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] (constanteDeVElocidad.bbl
+(constanteDeVElocidad.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 []\TU/lmr/m/n/10 Wikipedia, “Hartree–fock method.” [][]$[][][][][] []
  []
@@ -436,7 +451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 [] [] [][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] [] [][] [] [][] [] [][][][][][] []
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 [][]$[][][][] [] [] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][] [] [][][] [] [][][][][][][][][] []
  []
@@ -487,25 +502,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
  [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
  (constanteDeVElocidad.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
 Package rerunfilecheck Info: File `constanteDeVElocidad.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
- 12651 strings out of 414071
- 188126 string characters out of 2894591
- 569575 words of memory out of 3000000
- 30140 multiletter control sequences out of 15000+200000
- 536642 words of font info for 49 fonts, out of 3000000 for 9000
+ 12755 strings out of 414071
+ 189304 string characters out of 2894591
+ 571045 words of memory out of 3000000
+ 30238 multiletter control sequences out of 15000+200000
+ 536650 words of font info for 50 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 37i,10n,41p,537b,1666s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,11n,41p,537b,1666s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on constanteDeVElocidad.xdv (3 pages, 69588 bytes).
+Output written on constanteDeVElocidad.xdv (3 pages, 67644 bytes).

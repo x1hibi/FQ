@@ -3,13 +3,13 @@
 %%% START REQUIRED PACKAGES %%%
 
 \documentclass[twocolumn]{article}
-\usepackage{xcolor} 
 \usepackage[a4paper, total={7.25in, 9.5in}]{geometry} 
 \usepackage{multirow}
 \usepackage{lipsum}
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage[export]{adjustbox}
 %\usepackage[superscript,biblabel]{cite}
 \usepackage{amsmath}
@@ -47,8 +47,8 @@
 
 
 %%% START TITLE SETTINGS %%%
-\title{State transition and rate constant}
-\author{Perez Alvarado Luis Raymundo, School of Chemistry, UNAM}
+\title{\bt{State transition and rate constant}}
+\author{Pérez Alvarado Luis Raymundo, School of Chemistry, UNAM}
 \date{08/10/2020}
 %%% END TITLE SETTINGS %%%
 
@@ -210,15 +210,11 @@
     \titleTable{1}{ETE values for HF, B3LYP, and MP2 methods using the 6-31G basis set and time($t$) of each calculation.}
 
     % TABLE BODY %
-    \bodyTable{c|c|c|c|c}{
-        \bt{Method} & \bt{$\Delta H_{F}(H_{E})$} & $t_{F}(s)$ & \bt{$\Delta H_{F_{2}}(H_{E})$} & $t_{F_{2}}(s)$ \n
-        \hline
-        HF & -99.369 & 2.000 &-198.678 & 6.000 \n 
-        \hline
-        MP2 & -99.496 & 10.000 & -199.047 & 19.000 \n 
-        \hline
-        B3LYP & -99.7282 & \ct{blue}{2.000} & -199.511 & \ct{blue}{6.000}\n        
-    }
+    
+    
+
+
+
     % END A TABLE %
 
     \np{Using equation \eqref{eq:equation 4} the enthalpy of formation of the $F_{2}$ is calculated.}

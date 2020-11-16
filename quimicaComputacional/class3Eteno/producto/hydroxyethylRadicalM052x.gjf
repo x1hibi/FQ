@@ -1,0 +1,17 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\class3Eteno\producto\hydroxyethylRadicalM052x.chk
+%nprocshared=4
+%mem=500MB
+# opt freq=noraman 6-31+g(d,p) m052x
+
+2-Hydroxyethyl radical M052X
+
+0 2
+ C                 -0.47616386    0.74809925    0.59177204
+ H                  0.05699989   -0.17960567    0.59177204
+ H                 -1.54616386    0.74809925    0.59177204
+ C                  0.25615442    2.02258051    0.74028518
+ H                 -0.35014475    2.72183583    1.27726126
+ H                  1.16479051    1.85118337    1.27871203
+ O                  0.56092977    2.55073430   -0.55318518
+ H                  1.06555780    1.75995113   -0.75717667
+

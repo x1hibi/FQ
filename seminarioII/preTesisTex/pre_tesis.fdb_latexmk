@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex pre_tesis"] 1603742514 "pre_tesis.aux" "pre_tesis.bbl" "pre_tesis" 1603742517
+["bibtex pre_tesis"] 1603742514 "pre_tesis.aux" "pre_tesis.bbl" "pre_tesis" 1604396282
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "pre_tesis.aux" 1603742515 5528 8f7ddc420a210f4cdd999a21f3633949 "xelatex"
   "references.bib" 1603526649 1338 64a9f8ca9498ef3b59dea2d30b85d103 ""
   (generated)
   "pre_tesis.bbl"
   "pre_tesis.blg"
-["xdvipdfmx"] 1603742516 "pre_tesis.xdv" "pre_tesis.pdf" "pre_tesis" 1603742517
+["xdvipdfmx"] 1603742516 "pre_tesis.xdv" "pre_tesis.pdf" "pre_tesis" 1604396282
   "pre_tesis.xdv" 1603742515 39252 5ed4902ae89e3caf06ab743e7ca178d5 "xelatex"
   (generated)
   "pre_tesis.pdf"
-["xelatex"] 1603742514 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" "pre_tesis.xdv" "pre_tesis" 1603742517
+["xelatex"] 1603742514 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/pre_tesis.tex" "pre_tesis.xdv" "pre_tesis" 1604396282
   "C:/Users/sagad/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1602000351 23193880 d18aa598db06abc7edb07c1805cb3dbd ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136793854 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -92,7 +92,7 @@
   "pre_tesis.out" 1603742515 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   "pre_tesis.tex" 1603742513 2316 5d704617a5813f9f8fd28606b1ec4980 ""
   (generated)
-  "pre_tesis.log"
-  "pre_tesis.aux"
   "pre_tesis.out"
+  "pre_tesis.log"
   "pre_tesis.xdv"
+  "pre_tesis.aux"

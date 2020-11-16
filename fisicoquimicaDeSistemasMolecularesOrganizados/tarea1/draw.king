@@ -1,0 +1,40 @@
+Begin Header
+KingDraw V2.2
+20180420
+End Header
+Begin Device
+device=[{"device":"3","version":"1.1.0.0"}]
+End Device
+Begin SysConfig
+{"DrawingSettings":"{\"Id_Renamed\":0,\"documentType\":0,\"proof\":false,\"zoomer\":false,\"fixedLength\":\"0.78\",\"spacing\":12,\"lineWidth\":\"0.0312\",\"boldWidth\":\"0.0936\",\"marginWidth\":\"0.0312\",\"hashSpacing\":\"0.0624\",\"chainsAngle\":120,\"atomFontName\":\"Arial\",\"atomFontStyle\":1,\"atomFontSize\":10,\"textFontName\":\"Arial\",\"textFontStyle\":1,\"textFontSize\":10,\"isNormal\":false}"}
+End SysConfig
+Begin Ctab
+Begin Atom
+1 O 5.3555 4.9107 #ffff0d0d HCount=1 Label=OH LayerIndex=1 FaceHtml=PHNwYW4gZm9udD0iQXJpYWwiIHNpemU9IjEwIiBmc3R5bGU9IjEiIGRyYXd0eXBlPSIzIiBjb2xvcj0iIiBhbGlnbj0iIiB1bGluZT0iMCI+Tzwvc3Bhbj48c3BhbiBmb250PSJBcmlhbCIgc2l6ZT0iMTAiIGZzdHlsZT0iMSIgZHJhd3R5cGU9IjMiIGNvbG9yPSIiIGFsaWduPSIiIHVsaW5lPSIwIj5IPC9zcGFuPg==
+2 C 6.0307 4.6445 #ff000000 LayerIndex=1
+3 O 6.0307 3.8645 #ffff0d0d Label=O LayerIndex=1 FaceHtml=PHNwYW4gZm9udD0iQXJpYWwiIHNpemU9IjEwIiBmc3R5bGU9IjEiIGRyYXd0eXBlPSIzIiBjb2xvcj0iIiBhbGlnbj0iIiB1bGluZT0iMCI+Tzwvc3Bhbj4=
+4 C 6.7062 5.8145 #ff000000 HCount=3 LayerIndex=1
+5 C 6.7062 5.0345 #ff000000 HCount=1 LayerIndex=1
+6 N 7.3817 4.6445 #ff304ff7 HCount=1 Label=NH LayerIndex=1 FaceHtml=PHNwYW4gZm9udD0iQXJpYWwiIHNpemU9IjEwIiBmc3R5bGU9IjEiIGRyYXd0eXBlPSIzIiBjb2xvcj0iIiBhbGlnbj0iIiB1bGluZT0iMCI+Tjwvc3Bhbj48c3BhbiBmb250PSJBcmlhbCIgc2l6ZT0iMTAiIGZzdHlsZT0iMSIgZHJhd3R5cGU9IjMiIGNvbG9yPSIiIGFsaWduPSIiIHVsaW5lPSIwIj5IPC9zcGFuPg==
+7 N 9.4082 5.0345 #ff304ff7 HCount=2 Label=NH2 LayerIndex=1 FaceHtml=PHNwYW4gZm9udD0iQXJpYWwiIHNpemU9IjEwIiBmc3R5bGU9IjEiIGRyYXd0eXBlPSIzIiBjb2xvcj0iIiBhbGlnbj0iIiB1bGluZT0iMCI+Tjwvc3Bhbj48c3BhbiBmb250PSJBcmlhbCIgc2l6ZT0iMTAiIGZzdHlsZT0iMSIgZHJhd3R5cGU9IjMiIGNvbG9yPSIiIGFsaWduPSIiIHVsaW5lPSIwIj5IPC9zcGFuPjxzcGFuIGZvbnQ9IkFyaWFsIiBzaXplPSIxMCIgZnN0eWxlPSIxIiBkcmF3dHlwZT0iNCIgY29sb3I9IiIgYWxpZ249IiIgdWxpbmU9IjAiPjI8L3NwYW4+
+8 C 8.7327 4.6445 #ff000000 HCount=1 LayerIndex=1
+9 C 8.7327 3.8645 #ff000000 HCount=2 LayerIndex=1
+10 S 9.4082 3.4745 #ffc39517 HCount=1 Label=SH LayerIndex=1 FaceHtml=PHNwYW4gZm9udD0iQXJpYWwiIHNpemU9IjEwIiBmc3R5bGU9IjEiIGRyYXd0eXBlPSIzIiBjb2xvcj0iIiBhbGlnbj0iIiB1bGluZT0iMCI+Uzwvc3Bhbj48c3BhbiBmb250PSJBcmlhbCIgc2l6ZT0iMTAiIGZzdHlsZT0iMSIgZHJhd3R5cGU9IjMiIGNvbG9yPSIiIGFsaWduPSIiIHVsaW5lPSIwIj5IPC9zcGFuPg==
+11 C 8.0572 5.0345 #ff000000 LayerIndex=1
+12 O 8.0572 5.8145 #ffff0d0d Label=O LayerIndex=1 FaceHtml=PHNwYW4gZm9udD0iQXJpYWwiIHNpemU9IjEwIiBmc3R5bGU9IjEiIGRyYXd0eXBlPSIzIiBjb2xvcj0iIiBhbGlnbj0iIiB1bGluZT0iMCI+Tzwvc3Bhbj4=
+End Atom
+Begin Bond
+1 1 1 2 2 #ff000000 LayerIndex=1
+2 1 2 5 2 #ff000000 LayerIndex=1
+3 2 2 3 2 #ff000000 LayerIndex=1
+4 1 5 4 2 #ff000000 LayerIndex=1
+5 1 5 6 2 #ff000000 LayerIndex=1
+6 1 6 11 2 #ff000000 LayerIndex=1
+7 1 11 8 2 #ff000000 LayerIndex=1
+8 1 8 7 2 #ff000000 LayerIndex=1
+9 1 8 9 2 #ff000000 LayerIndex=1
+10 1 9 10 2 #ff000000 LayerIndex=1
+11 2 11 12 2 #ff000000 LayerIndex=1
+End Bond
+End Ctab
+END
