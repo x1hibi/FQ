@@ -1,0 +1,15 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\clase8Pka\reactivos\formicAcidHF.chk
+%mem=1500mb
+%nproc=4
+# hf/6-31+g(d,p) opt freq
+
+Formic Acid HF
+
+0 1
+ C                  0.85953877    0.85953872    0.00000000
+ H                  1.21621161    1.36393691   -0.87365150
+ O                 -0.57046123    0.85955634    0.00000000
+ O                  1.33621369    1.53364097    1.16759033
+ H                 -0.89045008    1.76465696    0.00000000
+
+

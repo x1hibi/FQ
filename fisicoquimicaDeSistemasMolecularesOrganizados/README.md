@@ -1,7 +1,8 @@
 # Fisicoquímica de sistemas moleculares organizados 
 
-
 ## Clase # 1 Problemas con zoom 22/09/20
+
+*No hubo clase debido a problemas técnicos*
 
 ## Clase #2 Presentación e introducción 24/09/20
 
@@ -192,7 +193,6 @@ Finalmente podemos concluir que el proceso de solubilización de un soluto en un
 ## Clase #6 Clase de problemas 8/10/20
 ## Clase #7 Geomatria 13/10/20
 
-
 ## Clase #8 15/10/20
 
 *Sin clase, paro de la facultad de químcia*
@@ -279,20 +279,234 @@ Existen 4 posibles rotaciones en el átomo alfa del enlace peptídico, de ellos 
 - chi, fi y otra.
 
 
+## Clase #13 03/10/20
+buscar clase 
+## Clase #14 05/10/20
+buscar clase 
 
-## Clase #x 10/10/20 
+## Clase #15 Estructura de las proteínas 10/11/20 
 
-### Proteínas globulares
+### Las estructuras super secundarias 
+
+Son aquellas estructuras que son un conjunto de estructuras secundarias unidas por medio de iteraciones no covalentes como puentes de hidrógeno, por ejemplo las holas beta.
+
+### Hojas beta 
+
+Las hojas betas se forman de la unión de dos o mas estructuras secundarias conocidas como hebras beta, las cuales se unen de forma no contigua por medio de puentes de hidrógeno, en la cual no participan los grupos R en la estabilización de la hoja beta, en esta las cadenas laterales de las hebras que la conforman se encuentran en posición antiparalela con respecto al plano formado del enlace peptídico.
+
+La cadenas pueden interaccionar entre si debido a que la cadena es girada en un ángulo de 180°, esto se denomina giro beta.
+
+Debido a que estas se forman mediante puentes de hidrógeno esta solo puede se formada en ambientes hidrófobos, es decir que no se pueden formar en el exterior de las proteínas ya que estas los puentes de hidrógeno son mayoritarios con el disolvente, por lo que su formación es dentro de las proteínas.  
+
+### Tipos de hojas beta
+
+- paralela 
+- antiparalela
+
+### giros beta
+
+Estos son consiste en un giro que cambia la dirección de las hebras beta, este giro es de 180° la cual esta dada por 4 residuos de aminoácidos, hay dos tipos los cuales se diferencian por la orientación que toma el tercer residuo, que hace el giro.
+
+- tipo I el oxigeno del enlace peptídico esta en posición opuesta a donde se encuentra la cadena lateral 
+
+- tipo 2 por las posiciones del grupo lateral podría haber impedimento estérico, pero se ha encontrados que los aminoácidos que los conforman son aminoácidos con cadenas lateras muy pequeñas, mayoritariamente son glicinas con un H como grupo R
+
+- tipo 3 es una hélice 3 10 la cual se ha encontrado que se encuentran mayoritariamente en la superficie de las proteínas globulares 
+
+![tipos de giros beta](./girosBeta.jpg)
+
+### clasificación por número de hebras 
+
+- mendro beta cuando son más de 3 
+
+- horquilla beta participan 2 o tres fragmentos de hebra beta 
+
+- greca o llave griega tiene 4 fragmentos y tres son seguigos y la ultima está unido por un giro beta mas largo con el fragmento uno
+
+- barril beta esta formada por hebras betas de forma antiparalela y forma un barril 
 
 
-### Estructura super secundaria
+### beta x beta 
+En donde beta se refiere a que hay una hebra beta, la x se refiere a que puede haber otro elemento de estructura secundaria que participa en la estructura super secudaria 
 
-Se definen como un ensambles o arreglos donde participan dos o más elementos de la cadena polipeptídica que ya poseen estructura secundaria 
+como por ejemplo beta alfa beta, esto es una hebra beta unida a una alfa helice y a otra hebra beta 
 
-Por ejemplo hoja beta, es la unión de hebras beta unidas por puentes de hidrógeno internos(que se dan entre las dos cadenas, entre vecinos no contiguos), en la cual los grupos R no participan en la estabilización de la estructura, y se encuentran de forma perpendicular al plano del enlace peptídico.
+### hojas betas paralelas
 
-Otra particularidad de las hebras beta es que son capaces de formar esta interacción por ambos extremos, por lo que nos dice que una hebra beta es capaz de formar estas interacciones con otras dos hojas beta 
+Para tenerla se require de una cantidad más grande de residuos entre los elementos de hebra beta, esto que puedan acomodarse en el mismo sentido que la otra hebra beta y puedan tener las interacciones puentes de hidrógeno correspondiente.
 
-Motivos 
+### Otras tipos
 
-Dominios 
+**Estructura alfa alfa** participan dos alfa helices, pero pueden ser mas como alfa alfa alfa alfa, en donde estas están unidas por medio de un un fragmento de la cadena polipeptídica que no tiene estructura
+
+### DOMINIOS
+
+Elementos de la estructura terciaria que su estabilización es independiente de  otras regiones de la proteína, se supo al desnaturalizar y ver que estos dominios no perdían su estructura de forma.
+
+### TIPOS
+
+- Funcionales se refieren a que en esta región esta el sitio catalítico de la proteína, viendo que esta sección puede funcionar a pesar de que las demás partes de la proteína no tuvieran la estructura terciaria que se pensaba que era lo que le daba la funcionalidad 
+- Estructurales regiones que poseen estructura 
+
+Hay veces que se puede identificar el dominio funcional por la resencia de un grupo prostético (grupo no aminoácido que es parte de la estructura de hetero proteínas or de proteínas conjugadas)
+
+
+### RMN
+
+Lo que se obtiene son las posiciones de los átomos, con las posiciones y por medio del análisis con software de las posiciones se calculan los ángulos phi y psi para poder predecir las estructuras que puede tener.
+
+En el caso de los gráficos de Ramachandran esta solo nos permite conocer información de la estructura secundaria, por lo que es una limitante, por lo se han desarrollado más métodos para poder tener más información de la estructura terciaria.
+
+### gráficos de contacto o diagonal 
+
+En este se busca conocer a los vecinos de un átomo en particular, se acostumbra tomar los carbonos alfa y se compara con otros 
+
+![Gráficos de contacto](./graficoDeContacto.jpg)
+graficoDeContacto
+
+En este se grafican como coordenadas a los átomos que estan a una x distancia entre si para poder ver si hay estructura supersecundaria, como hojas betas paralelas y antiparalelas, etc...
+
+al graficarlo se observan padrones que nos indican que estructura poseen, para diferenciar una alfa helice de una hoja paralela se puede ver que hay una distancia de 3.6 residuos y en la hoja palaralela no, en el caso de una cruz nos muestra una hoja beta antiparalela.       
+
+## Clase #16 gráficos de contacto, dudas y moléculas anfifílicas 12/11/20 
+
+### gráficos de contacto 
+
+Estos sirven para elucidar las estructuras super secundarias y un poco de las terciarias, ya que dependiendo de las distancias que se fijen es posible conocer parte de la estructura terciaria.
+
+### Estructura cuaternaria  
+
+Están conformados por subunidades que se proporciona su funcionalidad, pueden ser sub unidades iguales o distintas, por ejemplo si fueran dos subunidades serian homodímero y si fuerna 4 sería un homo tetrámero y si no serian hetero tetrámetro, las sub unidades están unidas por interacciones débiles.
+
+ejemplo
+
+*mioglobina* se encarga de almacenar oxigeno en los músculos.(es una proteína con estructura terciaria)
+
+*hemoglonbina* se encarga de transporta el oxígeno por la sangre, esta constituida por 4 unidades de de mioglobina.
+
+Se plantea que al formar dichos ensambres aumenta la entropía del sistema por que hay menos moléculas del agua en las proteinas ya que se reduce la superficie por lo que pueden haber mas clatlatos y hay mas interacciones puentes de hidrógeno.
+
+Dichos ensambles no presentan necesariamente geometría pero al unirse ya presentan geometría, por lo que la simetría juega un papel importante.
+
+### Moléculas anfifílicas 
+
+### Proteínas 
+
+Estas están construidas por aminoácidos pero presentan al estar expuestas en un disolvente (en el caso biológico es agua) estas presentarán los grupos hidrofílicos en la superficie de la proteína y los hidrofóbicos en el interior de la molécula, si fuera que la proteína estuviera en un disolvente polar esta tendría una organización inversa.
+
+### Tenso activos o surfactantes
+
+- aniónicos: cuentan con una cadena hidrofóbica y una cabeza con carga negativa, los más comunes son los sulfatos, sulfonatos y los carboxilatos.
+- catiónica: es una cadena hidrofóbica con carga positiva, los más comunes son los, son difíciles de sintetizar y biodegradar y de alto costo.
+-No iónicos: Son cadenas con su grupo hidrofóbico con un grupo polar como azucares y óxidos de polietileno.
+-Anfóteris o zwitteriónico: Tienen una carga positiva o negativa en la cabeza y en la cadena hidrofóbica la carga contraria a la cabeza.
+
+### Surfactantes convencionales
+
+Estos están constituidos por una cabeza de carácter polar (hidrofílica) y una cadena de carácter no polar (hidrofóbica).
+
+### Surfactantes sintéticos
+
+- Gemini: Es la unión de dos moléculas anfifílicas convencionales por medio de un enlace en las cabezas polares o cerca de la cabeza hidrofílica, esto se conoce como espaciador (este debe ser rígido y pueden ser de carácter polar o apolar, o compuestos químicos lábiles).
+- Bolaforme: Esa el análogo a los gemini pero están unidos en la cadena hidrofóbica en la zona media o final, 
+-  Trímeros de surfactante: análogo a gemini, pero con tres moléculas anfifílicas.
+- Polimérico: están conformadas por muchas moléculas anfifílicas de forma alternada unidas por las cabezas, formado una cadena de surfactantes.
+- Diblock: polímero compuesto de dos unidades un monómero polar(P) repetido muchas veces y uno apolar(A) repetido muchas veces, PPPPPPAAAAA, de tal forma que se hace una cadena con carácter polar y apolar.
+
+### Ventajas de los surfactantes sintetizados 
+
+De forma general podemos decir que son más eficientes ya que se requieren una menor cantidad para cumplir las funciones que haría uno convencional, es decir que con son capaces de abatir la tensión superficial más fácil que una convencional, por lo que usas menor cantidad, pueden ser más resistentes(a su degradación) o estables.
+
+*NOTA: **Cuando la cadena lateral crece la CMC disminuye** *
+
+## Clase #17 Moléculas anfifíficas 17/11/20 
+
+### ventajas geminis 
+
+Por ejemplo se encuentra que la CMC de un gemini versus uno convencional puede ser hasta 2 ordenes de magnitud es decir que con 100 veces menos cantidad se requiere para realizar lo mismo que con e convencional, como disminuir la tensión superficial.
+
+Los dibloques pueden ser hasta tribloque AAAAPPPPPPAAAAAA
+
+### Moléculas anfifílicas en la naturaleza o biológicas
+
+-Glicerofosfolípidos: se componen de un grupo glicero, dos cadenas alifáticas(resido de ácidos grasos)(hidrofóbica) y un grupo fosfato, en la cadena alifática puede tener inssaturaciones, se encuentran en la membrana celular.
+-Esfingolípidos: resultados de la unión de la esfingocina con dos ácidos grados, se encuentran en las membranas celulares, en plantas, hongos y en el cerebro de los mamíferos.
+
+### Membrana celular
+
+No es de composición homogénea, es una región que tiene una gran cantidad de moléculas anfifílicas y es muy heterogénea, y no solo en los tipos de moléculas anfifílicas que hay, sino en 
+
+### Otras moléculas anfifílicas
+
+Las sales biliares son moléculas anfifílicas que no poseen las estructura convencional de una cadena hidrofóbica y una hidrofílica. ya que su sección hidrofóbica es un conjunto de anillos, y en sus superficie presentan grupos hidrofílicos, su estructura base (esqueleto) es el colesterol.
+
+Estos se sintetizan en el hígado, y son secretados en el intestino delgado para solubilizar los lípidos ingeridos, y estos a su vez son procesados (fragmentados) por las lipasas.
+
+### Sistemas moleculares organizados
+
+Lás moléculas anfifílicas a ciertas concentraciones y a dadas ciertas temperaturas son capaces de formar agregados con geometrías particulares, las cuales están unidas mediante interacciones débiles, van der wals, dipolo-dipoo, dipolo-diploinducido, carga-carga,por lo anterior estos ensambles pueden ser desemsamblados y vueltos a ensamblar de la misma forma, esto es que la formación de estas es un **un proceso reversible** y su formación es **espontánea**.
+
+### Efecto del disolvente y posibles arreglos
+
+Se pueden formar los siguientes agregados en un solvente polar 
+
+-micelas, micelas cilindricas y bicapas lipídicas
+
+en donde la parte hidrofóbica siempre esta expuesta al disolvente y la cadena alifática esta en el interior de la estructura para no interactuar con el disolvente.
+
+en no polares se pueden formar y su geometría es inversa que en un disolvente polar
+
+-miscelas inversas y micelas cilindricas inversas
+
+
+### Micelas
+
+Estan son arreglos que tienen una forma esférica la cual tiene un diámetro de 3-6nm y están compuestos de 30 a 100 unidades monoméricas
+
+En un sistema donde se agrega un anfifílo hay equilibrios dinámicos
+
+Ya que en un vaso hay inicialmente la formación de una capa de monómeros en la interfase líquido vapor, lo cual abate la tensión superficial ya que cambia los puentes de hidrógeno que se habían formado en la superficie.
+
+al aumentar la concentración las unidades monoméricas entran al bulto del disolvente y empiezan a formar estructuras, como las miscelas y estas mismas unidades están en constante movimiento en el arreglo, en el caso de que el recipiente presente un material polar o apolar habrán anfifílicos que estarán en dicha zona.
+
+La duración de un afifílico en una de las estructuras formadas es muy corta es de 
+
+### Efecto sobre la tensión superficial
+
+Al aumentar la concentración del anfifilico se puede apreciar como decae la tensión superficial hasta un punto donde ya no decrese más, este disminución depende del tipo de anfifílico que se este usando, cuando ya no cambia se llega a la CMC que es la *concentración miscelar crítica*, esta disminución es de 10 a 20 veces más pequeñas que en el caso de normal que es sin la influencia de u tenso activo.
+
+Además afecta a otras propiedades como:
+
+- Presión osmótica
+- turbidez
+- solubilidad
+- resonancia magnética
+- tensión superficial 
+- conductividad equivalente 
+- auto difusión 
+
+Dichos efectos se dan debido a las moléculas de anfifilo han formado de forma espontánea agregados supramoleculares, lo cual afecta las propiedades enlistadas.
+
+### Proceso de formación de miscelas
+
+A bajas concentraciones del anfifilo se observa la absorción en la superficie pero su concentración no es muy elevada, pero es capaz de abatir la tensión superficial, conforma se va aumentando la concentración se observa que una pequeña cantidad empieza a formar agregados de entre 2 a 9 moléculas (esto se conoce como agregados premicelares), después de llegar a la concentración se llega a un punto donde no cambia el valor de la tensión superficial lo que nos dice que la superficie llego al límite de moléculas que puede tener en la superficie (CMC) y después de dicha concentración su valor es prácticamente constante, en esta concentración se forman los agregados de tipo miscelar.
+
+La formación de dichos agregados hace que el sistema este favorecido (esto lo sabemos debido que fue un proceso espontáneo así que la energía será menor, es decir más favorecido energéticamente)
+
+# gráfico de formación de miscelas de moléculas anfifílicas.
+
+Se pueden construir gráficas de un tenso activo de forma particular en donde se grafica en el eje y la concentración de agregado (concentración del anfifilo) y en el eje x el número de agregación (es el número de moléculas que  participan en un agregado miscelar), en estos gráficos se pueden apreciar como varia el número de moléculas que necesitan cuando en función de la concentración del anfifílo, donde se aprecia que con un numero reducido de 0 a 9 se van formando las agregados premiscelares.
+
+# Dinámica de las moléculas de anfifilo
+
+El sistema no es estático por lo que se ve que estas pueden estar en constante "movimiento", ya que cada molécula, participa en los diversos equilibrios.
+
+los tiempos que participan una molécula varía de las dependiendo de la cadena alifatica
+
+- Decilsulfato 0.5 microsegundos
+- Dodecilsulfato 6 microsegundos
+- tetradecilsulfato 83 microsegundos
+
+Por lo anterior podemos ver que mientras más larga sea la cadena mayor será el tiempo de residencia del anfifilo en el agregado miscelar.
+
+## Clase #18 20/11/20 

@@ -140,5 +140,311 @@ Make a table and compare the importance of the electric correlation energy which
 - _error percentage_
 - _differences HF Vs DFT_
 
-##  Class #4 "" 30/09/2020
+##  Class #4 Energy correlation 30/09/2020
+
+### Methods   
+
+- LC-WPBE-> General calculus acceptable
+- M062X -> Good functional for kinetic calculus 
+- B3LYP -> Good functional for thermodynamics calculus
+- CC (cupper cluster is The best, but very expensive)
+
+### Computational chemistry 
+
+Modeling all aspects of chemistry instead of experimentation 
+
+The theoretical chemistry includes quantum chemistry 
+
+Exist two types the molecular mechanics and the quantum mechanics, using the partition function you can calculate the thermodynamics properties.
+
+With *molecular dynamics* you can see conformations, are based in classic, and consider interactions of force fields, distance between bodies, bond angle, dihedral angle, electric charges and van der wals interactions.
+
+In the *quantum mechanics* are based in Schrödinger equation, the energy usgin HF obtained is bigger than real energy for this reason is necessary consider a correlation energy which make a better aproximation.
+
+when the set bases is big the correlation energy is better and the calculus will be more approximate, but the contribution is more important by the methods. 
+
+We build a part of the system of atmospheric reaction
+
+##  Class #5 atmospheric reaction 05/10/2020
+
+### Transition state
+
+We build methane and connect with a hydroxyl radical, we adjust the bond distance to 1.2A between C-H and 1.3A between H-O
+
+and was run with the following configuration, because we are running a transition state 
+
+      # opt=(calcfc,ts,noeigen) freq=(noraman) B3LYP/6-31+g(d,p)
+
+*calcfc* is calculate force constants.
+*ts* calculate the transition state this means that you dont look form the minimizartion of system
+
+*noeigen* this is when you can have a imaginery vibrations, when calculate a transition state you are loking for a imaginary freq.
+
+*noraman* you dont calculate raman spectro and save time.
+
+this calculations are made for HF,M062X and B3LYP and basis set 6-31+g(d,p) and 6-311++g(d,p) with m062X.
+
+### Reactives 
+
+hydroxyl radical and methane and we run with normal configuration 
+
+### Products 
+
+the products was a water and methyl radical.
+
+all of this were run with the following configuration were don't calculate constente force and ts.
+
+      #opt freq *methods*/6-31+g(d,p)
+
+To re run because the minification was not finished you use this configuration 
+
+      #opt(readfc,noeigen,ts) freq=noraman guess *methods*/6-31+g(d,p)
+
+*guess* read the .chk file 
+
+check for negative frequency if are negative you got the transition state
+
+### objetives
+
+- make a profile reaction 
+- and compare the rate constant 
+
+### HOMEWORK
+
+-run calculus and get all Hess calculus 
+-save all calculations in excel sheet 
+
+##  Class #6 reaction profile 07/10/2020
+
+### Building the reaction profile
+
+With the data obtained of ZPE, ΔG and ΔH we calculate the Δ for each one and the diferences were convert to Kcal/mol and graph, getteing just 3 points and set as 0 the first point to get 4 points 
+
+with this you are plot the ΔG of reactions vs reaction coordenate and you can see the behavior of the reaction.
+
+make the same for each method and plot with all values PE, ΔG and ΔH
+
+### fix problem of iteration 
+
+when calculation is not finish you can do steps more small using 
+
+      iop(1/8=2)
+
+### HOMEWORK
+
+-Build a profile plot 
+
+##  Class #7 rate constant 12/10/2020
+
+### Rate constant
+
+We calculate the rate constant using the value the ΔG of transition state, and compare with the experimental value 4x10^6, this help us to confirm wich method is better in kinetics.
+
+also compare how many times is more faster or lower CTE Teo/CTE Exp
+
+The calculus if multiplu by the number of posibles conformations because the ways to make a reaction can be many in the methane case can be in 4 directions this why is multypli by simetry
+
+### HOMEWORK 
+
+-check transition state teory
+-calculate the rate constant and with tunel and without tunnel
+
+##  Class #8 rate constant 26/10/2020
+
+## Transition state teory (TST)
+
+Using the Arrhenius equation you can calculate the rate constant, but you need know the pre exponential factor.
+
+In TST using the partitin functions and the gibs ecuations to get another ecuation to be able to calculate the rate constant only using the ΔG for reaction of first order, and also in reaction of second order.
+
+### NOTES
+
+In unimolecular reaction ΔH~ΔZPE(energy electronic in 0k)~ΔG, but in bimolecular reactions this are not true.
+
+In unimolecular reactions the tipic error are aprox 1.5kcal/mol almost always use ΔG instead ZPE only in a few cases you use ZPE.
+
+In fluor practice we use ΔH because in literature the heat of reaction is avalible but no the ΔGreaction.
+
+If consider ΔG~ΔH~ZPE the error will incress to 6-7 kcal/mol
+
+to convert the TST equation in bimolecular reaction we multiply for the factor (RT/p)
+
+The tunnelaje constant are only considered when the tranference is of small atom like H, more bigger are despreciable.
+(energy variation electronic in 0k) ~ΔE(variation of electronic energy)
+
+*The max value of rate constant is when ΔG is cero!!!*
+
+#### gaussinan don't make diference between kp and kc
+
+**NIST chemical kinetics database**
+
+##  Class #9 adition reaction 28/10/2020
+
+### Objetive 
+
+- considerar ahora una reaction with distintive number o mol.
+
+### System 
+
+Reaction of adition of radical hidroxyl and ethene
+
+### Transition state 
+
+CH2-CH2 binding with OH radical, set a distance of 2A between C-O and rotate the H in alternate conformartion with the carbon join with O.
+
+We use the following configuration 
+    
+      # opt=(calcfc,ts,noeigen) freq=noraman 6-31+g(d,p) iop(1/8=3) b3lyp
+
+**iop** step small to get the divergence of 4 values.
+
+**noeigen** work with imaginary numbers.
+
+Error of max of ciclees link 9999 can be generated by these actions
+-imaginary numbers (solve with noeigen)
+-number max of cicles to converged execed(solve when you read an run again)
+-4 dihedros not defines 
+
+if you need re run because are not divergend use this configuration.
+
+      # opt=(readfc,ts,noeigen) geom=check guess=check freq=noraman 6-31+g(d,p) iop(1/8=3) b3lyp
+
+**readfc** read force constans of .chk file.
+
+**geom=check** use the positions saved in .chk
+
+**guess=check** used to check info in .chk file
+
+### syntax 
+
+
+Title card
+
+x y 
+
+x is the charge and y is the multiplicity(singulet, duplet)
+
+
+### Calculus
+
+RECOMEND NO MORE THAN 12 ATOMS!(takes to much time)
+
+
+### Reactives
+
+ethene and hidroxyl with the following configuration
+
+### Product
+
+etenol radical 
+
+      # opt freq=noraman 6-31+g(d,p) m052x
+
+##  Class #10 profile reaction reaction 04/11/2020
+
+### Conclusion 
+
+- Over calculate the energy HF
+- B3LYP subestim the energy
+- M062X and M052X are good for cinetic 
+
+In profile reaction compare the ΔH and ΔG with practice 2 because change the behaviour 
+
+Disminución del número de moles cuando se forma el estado de transición, si son un producto las rectas se hacen paralelas, esto implica una dismunción de la entropia y eso cambia el ΔG
+
+Al formar solo 1 producto se pierden grados de libertad y por lo tanto hay una disminución de la entropia.
+
+La reacción es mas exergonica, pero exotermica, es decir que hay mas ganacia de energía libre que de calor al generar los prodcutos.
+
+Max vibration is negative(atracction of atoms indicate a formation of bond) in transition state, 
+
+script tuneling ΔH es ΔZPE, vibration is in absolute value, temperature 298.15K kappa=tunneling constant
+
+### HOMEWORK 
+
+- make calculations
+- pass data to sheet excel 
+- make calculations
+- make graphs 
+- make report
+
+##  Class #11 profile reaction reaction 09/11/2020
+
+### Solvent effect 
+
+The contribution of solvent is aprox 100kcal/mol (max 110kcal/mol H3O), this influence affect without thinking if is polar or not
+
+### Solvent models 
+
+- Isolated molucule, this is consider a molecule without other thing (gas phase)
+
+- Super molecule, molecule make a interacctions especific with a molecules of solvent
+
+- continuum model, consider the dielectric constant to consider the charge consideration with a specific solvent.
+
+-full model or periodic, solvate and calculate cosider each interaction(very expensive)
+
+### Model Cramer and Truler
+
+### Pka calculation
+
+### System 
+
+We use the most basic acid, formic acid CH3COOH with is desprotonated in water 
+
+### Reactive
+
+Formic acid, water,
+
+### Products
+
+Formeate, hidrium H3O
+
+### Procedure 
+
+0) products 
+
+H3O+ move dihedral angles from 180 to 140, specify charge in 1+
+
+1 First make a model continue 
+
+      #opt freq 6-31+g(d,p) scrf=smd m062x
+
+*scrf=smd* this make a solvatation with model continuum, solvatation blink SMD default 
+
+after re run with super model, the log config use to join water molecules with distance of 1.7A, afeter run both you get a mix model 
+
+### isodesmic reaction
+
+reaction which the number of bond in reactives and products are the same 
+
+### Pka indirective calculus
+
+calculate a Pka using a acid of reference 
+
+NOTA **YOU CAN'T KNOW BOND ORDER (-,=,≡) this is a human convention which is not really exist!**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

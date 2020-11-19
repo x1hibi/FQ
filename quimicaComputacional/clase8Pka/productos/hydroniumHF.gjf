@@ -1,0 +1,14 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\clase8Pka\productos\hydroniumHF.chk
+%mem=1500mb
+%nproc=4
+# hf/6-31+g(d,p) opt freq scrf=smd
+
+Hydronium HF
+
+1 1
+ O                 -1.40070810   -0.11761096    0.00000000
+ H                 -0.49147109   -0.01410696    0.20622889
+ H                 -1.76432053    0.71556986    0.30853805
+ H                 -2.06690415   -0.77801856    0.00000000
+
+
