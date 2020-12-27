@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex reporte1"] 1604446052 "reporte1.aux" "reporte1.bbl" "reporte1" 1604446212
+["bibtex reporte1"] 1604446052 "reporte1.aux" "reporte1.bbl" "reporte1" 1607366052
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/bibtex/bst/apacite/apacite.bst" 1374949128 146156 9d7b79dbf9d91133318126032cff8c27 ""
   "referencias.bib" 1604445245 4572 8a58d0081bd21c55f33370caa212e6d4 ""
-  "reporte1.aux" 1604446211 4063 0b9ef5a984d37825d20a95e9e4848971 "xelatex"
+  "reporte1.aux" 1607366028 4063 0b9ef5a984d37825d20a95e9e4848971 "xelatex"
   (generated)
   "reporte1.bbl"
   "reporte1.blg"
-["xdvipdfmx"] 1604446212 "reporte1.xdv" "reporte1.pdf" "reporte1" 1604446212
-  "reporte1.xdv" 1604446211 113600 4cc2542314e755c70f25f50c65b9c86c "xelatex"
+["xdvipdfmx"] 1607366029 "reporte1.xdv" "reporte1.pdf" "reporte1" 1607366052
+  "reporte1.xdv" 1607366028 113748 09443192925c1f46aa2c8ffa6e0c866d "xelatex"
   (generated)
   "reporte1.pdf"
-["xelatex"] 1604446209 "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex" "reporte1.xdv" "reporte1" 1604446212
+["xelatex"] 1607366026 "d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex" "reporte1.xdv" "reporte1" 1607366052
   "C:/Users/sagad/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1602000351 23193880 d18aa598db06abc7edb07c1805cb3dbd ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/sagad/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -103,15 +103,15 @@
   "ImpregancionZIO.jpg" 1604442654 71398 7aae29a40abdeb392f2e48b86c08088e ""
   "atpControl.jpg" 1604401804 108888 5415ed0443c36014616c8b6f3d5b3a14 ""
   "atpExp.jpg" 1604401852 163644 ea80ab21607d9d87ca3e6e66f7bae65e ""
-  "c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex" 1604446208 2584 0f4e82660c67424a58b53614c8c5b51a ""
   "componentes/discusion/discusion.tex" 1604446046 1267 0fd2978f7450e569a3fac98b4de873f5 ""
   "componentes/introduccion/introduccion.tex" 1604442980 3090 adff1d97d3af76959008299d9327db8b ""
-  "componentes/materialesYMetodos/materialesYMetodos.tex" 1604446205 4041 953d3c784880cf94b07aea299900c242 ""
+  "componentes/materialesYMetodos/materialesYMetodos.tex" 1607366048 4108 805b719284c34058f093f35cfec0a62c ""
   "componentes/resultados/resultados.tex" 1604441156 1184 c5316176aa3da3d45654b998b0f8ca30 ""
   "componentes/resumen/resumen.tex" 1604442359 1733 3952ab54903c9541d50efb0b55ceb2fc ""
-  "reporte1.aux" 1604446211 4063 0b9ef5a984d37825d20a95e9e4848971 "xelatex"
+  "d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex" 1607366052 2584 0f4e82660c67424a58b53614c8c5b51a ""
+  "reporte1.aux" 1607366028 4063 0b9ef5a984d37825d20a95e9e4848971 "xelatex"
   "reporte1.bbl" 1604446053 7189 098ea4e3ceecb68f3e880809d5f8ffb2 "bibtex reporte1"
-  "reporte1.tex" 1604446208 2584 0f4e82660c67424a58b53614c8c5b51a ""
+  "reporte1.tex" 1607366052 2584 0f4e82660c67424a58b53614c8c5b51a ""
   (generated)
   "reporte1.aux"
   "reporte1.xdv"

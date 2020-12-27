@@ -1,0 +1,82 @@
+\documentclass[12pt,a4paper,notitlepage,twocolumn]{article}
+\usepackage[ngerman,french,english,spanish]{babel}
+\usepackage{arabtex}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[a4paper, total={7.6in, 9.85in}]{geometry} 
+\usepackage{apacite}
+\usepackage{mathtools}
+\usepackage{hyperref}
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph*{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is a subsection
+\newcommand{\subSec}[1]{\subsection*{\normalfont{\et{#1}}}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is a numbered equation with break line shortcut
+\newcommand{\necbreak}[1]{\begin{equation}\begin{aligned}#1\end{aligned}\end{equation}}
+% This is a numbered equation with break line shortcut
+\newcommand{\nec}[1]{\begin{equation}#1\end{equation}}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+\newcommand{\titleTable}[2]{\np{\bt{Table #1} #2}}
+% Table body with border %
+\newcommand{\bodyTable}[2]{\begin{center} \begin{tabular}{|#1|} \hline #2 \hline \end{tabular} \end{center} }
+%%% END NEW COMMANDS (shortcuts) %%%
+
+%%% START TITLE SETTINGS %%%
+\title{\bt{Identificación de las células de Langerhans en epidermis de vertebrados no mamíferos por medio de las impregnaciones de yoduro de zinc-tetróxido de osmio y de cloruro de oro.}}
+\author{Pérez Alvarado Luis Raymundo, Facultad de Química, UNAM}
+\date{23/12/2020}
+%%% END TITLE SETTINGS %%%
+
+
+\begin{document}
+
+    %START RESUMEN%
+    \import{./componentes/resumen}{resumen.tex}
+    %END RESUMEN%
+     
+    %START INTRODUCCIÓN%
+    \import{./componentes/introduccion}{introduccion.tex}
+    %END INTRODUCCIÓN%
+ 
+    %START MATERIALES Y MÉTODOS%
+    \import{./componentes/materialesYMetodos}{materialesYMetodos.tex}
+    %END MATERIALES Y MÉTODOS%
+ 
+    %START INTRODUCCIÓN%
+    \import{./componentes/resultados}{resultados.tex}
+    %END INTRODUCCIÓN%
+ 
+    %START DISCUSIÓN%
+    \import{./componentes/discusion}{discusion.tex}
+    %END DISCUSIÓN%
+
+    %START CONCLUSION%
+    \import{./componentes/conclusion}{conclusion.tex}
+    %END CONCLUSION%
+
+    
+    %START REFERENCIAS%
+    % DEFINE STYLE FORMAT%
+    \bibliographystyle{apacite}
+    % SPECIFY THE FILE NAME %
+    \bibliography{referencias}
+    %% END REFERENCES %% 
+     
+
+\end{document}

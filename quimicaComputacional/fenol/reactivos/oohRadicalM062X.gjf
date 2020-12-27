@@ -1,0 +1,14 @@
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\fenol\reactivos\oohRadicalM062X.chk
+%mem=1500
+%nproc=4
+# opt freq 6-31+g(d,p) scrf=smd m062x
+
+ooh radical M062x
+
+0 2
+ O                 -0.69591529    0.71860816    0.00000000
+ O                  0.52679353    1.21598442    0.00000000
+ H                 -1.33337016    1.43641823    0.00000000
+
+
+

@@ -27,7 +27,7 @@ Deben ser mínimo tres, deben ser enumerados por {importancia, lógica, orden te
 
     ¿Que metodología es el adecuado para la obtención de las láminas epidérmicas?
 
-> ✔️**Detallar** la **`metodología`** para la *obtención óptima de las muestras de epidermis de los especímenes*.
+> ✔️**Especificar** la **`metodología`** para la *obtención óptima de las muestras de epidermis de los especímenes*.
 
     Como es la morfología normal de las células dendríticas?
 
@@ -72,7 +72,7 @@ solo si el experimento es positivo para alguna de las técnicas
 
     ¿Que metodología es empleada para obtención adecuada de las láminas epidérmicas?
 
-> ✔️**Especificar** la **`metodología empleada`** *para la obtención apropiada de las muestras de epidermis de los especímenes*.
+> ✔️**Establecer** la **`metodología empleada`** *para la obtención apropiada de las muestras de epidermis de los especímenes*.
 
     Como es la morfología normal de las células dendríticas epidérmicas?
 
@@ -92,7 +92,7 @@ solo si el experimento es positivo para alguna de las técnicas
 
     Las densidades de células dendríticas obtenidas de las impregnaciones son estadisticamente iguales a las de la histoquímica enzimámica para ATPasa?
 
-> ✔️**Comparar** **`las densidades célulares de las impregnaciones realizadas y la histoquímica enzimática para ATPasa`** mediante una prueba t de Student *para la corroboración de la hipótesis nula planteada*.
+> ✔️**Comparar** **`las densidades célulares de las impregnaciones realizadas y la histoquímica enzimática para ATPasa`** mediante una prueba t de Student *para corroborar si hay diferencia significativa*.
 
 conectores para la unión del objeto con la finalidad: para, que, de, en, el, es,son,
 

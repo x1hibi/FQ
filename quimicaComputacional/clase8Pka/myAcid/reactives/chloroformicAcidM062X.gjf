@@ -1,0 +1,14 @@
+%nprocshared=4
+%mem=150MW
+%chk=C:\Users\sagad\Documents\rayGit\FQ\quimicaComputacional\clase8Pka\myAcid\reactives\chloroformicAcidM062X.chk
+# opt freq 6-31+g(d) m062x
+
+Chloroformic Acid M062X
+
+0 1
+ C                 -0.29983185    1.50625837    0.12579518
+ O                  0.06173044    2.24068243    1.26651551
+ O                  0.61535283    0.64982032   -0.63004967
+ Cl                -2.03345360    1.67058728   -0.39861234
+ H                  0.98924186    2.09027389    1.46323826
+

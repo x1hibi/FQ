@@ -6,4 +6,8 @@
 
  ## Redacción de hipótesis de investigación 
 
- Se espera que los productos de reacción de las impregnaciones de ZIO y cloruro de oro tengan interacciones atractivas y específicas con la superficie de las células dendríticas epidérmicas en pollos *Gallus gallus*, ranas *Lithobates* y peces *Bagre marinus* demostrando que dichas impregnaciones son capaces de identificar de forma específica a células dendríticas epidérmicas en vertebrados no mamíferos y que sus resultados son equiparables con los de la histoquímica enzimática para ATPasa.
+ Los productos de reacción de las impregnaciones de ZIO y cloruro de oro tendrán interacciones atractivas y específicas con la superficie de las células dendríticas epidérmicas en pollos *Gallus gallus*, ranas *Lithobates* y peces *Bagre marinus* demostrando que la composición superficial es similar, por lo que dichas impregnaciones son capaces de identificar de forma específica a células dendríticas epidérmicas en vertebrados no mamíferos y cuyos resultados son equiparables con los de la histoquímica enzimática para ATPasa.
+
+# short
+
+ Los productos de reacción de las impregnaciones de ZIO y cloruro de oro tendrán interacciones atractivas y específicas con la superficie de las células dendríticas epidérmicas de pollos *Gallus gallus*, ranas *Lithobates* y peces *Bagre marinus*, la composición superficial será similar, por lo que dichas impregnaciones serán capaces de identificar de forma específica y general a las células dendríticas epidérmicas en vertebrados no mamíferos.

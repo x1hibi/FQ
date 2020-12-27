@@ -1,6 +1,6 @@
-PWD c:\Users\sagad\Documents\rayGit\FQ\seminarioII\preTesisTex\reporte1
+PWD d:\Documents\rayGit\FQ\seminarioII\preTesisTex\reporte1
 INPUT C:\Users\sagad\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
-INPUT c:\Users\sagad\Documents\rayGit\FQ\seminarioII\preTesisTex\reporte1\reporte1.tex
+INPUT d:\Documents\rayGit\FQ\seminarioII\preTesisTex\reporte1\reporte1.tex
 OUTPUT reporte1.log
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

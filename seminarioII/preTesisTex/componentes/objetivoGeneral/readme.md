@@ -69,11 +69,11 @@ Solo puede haber uno, expone el propósito principal de la investigación, tiene
 
 >>❌✔️ **Plantear** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y que sus resultados son [comparables/semejantes] estadísticamente con los de la histoquímica enzimática para ATPasa*.
 ---
->✔️ **Analizar** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos*.
+>✔️ **Analizar** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos*.
 
 *objetivo extendido:*
 
->>✔️✔️ **Analizar** a las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y su comparación estadística de la densidad celular con la histoquímica enzimática para ATPasa*.
+>>✔️✔️ **Analizar** las **`impregnaciones ZIO y cloruro de oro`** como *técnicas de identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos y su comparación estadística de la densidad celular con la histoquímica enzimática para ATPasa*.
 ---
 >✔️ **Demostrar** que las **`impregnaciones ZIO y cloruro de oro`** son *técnicas capaces de la identificación específica de células dendríticas epidérmicas de un grupo [seleccionado/elegido/escogido] de vertebrados no mamíferos*.
 

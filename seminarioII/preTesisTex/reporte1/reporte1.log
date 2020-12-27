@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  3 NOV 2020 17:30
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  7 DEC 2020 12:33
 entering extended mode
-**c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex
-(c:/Users/sagad/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex
+**d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex
+(d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte1/reporte1.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (C:\Users\sagad\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -442,6 +442,9 @@ Overfull \hbox (3.11813pt too wide) in paragraph at lines 10--11
 
 File: atpExp.jpg Graphic file (type bmp)
 <atpExp.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: CL1.jpg Graphic file (type bmp)
 <CL1.jpg>
 
@@ -451,6 +454,9 @@ Overfull \hbox (4.40784pt too wide) in paragraph at lines 29--30
 
 File: CL2.jpg Graphic file (type bmp)
 <CL2.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (componentes/discusion/discusion.tex) (reporte1.bbl
 Underfull \hbox (badness 2744) in paragraph at lines 16--33
 \TU/lmr/m/n/12 ta separation and atpase langerhans cell
@@ -589,11 +595,11 @@ reporte1.bbl
  ) 
 Here is how much of TeX's memory you used:
  8360 strings out of 414071
- 109916 string characters out of 2894591
+ 109880 string characters out of 2894591
  425840 words of memory out of 3000000
  25802 multiletter control sequences out of 15000+200000
  537232 words of font info for 56 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 37i,12n,69p,1173b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,12n,69p,1161b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on reporte1.xdv (4 pages, 113600 bytes).
+Output written on reporte1.xdv (4 pages, 113748 bytes).
