@@ -863,7 +863,12 @@ los tiempos que participan una molécula varía de las dependiendo de la cadena 
 
 Por lo anterior podemos ver que mientras más larga sea la cadena mayor será el tiempo de residencia del anfifilo en el agregado miscelar.
 
-## Clase #18 Termodinámica de los agregados miceslares 19/11/20
+## Clase #18 Termodinámica de los agregados micelares 19/11/20
+
+### Propiedades de disolución
+
+Las propiedades de bulto y disolución, las cuales se ven afectadas por la CMC 
+
 
 ### Termodinámica de los agregados micelares
 
@@ -879,7 +884,7 @@ De forma general se forman agregados de entre 30 a 100 moléculas de anfifilo y 
 
 Para la obtención de la CMC es necesario el seguir una propiedad que varíe cuando se llega a la CMC la cual se identificará ya que al llegar a una concentración **X** que será la CMC se apreciará un cambio marcado en la propiedad analizada, este cambio se da por la formación de los agregados micelares.
 
-### Agragados micelares proceso
+### Agregados micelares proceso
 
 -Antes de la CMC
 
@@ -900,21 +905,26 @@ Las moléculas tendrán un equilibrio dinámico entre ellas para la formación d
 
 Dicho tiempo varia conforme al tamaño de la cadena alquílica, mientras más grande sea la cadena más tiempo será mayor su tiempo de residencia esto se debe a que aumenta el número de interacciones favorables de tipo van der wals entre las cadenas alquílicas.
 
+*tiempo de residencia*, cuando la cadena de es más larga aumenta el número de interacciones hidrofóbicas entre las cadenas, lo cual hace el tiempo de residencia en los agregados aumenta.
+
 ### Efecto de la temperatura 
 
-La CMC varia de forma poco significativa con la temperatura, es prácticamente cte.
-
+La CMC varia de forma poco significativa con la temperatura, es prácticamente cte.  
 
 -Anfifilios iónicos
 Observando un diagrama de fases se puede observar que las moléculas de anfifilo pueden formar cristales a dicha temperatura en la cual los cristales se solubilizan es conocida como temperatura de Kraff, en el caso de que se empiecen a formar cristales y la solución pase de ser un sistema homegéneo se conoce como punto Cloud donde se da la formación de cristales de anfifilo, la curva que separa ambas fases en el diagrafa de fases se denomina curva de coexistencia.
 
+![Diagrama de fases ionicos](./diagramaDeFases1.jpg)
+
 -Anfifilios no iónicos
 
-Si se aumenta la temperatura en el caso de las moléculas no ionicas se causa la insolubilidad del anfifilo, y se da una separación de fases, la cual se separa por la curva de coexistencia.
+Si se aumenta la temperatura en el caso de las moléculas no iónicas a concentraciones fijas se causa la separación de fases lo cual provoca una separación de fases del anfifilo, la cual se separa por la curva de coexistencia, igualmente altas concentraciones y bajas temperaturas se dan la precipitación de cristales del anfifilo (figura A). en la intersección de la recta de CMC y la separación de fases es la temp de kraff
+
+![Diagrama de fases no ionicos](./diagramaDeFases2.jpg)
 
 -Anfifilos Zwitterionicos
 
-A bajas temperaturas son insolubles y a altas concentraciones del anfifilo son solubles.
+A bajas temperaturas en donde la concentración sea constante o muy alta los anfililos son insolubles y altas temperaturas se logra la solubilización de los anfiflilos (figura B), la CMC es marcada por la línea recta de la gráfica.
 
 ### Factores antagonicos para la formación de micelas.
 
@@ -925,6 +935,8 @@ En el caso contraría cuando el agua forma estructuras tipo clatrato para poder 
 De lo anterior hay que recalcar que
 
         |ΔSmicelización| << |ΔSmedio(aguasliberadas)|
+
+![Factores antagonicos](./factores.jpg)
 
 **Por lo anterior se denota que la contribución entrópica esta dominada por el medio y no por la formación del agregado micelar y esto es lo que promueve la formación de micelas.**
 
@@ -964,6 +976,8 @@ lc ≈ (0.127+0.15) nm^3
 nc=número de carbonos de la cadena alifática 
 alfa se puede aproximar a la proyección de una figura geométrica.
 
+![Geometrias de los anfifilos](./geometriasAnfifilo.jpg)
+
 Los valores de Ns para las diversas figuras geométricas son 
 
 Ns=0.33 cilindro
@@ -992,21 +1006,21 @@ Los anfifílos con valores de Ns menores a uno son capaces de formar más estruc
 
 Las que tienen valor de Ns=0.333 son capaces de formar micelas, cilindros y cilindros hexagonales, dichas preferencia en las geometrías dependen de otros factores.
 
-### Tipos de uniones 
+### Estructuras bicontinuas
 
-Hay dos tipos de uniones las tipo A y tipo B las cuales son uniones entre las estructuras supramoleculares, las cuales están bien definidas.
+Los agregados cúbicos están formadas por uno de los dos tipos de unidades las tipos A y  B, las cuales son uniones entre las estructuras supramoleculares, las cuales están bien definidas en los agregados de tipo cubico, estos bloques son los que conforman las estructuras cubicas.
 
-estás se dan por la unión de bloques (otras unidades supramoleculares)
+Estas estás unidades están conformados por una fase oleosa y otra acuosa por eso son bicontinuas, las cuales no se pueden separar. en la cual la parte externa e interna es la parte polar y la intermedia de ambas fases es una no polar.
 
 Son denominadas fases bicontínuas ya que se dan entre dos fases que no son homogéneas entre si.
 
-Notas las lamelas son las estructuras que conforman a las membranas celulares.
+Notas las lamelas (bicapa externo polar y el interior no polar) son las estructuras que conforman a las membranas celulares.
 
 ### Propiedades que afectan la geometría de los agregados.
 
 - Temperatura, esta pueden promover ciertas geometrías, pero a altas temperaturas se encarga de desensamblar los agregados.
-- Mezcla de anfifílos, al agregar otras moléculas de anfifílo es posible el arlterar la geometría del agregado supramolecular.
-- Adición de electrolitos, debido a que los electrolitos son capaces de apantallar las interacciones repulsivas entre las cabezas hidrofílicas estas pueden promover que existan otras geometrías.
+- Mezcla de anfifílos, al agregar otras moléculas de anfifílo es posible el alterar la geometría del agregado supramolecular, para pasar de una geometría a otra.
+- Adición de electrolitos, debido a que los electrolitos son capaces de apantallar las interacciones repulsivas desfavorables entre las cabezas hidrofílicas estas pueden promover que existan otras geometrías.
 
 ### Técnicas de detección de micelas
 
@@ -1060,6 +1074,8 @@ Como el el caso del seguimiento de la tensión superficial en función de la con
 
 En dicha determinación se usa la siguiente expresión, donde gamma mayúscula es la concentración superficial de exceso.
 
+En la siguiente formula, se muestra la derivada del cambio de la tensión sup en base a la concentración.
+
 ![tensión superficial ](./tensionSup.jpg)
 
 Por lo que podemos ver que conforme aumenta la concentración de anfifílo [x] disminuye la tensión superficial, hasta el valor de CMC ya que después de eso se mantiene constante el valor de la tensión superficial.
@@ -1068,17 +1084,15 @@ Por lo que podemos ver que conforme aumenta la concentración de anfifílo [x] d
 
 Por medio de la ecuación de la isoterma de Gibbs se puede realizar el calculo de la CMC empleando los valores experimentales de una mejor forma.
 
-Dicha expresión es la misma mostrada anterior mente con la diferencia de que la pendiente es dpi/dx
+Dicha expresión es la misma mostrada anterior mente con la diferencia de que la pendiente es dpi/dx, donde pi es la presión superficial y x es la concentración del anfifilo, onde gama es a 
 
 En donde x es la fracción molar, dπ es el diferencial de la presión superficial donde esta se define como 
 
     π = γ_liq - γ_mezcla
 
 ![isoterma de Gibss](./isoterma.jpg)
-
-
     
-γ_liq es la tensión superficial del líquido y γ_mezcla es la tensión superficial de un líquido con una cantidad conocida de anfifilo.
+γ_liq es la tensión superficial del líquido puro y γ_mezcla es la tensión superficial de un líquido con una cantidad conocida de anfifilo.
 
 El valor de π será positivo ya que la tensión superficial de la mezcla será siempre menor a la del líquido.
 
@@ -1092,13 +1106,13 @@ En la región I hay una pequeña concentración del anfifilo, y se da un cambio 
 
 En la región II se aprecia un aumento significativo pero con una curva más suave de la presión superficial.
 
-En la región III se puede apreciar que el cambio de la presión es nulo, con respecto a la concentración.
+En la región III se puede apreciar que el cambio de la presión es nulo, por lo que es constante, con respecto a la concentración.
 
-Empleando las propiedades de los logaritmos es posible expresar la isoterma en términos de logaritmos.
+Empleando las propiedades de los logaritmos es posible expresar la isoterma en términos de logaritmos grafico 1 lado derecho
 
 #### Gráfica 2
 
-Al graficar con los mismos datos en su forma logarítmica la fracción molar se pueden apreciar con mayor precisión en valores de logaritimo de la concentración, por lo que es mejor usar esta forma gráfica para determinar la CMC.
+Al graficar con los mismos datos usando la derivada de dpi/dx vs los valores de logaritimo de la concentración, por lo que es mejor usar esta forma gráfica para determinarla.
 
 En un caso todavía más ilustrativo y como mejor aproximación, es cuando se grafica el (dπ/dx) vs el ln(x)
 
@@ -1165,9 +1179,9 @@ El potencial del lado izquierdo pertenece a la moléculas del anfifilo en agua y
 
 Por medio del dicho tratamiento es posible conocer información del tamaño de los agregados micelares que se forman así como el número de moléculas que conforman a los agregados micelares.
 
-Además de eso es posible calcular las propiedades termodinámicas como en el caso del modelo de separación de pases por medio del delta G de separación de fases, pero este es más poderoso ya que nos da información de los agregados que se forman.
+Además de eso es posible calcular las propiedades termodinámicas como en el caso del modelo de separación de fases por medio del delta G de separación de fases, pero este es más poderoso ya que nos da información de los agregados que se forman.
 
-Para obtener la delta G de micelización necesitamos usar la entalpía y entropía de micelización.
+Para obtener la delta G de micelización necesitamos usar la entalpía y entropía de micelización. 
 
 Por lo que es complicado este método es por el cálculo de la entropía del proceso de micelización, ya que no hay métodos experimentales para calcularla, por lo que se debe usar la energía de Helmontz para calcular la entropía .
 
@@ -1194,13 +1208,132 @@ Por lo que este método funciona mejor para sistemas donde se ve afectado poco l
 
 ### Calculo de la entropía 
 
-Por lo que la entropía de por lo tanto se calcula por medio de la ecuación de Gibbs-Heltmozs.
+Por lo que la entropía de por lo tanto se calcula por medio de la ecuación de Gibbs-helmholtz .
 
 ![Gibbs-Heltmoz](./helt.jpg)
 
 Por lo que se tiene que obtener experimentalmente la entalpía y la energía libre.
 
-## Clase #21 Métodos de la tensión superficial 01/11/20
+## Clase #21 Termodinámica molecular 01/11/20
+
+    Se uso el libro de principios de biofisicaquimica van holdden del capitulo 3
+
+Las macromoléculas son capaces de auto asociarse para obtener su actividad biológica, lo cual solo requiere de la estructura primaria para alcanzar la estructura terciaria, ya que al desnaturalizar se perdía la estructura terciaria y al remover a los agentes que la desnaturalizan estas son capaces de reasociarse, dando a entender que es un proceso espontáneo y reversible.
+
+Esta esta mediada por interacciones intermoleculares con otras moléculas y el disolvente.
+
+### Problema del plegamiento de proteínas
+
+El predecir la estructura de terciaría que tendrá una secuencia primaria adquiere la estructura terciaria, lo cual ayudaría a construir macromoléculas para las aplicaciones como catalizadores para la industria, medica y demás.
+
+### Técnicas para el estudio de las biomoléculas
+
+- Mecánica cuántica: esta se limitado en este ámbito debido a las múltiples aproximaciones necesarias lo que daría valores no tan cercanos al real, además del gran poder computacional necesario para calcularlo.
+
+- Mecánica clásica: usando la física de Newton
+
+### Modelo periódico
+
+Se toma una sola molécula en la cual se tiene como hipótesis que dicha molécula al ser seguida por suficiente tiempo esta pasará por las distintas conformaciones o estados posibles.
+
+### Aislar la molécula 
+
+Se toma la molécula sin las moléculas del disolvente, para simular las interacciones de las moléculas del disolvente, esto es por medio de un campo de fuerzas que lo simula en ausencia del disolvente.
+
+### Eliminar la dinámica del sistema
+
+Se busca tener a la molécula en el estado de menor energía mediante el proceso de minimización de la energía, con este se tendrá un estado estático.
+
+### Mecánica clásica 
+
+Por medio de mecánica clásica podemos obtener la energía del sistema, por medio de la suma de las energías cinéticas y potenciales del sistema, con ella podemos obtener las propiedades termodinámicas para obtener la información del sistema.
+
+Las representaciones que se pueden hacer de la energía pueden son multi dimensionales, como por ejemplo de los ángulos de torsión, ya se por gráficos de superficie, donde se observan los máximos y mínimos(más estables), o gráficos de curvas de nivel, o gráficos de coordenadas de reacción de estados más favorables.
+
+### Mecánica molecular
+
+Es la rama que se encarga de la descripción de las interacciones en término de la mecánica clásica o Newtoniana.
+
+![mecánica molecular ](./mecanica.jpg)
+
+En la realidad se usan cantidades vectoriales, pero se muestran ejemplos de una sola dimensión.
+
+En la imagen se muestra que el campo de fuerza para un sistema puede ser definido como el - gradiente de la energía potencial, con respecto a una trayectoria o distancia r.
+
+Se define el campo de fuerza, que son las interacciones que se van a dar entre átomos y grupos funcionales de las macromoléculas, esto nos dice *que las interacciones son las variaciones de la energía potencial a lo largo de una distancia r*, esta variación se sigue al conocer la posición de los átomos del sistema.
+
+Además se pueden establecer condiciones de equilibrio, que sería la primera ley de Newton donde la suma de las fuerzas que actúan sobre el objeto son igual a cero, esto es que nuestro sistema esta en reposo o que su velocidad y trayectoria no varían a lo largo de la trayectoria.
+
+Con lo anterior nos diría que la energía potencial esta en mínimo con respecto a una posición, *esto es lo que fundamenta los procesos de minimización de energía*, esto nos dará una de las conformaciones posibles que adoptará una macromolécula.
+
+En el caso de la mínima energía, esta esta estática, pero al considerar y agregar el factor de la energía cinética, se podrá tener la dinámica molecular, ya que la energía cinética tiene una misma expresión.
+
+### Energía potencial 
+
+Considerando la energía potencial, se puede expresar como la suma de las interacciones intermoleculares e intramoleculares.
+
+    V_sistemaMacromolecular=intermoleculares+intramoleculares
+
+Si consideramos a la molécula aislada(sin disolvente) solo energía intramoleculares, tenemos que la energía del sistema es la suma de la suma de los potenciales de enlaces y no enlaces de cada uno de los átomos.
+
+    V_total=sum(V_enlace+V_noEnlace)
+
+Pero la energía potencial total V_total por que *cada conformación que tenga la macromolécula tendrá un valor de V_total*, y como las macromoléculas pueden adoptar n conformaciones esto nos dice que hay n V_total por lo que se tiene es una *hipersuperficie*.
+
+Por lo que para poder representar esto es necesario mantener fijas varias variables hasta tener dos (en el caso de 2D)
+
+### Potenciales moleculares
+
+- Interacciones de enlace (enlace covalente)
+- Interacciones de no enlace (electroestáticas, dipolar, estéricas ...)
+
+Dadas la mecánica:
+- MM: proporciona funciones de energía potencial, las cuales son derivadas empíricamente, las cuales se basan en el comportamiento molecular, las cuales se aproximan mucho al comportamiento observado.
+- MC: proporciona funciones de energía potencial, se obtienen de los primeros principios(teoría), estas a pesar de estar basada en dichos principios no siempre se se comportan como lo que se observa en forma experimental.
+
+En en el caso de la energía de enlace es una energía de tipo entalpica, ya que es la energía para romper o hacer un enlace químico.
+
+### Potencial de enlace
+
+Para modelar la energía del enlace covalentes como un campo de fuerza dependiente de la distancia.
+
+Este modelo permite el obtener una ecuación que permite el calcular el potencial del enlace con una ecuación similar a la ley de Hook
+
+![mecánica molecular ](./potencialEnlace.jpg)
+
+Dichas ecuaciones solo sirven para aproximar los valores en la vecindad de valores cercanos al punto de equilibrio, pero no en los extremos(cuando se aleja y otra cuando están muy cercas) en la eq uno de la imagen,
+
+Por medio de los ángulos de enlace se puede expresar la energía potencial, y además más por medio del potencial 1-3 se mide la energía potencial en función de la distancia de los átomos 1-3 como se ve en la grafica 3 y en la ecuación 3.
+
+Otra forma es obtener la energía del ángulo de torsión, con la cual podemos observar la energía que tienen cuando se tienen distintas configuraciones.
+
+![mecánica molecular ](./anguloTosion.jpg)
+
+Como se puede ver por medio de la ecuación se puede ver como habrán configuraciones en mínimos y máximos de energía, lo cual nos muestra las barreras para poder cambiar de conformaciones.
+
+        Apesar de que el enlace covalente define la configuración que adopta la macromolécula los potenciales de enlace no son los que nos describen y los que promueven el plegamniento de las macromoléculas para adoptar la estructura terciaria, las que se encargan son las interacciones débiles quienes se encargan de dar la conformación de las macromeléculas o los anfifilos.
+
+
+
+## Clase #22  01/11/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
