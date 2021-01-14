@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  24 DEC 2020 01:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  2 JAN 2021 12:03
 entering extended mode
 **d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte2/reporte2.tex
 (d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte2/reporte2.tex
@@ -618,7 +618,7 @@ componentes/introduccion/introduccion.tex:7: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
 l.7 ...ata y adaptativa \cite{article:vertebrados}
-                                                  , debido a la disponibilid...
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -629,7 +629,7 @@ componentes/introduccion/introduccion.tex:7: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
 l.7 ...ata y adaptativa \cite{article:vertebrados}
-                                                  , debido a la disponibilid...
+                                                  .
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
 this error. If you simply proceed now, the `\par' that
@@ -643,7 +643,7 @@ componentes/introduccion/introduccion.tex:7: Paragraph ended before \@@cite was 
 <to be read again> 
                    \par 
 l.7 ...ata y adaptativa \cite{article:vertebrados}
-                                                  , debido a la disponibilid...
+                                                  .
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
@@ -652,7 +652,7 @@ componentes/introduccion/introduccion.tex:7: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
 l.7 ...ata y adaptativa \cite{article:vertebrados}
-                                                  , debido a la disponibilid...
+                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -663,7 +663,7 @@ componentes/introduccion/introduccion.tex:7: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
 l.7 ...ata y adaptativa \cite{article:vertebrados}
-                                                  , debido a la disponibilid...
+                                                  .
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
 this error. If you simply proceed now, the `\par' that
@@ -677,7 +677,7 @@ componentes/introduccion/introduccion.tex:7: Paragraph ended before \@@cite was 
 <to be read again> 
                    \par 
 l.7 ...ata y adaptativa \cite{article:vertebrados}
-                                                  , debido a la disponibilid...
+                                                  .
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
@@ -822,6 +822,9 @@ File: ImpregancionZIO.jpg Graphic file (type bmp)
 <ImpregancionZIO.jpg>
 File: ImpregancionAu.jpg Graphic file (type bmp)
 <ImpregancionAu.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1275,19 +1278,17 @@ File: CL2.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (componentes/discusion/discusion.tex) (componentes/conclusion/conclusion.tex) (reporte2.bbl
+) (componentes/discusion/discusion.tex) (componentes/conclusion/conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+ [3]) (reporte2.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 262--274
 []$[][][][] [][][] [][][] [] [][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][][][] [] [][][][] []
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
- [4
-
-]
+ [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (reporte2.aux
 LaTeX Info: Redefining \. on input line 29.
@@ -1415,16 +1416,16 @@ reporte2.bbl
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `reporte2.out' has not changed.
-(rerunfilecheck)             Checksum: 62C4160E94DC8F21D182D1E952730AAA;48.
+(rerunfilecheck)             Checksum: 1F06F2F31C8F595F8456EBE2C822E7C7;48.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 15642 strings out of 414071
- 213224 string characters out of 2894591
- 540823 words of memory out of 3000000
- 32988 multiletter control sequences out of 15000+200000
- 537608 words of font info for 59 fonts, out of 3000000 for 9000
+ 15644 strings out of 414071
+ 213272 string characters out of 2894591
+ 539821 words of memory out of 3000000
+ 32989 multiletter control sequences out of 15000+200000
+ 537616 words of font info for 60 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  37i,12n,69p,1073b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on reporte2.xdv (4 pages, 123812 bytes).
+Output written on reporte2.xdv (4 pages, 127492 bytes).

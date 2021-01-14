@@ -282,7 +282,7 @@ Espacios bidimencionales, regiones planas debido a su bajo grosor,y en su interi
 
 Su interior es una región no polar, este hecho provoca que en el interior de la proteína, tiene consecuencias en la reactividad, un ejemplo de esto es que los valores de Pka cambia en este ambiente, de los grupos ácidos su pka aumenta, en lo grupos básicos disminuyen en su valor de pka.
 
-## Clase #6 Clase de problemas 8/10/20
+## Clase 6 de problemas 8/10/20
 
 ### Cálculos de la autoeergía
 
@@ -1214,7 +1214,7 @@ Por lo que la entropía de por lo tanto se calcula por medio de la ecuación de 
 
 Por lo que se tiene que obtener experimentalmente la entalpía y la energía libre.
 
-## Clase #21 Termodinámica molecular 01/11/20
+## Clase #21 Termodinámica molecular 01/12/20
 
     Se uso el libro de principios de biofisicaquimica van holdden del capitulo 3
 
@@ -1315,15 +1315,237 @@ Como se puede ver por medio de la ecuación se puede ver como habrán configurac
 
 
 
-## Clase #22  01/11/20
+## Clase #22  03/01/21
 
 
+### Potenciales de no enlace (interacciones no covalentes)
+
+La interacción es de menor orden es de un orden de magnitud menor a las interacciones de enlace, además de que la distancia se encuentra en el denominador, esto es que la interacción es inversamente proporcional a la distancia.
+
+También es inversamente proporcional a la constante dieléctrica-permitividad relativa(polarizabilidad del medio), con excepción de las fuerzas de dispersión 
+
+![potenciales de no enlace](./potNoEnlace.jpg )
+
+## Interacciones de largo y corto alcance
+
+Al depender de la distancia el potencial y estas al estar elevadas por una potencia n, la energía potencial decae de forma distintas dependiendo de cada interacción, como se ve en el siguiente esquema, en la cual a mayor potencial vemos que solamente cambia la energía a distancias muy cortas y las de menor exponente cambian a largas distancias
+
+![interacciones de largo y corto ](./largoycorto.jpg)
+
+Lo anterior se reduce a que las interacciones pueden clasificarse de corto y largo alcance.
 
 
+### Interacciones electrostáticas 
+
+Esta dada por la ley de Coulomb, interacciones entre dos cargas definidas.
+
+Esta se define para dos cargas aparedas, es decir que es una interacción de parejas 
+
+### Constante dieléctrica
+
+Esta tiene una influencia en el potencial, pero en medios biológicos su valor no es constante por que el disolvente tiene un valor distinto en el interior de un agregado supramolecular.
+
+En el caso del disolvente agua, D=78.5k0e0, mientras que en una proteína X, 
+
+Hay tres formas de considerar la constante dieléctrica dentro de una proteína.
+
+- Considerar a la constante en función de los componentes que la conforman, las cuales van en un intervalo de 2-20 veces la permitividad del vacío k0e0.
+- Como una función de la distancia entre los grupos funcionales que la conforman la cual al aumentar la distancia la constante dieléctrica es cerca a la del disolvente.
+- Como función local, la cual considera zonas de una macromolécula y en esa se define la constante dieléctrica para cada zona.
+
+### Interacciones dipolo-dipolo
+
+Son interacciones que se dan entre dos dipolos, los dipolos se forman debido a la presencia de una carga formal o parcial.
+
+Cuando se forma un dipolo se puede definir una propiedad que es el momento dipolar que es una cantidad vectorial, que es el producto de la carga por el vector distancia entre el vector posición entre las cargas.
+
+Dicha interacción es de tipo electroestático, esta tiene una dependencia de la dirección del vector del momento dipolar, en el siguiente esquema se muestran como el vector de dirección del momento dipolar influye. la punta de la flecha es positiva y la cola negativa.
+
+En la interacción superior izq vemos que el potencial será positivo ya que será de carácter repulsiva, ya que están orientadas carga positiva con positiva y negativa con negativa, a la derecha que hay una interacción atractiva
+
+![interacciones dipolo dipolo](./dipolo_dipolo.jpg)
+
+### Fuerzas de dispersión de Van der Waals 
+
+- Fuerzas de dispersión de London las moléculas que no tengan carga serán capaces de presentar interacciones de tipo atractivo, esto es debido a que la nube de la densidad electrónica puede tener fluctuaciones en la cuales, las cuales son esporádicas y cortas y las cuales dan variaciones en las cargas de los átomos, lo cual genera en átomos vecinos la fluctuación de las cargas dando como resultado una atracción de cargas conocidas como interacciones dipolo inducido-dipolo inducido, las cuales son las interacciones de menor alcance.
+
+        V_l=3Ia_1a_2/4r^6
+
+Donde I es la energía de ionización, a polarizabilidad del átomo, r distancia.
+
+A distancias menores al no formarse un enlace, se presentan fuerzas de repulsión estéricas que son de un alcance mucho menor que las fuerzas de dispersión de London y esta se debe a las nubes electrónicas y las interacciones núcleo-núcleo.
 
 
+        V_r=k/r^m
+
+m es la potencia la cual dependen del escenario en que se de la interacción.
+
+Las interacciones del Van der Waals es la suma de las fuerzas de London más las de repulsión estéricas.
+
+        V_w=A/r^m - B/r^6
+
+La función que describe este comportamiento se muestra en la siguiente gráfica.
+
+![interacciones dipolo dipolo](./vanDerWaals.jpg)
+
+En donde se aprecia que hay un punto de equilibrio en las cargas (mínimo) en el cual las fuerzas atractivas son iguales a las repulsivas en dicha distancia los átomos están juntas de tal forma que es la suma de sus radios de van der waals, la cual puede ser calculada en este punto, al aumentar la distancia encontramos que los átomos se separan y a energía potencian tiende a cero y al acercarlas aumenta al energía potencial aumenta y el estado posible al mostrar una penetración en la densidad electrónica es la formación de un enlace.
+
+Las interacciones de Van de Waals varían en función de los átomos que la forman, las cuales varían con respecto no solo del átomo e incluso la hibridización.
+
+## Clase #23  05/01/21
 
 
+### Puentes de hidrógeno
+
+Esta formado por dos átomos en donde uno es el aceptor y otro el donador de densidad electrónica, esta interacción es de naturaleza electrostática, por lo que esta puede ser representada como una interacción dipolo dipolo, por lo que la orientación es importante para ser llevada acabo.
+
+![Puentes de hidrógeno](./puenteHidrogeno.jpg)
+
+
+Características:
+
+- Es la interacción débil más energética
+- Presenta una penetración en la densidad electrónica, la distancia (distancia interatómica)entre los dos átomos es menor a la suma de los radios de van der waals, lo que indica hasta en un 10-25% menores.
+
+Debido al traslape que hay la ecuación de dipolo-dipolo no es la mejor aproximación, por que se proponen otras ecuaciones como V_h, similar a la ecuación de Van der Waals, pero los coeficientes son específicos para dichos átomos.
+
+Dicho potencial es muy similar al de Lennar jones donde hay un termino atractivo y otro repulsivo 
+
+
+### Puente de hidrógeno como interacción de contribución favorable y desfavorable de la formación de macromoléculas
+
+Ejemplo de formación de un "dímero" de N-metil acetamida
+
+Cuando hay moléculas de metil acetamida y se comparan las propiedades termodinámicas para comparar el proceso en diferentes disolventes.
+
+Esta molécula puede formar puentes de hidrógeno con moléculas de agua, pero estas al estar junto a otra molécula de metil acetamida pueden formar puentes de hidrógeno entre ellas.
+
+En medio acuoso se vio que no se forma el "dímero" (en lugar de un enlace covalente es un puente de hidrógeno) y en un disolvente que no forma puentes de hidrógeno, se forma el dímero y el proceso es espontáneo.
+
+Esto nos dice que los puentes de hidrógeno son capaces de evitar la formación de estructuras al estar en mayor concentración y mejor energética que otras interacciones.
+
+En el exterior de una proteína se forman mayoritariamente puentes de hidrógeno con los grupos funcionales, pero en el interior los grupos funcionales forman interacciones intramoleculares entre moléculas de los grupos que conforman a la proteína y no con el disolvente y eso da parte de la estructura terciaria, esto es que si ingresara agua dichas interacciones se sustituirían y la estructura de la macromolécula no se formaría, por eso casi no hay moléculas de agua en el interior de las proteínas y macromoléculas.
+
+
+### Interacciones que estabilizan la estructura de las macromoléculas 
+
+ Ej polímero de puras alaninas, su grupo R es un metilo, se busca obtener el perfil de la energía potencial 
+
+ Se muestran los potenciales que se pueden graficar para la polialanina con diferentes potenciales.
+
+El primero es la energía potencial total (suma de los potenciales de enlace y no enlace)
+
+El segundo es el potencial de van der waals (potencial de no enlace)
+
+El tercero es el potencial dipolo dipolo (potencial de no enlace)
+
+El cuarto es el potencial de enlace (potencia de enlace)
+ 
+Estas están en función del ángulo psi las cuales presentan máximos y minimos en la energía potencial, lo cual representa situaciones que al ser de alta energía son configuraciones poco favorables, en los mínimos configuraciones que son favorables, esto se puede apreciar en las configuraciones que se muestran, en las cuales se muestra el momento dipolar y se puede ver por ej que en el valor de 0 de psi el vector es carga positiva con positiva por lo que habrá una repulsión, esto en términos globales se pueden ver como impedimento estérico como interacciones repulsivas entre los átomos de hidrógeno y en otras como 60 y 120 (viendo la de la V_dd) y donde la carga positiva esta con la negativa en términos electrostáticos es favorecida
+
+
+ ![Potenciales de interacción de poli alanina](./poliAlanina.jpg)
+
+
+![Configuraciones poli alanina](./configuracionesAla.jpg)
+
+
+Los gráficos tal cual es solo entre la pareja que se muestra con flechas por lo que en principio se puede hacer para cualquier pareja de aminoácidos.
+
+Con los perfiles de energía potencial se pueden construir las curvas de nivel de energía de nivel para cada una de las interacciones, con lo que se pueden obtener de forma teórica el espacio conformacional, lo cual es muy similar a lo que se aprecia de forma experimental.
+
+Pero el espacio conformacional teórico muestra áreas mucho mas pequeñas que las que se observan de forma experimental, mostrando que hay conformaciones en ángulos no permitidos, esto no dice que los potenciales que se usan son mas restrictivas.
+
+![curvas de nivel ](./curvasDeNivel.jpg)
+
+Conociendo los ángulos se puede saber que estructuras secundarias tendrá la cadena polipeptídica.
+
+Por lo que para ampliar el espacio conformacional es necesario ablandar o quitar restricciones en el termino repulsivo del potencial de Lennard Jones
+
+
+## Clase #24 Dipolos  07/01/21
+
+### Contribuciones de los dipolos
+
+Estas están en función de la dirección del momento dipolar, en estructura secundarias cuando los momentos dipolares se alinean se suman, dependiendo de la estructura secundaria estos se alinean de forma distinta.
+
+### Alfa hélice 
+
+En esta se alinean en la cual se sigue el mismo sentido, por lo que se pueden sumar los momentos dipolares, dando un  momento dipolar mucho mayor conocido como dipolo macroscópico o de hélice, este momento promueve que se agreguen más residuos para alargar la alfa hélice, este momento también juega un papel importante en la estabilización termodinámica de la estructura
+
+
+### Temperatura de fusión en biomoléculas
+
+Temperatura donde el 50% de la población donde una población de una proteína se ha convertido de un estado inicial a uno final.
+
+Las se pueden perder o promover la formación de estructuras terciarias cambiando las siguientes variables:
+
+- temperatura
+- presión
+- ph
+- fuerza iónica
+- presencia o usencia de un reactivo
+
+*proceso de renaturalización*, en donde el polipéptido se transforma y adquiere una estructura terciaria con actividad biológica.
+
+*proceso de desnaturalización*, proceso donde se pierde la estructura terciaria
+
+![temperatura de fusión](./cp.jpg)
+
+Se muestra en la gráfica que se sigue la cantidad porcentual de proteína desnaturalizada, en la cual vemos dos puntos importantes, el punto de inflexión esta cuando se desnaturalizo el 50% y sobre esa temperatura se le denomina temperatura de fusión, sobre esta misma temperatura al seguir la capacidad calorífica a presión constante se observa un máximo.
+
+### efecto del momento dipolar helicoidal 
+
+![efecto dipolo](./efectoDipolo.jpg)
+
+Se realizó un experimento donde se comparan dos polipéptidos donde se comparó la temperatura de fusión de la alfa hélice que se forma en la cadena de alanina, al calcularla se hace en pH 10 para que las GLU estén desprotonadas, por lo que tienen carga negativa y están en una solución de 0.1M de NaCl, se aprecia que a medida que aumenta la temperatura se destruye la alfa hélice a 0 grados y 32 grados dando una diferencia de temp de 32.
+
+La pregunta es por que uno de los polipéptidos, tiene una temperatura mayor de fusión, esto nos dice que dicha alfa hélice es de mayor estabilidad.
+
+Se hizo la hipótesis de que se debe al momento dipolar, el cual es más estable cuando esta en la parte central ya que cambia el momento dipolar cambia, esta fue corroborada al cambiar la concentración del electrolito lo cual apantallaría el efecto electrónico que se genera por el dipolo, la cual dio una diferencia de temperatura bajo a 17 por lo que se corroboró, por lo que vemos que por medio del momento dipolar hay una estabilidad termodinámica en una estructura.
+
+### Calcular la contribución del momento dipolar 
+
+ Hay dos formas obtener la contribución en términos energéticos del dipolo macroscópico o de hélice, esta tiene relevancia ya que juega un papel importante en la estabilización de estructuras en macromoléculas.
+
+ 1) Por medio de calorimetría(imagen de cp) al integrar la capacidad calorífica como función de la temperatura, se podría obtener la entalpía, la energía libre de Gibbs y con estas dos la entropía y con ese delta G se conocería la contribución energética.
+
+2) Otra forma es obteniendo el pka(se calcula con una titulación) de un ácido teniendo dos tipos uno que se una con una cadena polipeptídica y  otra con la misma cadena pero con una alfa hélice, su diferencia es la contribución del momento dipolar, 
+
+![contribución del momento dipolar](./pkaMomento.jpg)
+
+### Interacciones entre cadenas laterales 
+
+Son difíciles de estimar, ya que pueden haber varias que se pueden dar dentro de una macromolécula como son :
+
+- puentes de hidrógeno entre las especies (dipolo-dipolo)
+    En el interior es favorable su formación cuando hay un donador y aceptor, pero solo el donador o receptor solo es desfavorable, esto si es permitido en la superficie ya que puede interaccionar con el disolvente
+- interacciones hidrofóbicas favorables (van der waals)
+- enlaces iónicos (interacciones electroestática)
+    Igualmente estas interacciones electroestáticas son favorables en el interior, pero solo una carga no es favorable lo cual es demostrado con el valor de la autoenergía que demuestra que se requiere mucha energía para tener una carga aislada, igual en la superficie puede estar sola ya que interacciona con el disolvente.
+
+![Interacciones intramolecualres](./interaccionesIntra.jpg)
+
+### Importancia de los aminoácidos en las interacciones intramoleculares
+
+#### Interacciones electroestáticas
+
+Cuando se cambia (por mutagénesis) un aminoácido que esta realizando una interacción intramolecular, se observa un cambio en la estabilidad, la cual puede bajar o aumentar, como por ejemplo en una estática si se quita una de las cargas esta disminuye ya que la carga no tiene con quien aparearse.
+
+Estos cambios pueden tener repercusiones a nivel post tracción en la cual los organismos generan síndromes debido al mal funcionamiento de las proteínas, las cuales solo cambiaron un aminoácido de forma puntual.
+
+### Relación de Poisson-Boltzmann 
+
+Por medio de la ecuación de Coulomb no es posible describir de forma correcta las interacciones electroestáticas que hay en un sistema biológico el cual no considera las cargas de que hay en el medio, por lo que se hay desarrollado formas para hacerlo como la relación Poisson-Boltzmann, la cual no puede ser resulta analíticamente, por lo que se toman aproximaciones, la ecuación al ser integrada es posible obtener ecuaciones que nos permitan obtener la energía potencial de interacciones electroestáticas
+
+![Relación de Poisson-Boltzmann](./poisson.jpg)
+
+Esta da buenos resultados.
+
+
+## Clase #25   12/01/21
+
+Clase se subio no se diopo
 
 
 
