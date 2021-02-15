@@ -1,0 +1,12 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p5Fenol\splet\react\peroxidoRadicalM062x.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq 6-31+g(d,p) scrf=smd m062x
+
+peroxido radical m062x
+
+0 2
+ O                 -1.42099838    0.62284192    0.00000000
+ H                 -1.74145297    1.26272819   -0.63988626
+ O                 -0.10099838    0.62284192    0.00000000
+

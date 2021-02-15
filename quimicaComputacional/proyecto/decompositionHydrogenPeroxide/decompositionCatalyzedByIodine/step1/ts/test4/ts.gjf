@@ -1,0 +1,14 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\decompositionCatalyzedByIodine\step1\ts\ts.chk
+%mem=1500MB
+%nprocshared=4
+# opt=(calcfc,ts,noeigen) freq=noraman lanl2dz scrf=smd iop(1/8=3) m062x
+
+Hydrogen peroxide with iodine
+
+0 2
+ O                 -1.41840702    0.70831201   -0.05450986
+ H                 -0.12568964    0.70831201   -0.99731513
+ O                  0.60160167    0.70831201    0.42783306
+ H                  0.92160167    1.61340869    0.42783306
+ I                 -3.18163474    0.70831201    0.96349014
+

@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step4\ts\tsM062X.chk
+%mem=1500MB
+%nprocshared=4
+# opt=(readfc,ts,noeigen) geom=check guess=check freq=noraman 6-31+g(d,p) m062x
+
+ts2
+
+0 1

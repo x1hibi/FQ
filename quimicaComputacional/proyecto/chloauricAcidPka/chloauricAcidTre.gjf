@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\chloauricAcidPka\chloauricAcid.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq geom=check guess=check lanl2dz scrf=smd m062x
+
+chloroauric acid
+
+0 1

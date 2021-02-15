@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\decompositionCatalyzedByIodine\step1\ts\ts.chk
+%mem=1500MB
+%nprocshared=4
+# opt=(readfc,ts,noeigen) geom=check guess=check freq=noraman lanl2dz scrf=smd iop(1/8=3) m062x
+
+Hydrogen peroxide with iodine
+
+-1 1

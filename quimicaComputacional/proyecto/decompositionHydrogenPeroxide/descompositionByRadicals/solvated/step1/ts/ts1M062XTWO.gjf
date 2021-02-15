@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\solvated\step1\ts\ts1M062X.chk
+%mem=1500MB
+%nprocshared=4
+# opt(readfc,ts,noeigen) geom=check guess=check freq=noraman 6-31+g(d,p) scrf=smd m062x iop(1/8=3)
+
+transition state solvated with m062x
+
+0 1

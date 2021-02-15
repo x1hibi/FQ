@@ -1,0 +1,14 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\decompositionCatalyzedByIodine\step1\reacts\iodine.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq=noraman LanL2DZ scrf=smd m062x
+
+Iodine descompostion with KI
+
+-1 1
+ I                 -0.09615384   -0.23504273    0.00000000
+
+ 1
+
+
+

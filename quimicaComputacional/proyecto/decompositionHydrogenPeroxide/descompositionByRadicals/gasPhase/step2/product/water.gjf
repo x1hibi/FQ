@@ -1,0 +1,11 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step2\product\water.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq=noraman 6-31+G(d,p) m062x
+
+water
+
+0 1
+ O                 -0.68381890   -0.36006404    0.00000000
+ H                  0.27618110   -0.36006404    0.00000000
+ H                 -1.00427348    0.54487179    0.00000000

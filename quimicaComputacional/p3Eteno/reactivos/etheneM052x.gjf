@@ -1,0 +1,17 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p3Eteno\reactivos\etheneM052x.chk
+%nprocshared=4
+%mem=1500mb
+# opt freq=noraman 6-31+g(d,p) m052x
+
+Ethene M052x
+
+0 1
+ C                 -3.48623861   -2.95107029    0.00000000
+ H                 -2.95307486   -3.87877521    0.00000000
+ H                 -4.55623861   -2.95107029    0.00000000
+ C                 -2.81096430   -1.77609300    0.00000000
+ H                 -3.34412805   -0.84838808    0.00000000
+ H                 -1.74096430   -1.77609300    0.00000000
+
+
+

@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p4Pka\reactivos\4WATERSM062X.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq geom=check guess=check 6-31+g(d,p) scrf=smd m062x
+
+Hidronio m062x con 4 aguas two
+
+0 1

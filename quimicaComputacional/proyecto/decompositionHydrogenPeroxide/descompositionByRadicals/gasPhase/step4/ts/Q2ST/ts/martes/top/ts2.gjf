@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step4\ts\Q2ST\ts\martes\top\ts.chk
+%mem=1500MB
+%nprocshared=4
+# opt=(readfc,ts,noeigen,maxcycles=100) geom=check guess=check freq=noraman 6-31+g(d,p) m062x
+
+ts OOH vs OH
+
+0 1

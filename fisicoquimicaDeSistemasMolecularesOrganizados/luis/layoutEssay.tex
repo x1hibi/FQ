@@ -1,0 +1,263 @@
+%%%%% START PREAMBLE HEADER %%%%%
+
+%%% START REQUIRED PACKAGES %%%
+
+\documentclass[10pt]{article}
+\usepackage{xcolor} 
+\usepackage[a4paper, total={6in, 9in}]{geometry} 
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\spacing{1.5}
+\usepackage[superscript,biblabel]{cite}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,citecolor=blue}
+
+%%% END REQUIRED PACKAGES %%%                
+
+
+%%% START NEW COMMANDS new (shortcut) %%%
+
+% This is a paragraph with normal font
+\newcommand{\np}[1]{\paragraph{\normalfont{#1}}}
+% This is a text with a color
+\newcommand{\ct}[2]{\textcolor{#1}{#2}}
+% This is a bold text 
+\newcommand{\bt}[1]{\textbf{#1}}
+% This is an italic text 
+\newcommand{\et}[1]{\emph{#1}}
+% This is an underline text 
+\newcommand{\ut}[1]{\underline{#1}}
+% This is a newline shortcut
+\newcommand{\n}{\\}
+% This is an equation shortcut
+\newcommand{\ec}[1]{\begin{center} $#1$ \end{center}}
+% Table title with bold text and correct space%
+
+%%% END NEW COMMANDS (shortcuts) %%%
+
+%%% END TITLE SETTINGS %%%
+
+%%%%% END PREAMBLE HEADER %%%%%
+\begin{document}
+
+
+    \section*{Jerarquía de operaciones}
+    
+    \np{Esta se refiere a secuencia u orden en que deben ser realizadas operaciones matemáticas, para poder entenderlas es necesario conocer el orden de cada una.}
+
+    \begin{itemize}
+        \item 1) Corchetes [] y paréntesis ()
+        \item 2) Exponentes ($x^a$) y raíces ($\sqrt{x}$)
+        \item 3) Multiplicaciones (x) y divisiones ($\div$)
+        \item 4) Sumas (+) y restas (-)
+    \end{itemize}
+
+    Esto es que las operaciones se llevan acabo realizando las operaciones cualquiera que sean dentro de un paréntesis o un Corchete, después las operaciones que lleven un exponente o una raíz, después las operaciones que hagan una multiplicación o división y siempre al final se resuelven las sumas o restas de la operación.
+
+    Y si suena raro en un inicio por que se pueden tener muchas operaciones que sean muy extensas y es fácil hacerse bolas.
+
+    Así que veamos ejemplos:
+
+    1) Sumas y restas
+
+    La siguiente ecuación muestra las variables a,b,c y d se se suman y restan, y en este caso no hay Jerarquía, es decir que sin importar el orden en que haga las operaciones el resultado sera el mismo. 
+
+    \ec{a+b-c+d}
+
+    Vamos a darle valores a las variables a=1,b=2,c=3,d=4, por lo que la ecuación anterior queda de la siguiente forma:
+
+    \ec{1+2-3+4}
+
+    Podemos pensar que hay muchas formas de hacer las sumas y la resta pero sin importar como la hagamos el resultado será el mismo.
+
+    Se me podrían ocurrir sumarlo de varias formas y demostraré que es lo mismo.
+
+    Inicio en este caso haciendo las operaciones de izquierda a derecha, yo inicio sumando (1+2) = 3 quedando
+
+    \nec{(1+2)-3+4}
+
+    \ec{3-3+4}
+
+    Luego hago (3-3) = 0
+
+    \ec{(3-3)+4}
+
+    \ec{0+4}
+
+    Y finalmente me queda que 0+4 es 4.
+
+    ahora lo hare las operaciones de derecha a izquierda, retomo la ecuación 1, y sumo (-3+4), esto es lo mismo que escribir (4-3) y esto da 1 
+
+    \ec{1+2+(-3+4)}
+
+    \ec{1+2+1}
+
+    Luego sumo (2+1)=3
+
+    \ec{1+(2+1)}
+
+    \ec{1+3}
+
+    y la suma de 1+3 es igual a 4, esto parece sencillo pero es la base del nivel mas bajo de la jerarquía de las operaciones ya que esto nos dice que siempre terminaras con sumas y restas y sin importar como las sumes el resultado es el mismo.
+
+    2) Multiplicaciones y divisiones
+
+    El siguiente nivel son las Multiplicaciones y divisiones, y aquí es donde se pone buena la cosa ya que el orden en que hagas las operaciones si cambiará el resultado final por lo que es importante que esto lo memorices bro, debes \bt{Siempre se hacen divisiones y multiplicaciones antes de sumar y restar!!!}
+
+    Veamos un ejemplo 
+
+    \ec{AxB+C\div D}
+
+    dejaremos los mismo valores anteriores para A,B,C y D, 
+
+    \ec{1x2+3x4}
+
+    En esta operación podemos uno entraría en duda en que hacer primero y aquí es donde entra la jerarquía de operaciones ya que como hay una convención a seguir es cosa de seguirla para hacer la operación correcta, como le hacemos?, fácil podemos hacer uso de paréntesis para aislar la operación que haremos primero.
+
+    Sabemos que primero se debe de multiplicar y dividir, así que podemos escribir la operación de la siguiente forma;
+
+    \ec{(1x2)+(3x4)}
+
+    Que estamos haciendo ? lo que estamos haciendo es una separación visual de nuestro problema ya que únicamente estamos reescribiendo la operación para que entendamos de forma más fácil que operación hacer primero, pero OJO!!! no estamos alterando en este caso la operación ya que el valor con los paréntesis puestos de esta manera no afecta la operación y puedes comprobarlo en la calculadora.
+
+    Ahora si solo vemos de forma individual los paréntesis veremos que todo se reduce a multiplicar y dividir como siempre.
+
+    \ec{(1x2)=2}
+    \ec{(3x4)=12}
+
+    Esto al final nos deja una SUMA!, Ojo mira que hicimos la operación dentro del paréntesis!.
+
+    \ec{2+12=14}
+
+    Esto nos muestra que si seguimos la jerarquía de operaciones siempre obtendremos una suma!.}
+
+    Ojo que hubiera pasado si hubiera puesto los paréntesis en otro lugar?, por ejemplo así
+
+    \ec{1x(2+3)x4}
+
+    Lo que haríamos es que tendríamos un resultado distinto al que se obtendría al seguir la jerarquía de una operación,y cambiaría la operación realizada la cual sería distinta a la que no tenia paréntesis en un inicio.
+
+    Esto por que cambian las operaciones a realizar, si lo notaste en el caso anterior se realizaron primero las operaciones dentro del paréntesis, que fueron las dos multiplicaciones, esto fue por que la jerarquía nos dice que SIEMPRE se hacen las operaciones que estén dentro de un paréntesis o Corchete no importa que sean!.
+
+    Sabiendo esto vemos la ecuación con el paréntesis y vemos que hay una suma, esto es que debemos resolvemos la operación que esta dentro del paréntesis.
+
+    \ec{(2+3)=5}
+
+    Sustituyendo y resolviendo se tiene lo siguiente
+
+    \ec{1x5x4=20}
+
+    Lo anterior nos muestra que \bt{una operación que incluya multiplicaciones y/o divisiones puede ser alterada dependiendo el orden con el que se resuelva}.
+
+    Esto también puede ser usado de en ejercios en donde por medio de conocer la jerarquía que se sigue se puede alterar el valor que tendrá una operación, esto por medio paréntesis que nos sirve para indicar que operaciones se realizan primero.
+
+    Hagamos unos ejemplos sencillos, tenemos la siguiente operación y tenemos la libertad de modificar la operación 
+
+    \ec{2+4x5}
+
+    Esta al tener tres términos solo puede ser realizada de dos formas, vamos a resolverla de ambas formas 
+
+    Primera forma sumando los dos primeros términos y luego multiplicar
+
+    \ec{(2+4)x5=6x5=30}
+
+    La segunda es multiplicar los dos últimos términos y luego sumar 
+
+    \ec{2+(4x5)=2+20=22}
+
+    Esto nos muestra que pueden haber multiples resultados al elegir las operaciones a realizar.
+
+    Hagamos ahora un ejercio como los que te dieron, (y si fue mucha explicación pero ahora será pan comido! ;))
+
+    De la siguiente ecuación donde debo poner los parentesis para obtener los resultados que se muestran 
+
+    \ec{3x4-5\div2=9.5}
+    \ec{3x4-5\div2=-1.5}
+    \ec{3x4-5\div2=3.5}
+
+    En este caso hay mas conminaciones que debemos de seguir para saber que operaciones hay que seguir para llegar al resultado, pero créeme que es fácil es cosa de hacer.
+
+    hagamos una al azar y poco a poco las operaciones nos dirían que camino debemos seguir.
+    hagamos los extremos.
+
+    \ec{(3x4)-(5\div2)=(12)-(2.5)=9.5}
+
+    Genial ya tenemos una hagamos otra combinación ahora tomemos hagamos la operación central primero 
+
+    \ec{3x(4-5)\div2=3x(-1)\div2=-1.5}
+
+    y por ultimo tomemos un paréntesis de tres números, cuando pasa que tienes dos operaciones distintas dentro de un paréntesis la forma de resolverlo es considerarla como otra operación pero aislada y si hay dos opciones multiplicar o sumar primero el paréntesis interno, en este caso primero multiplicamos
+
+    \ec{(3x4-5)\div2=((3x4)-5)\div2=(12-5)\div2=7\div2=3.5}
+
+    Con lo anterior vemos que hay muchas combinaciones que podemos hacer por lo que tu debes acomodarla dependiendo de como tu necesites para alcanzar el valor que te piden.
+
+    Ahora los ejercicios !!!
+
+    \ec{12x6+20\div4}
+
+    Aquí el chiste es lo mismo ubicar los paréntesis de forma en que la operación genere el resultado deseado.
+
+    Primero hare las operaciones de extremos 
+
+    \ec{(12x6)+(20\div4)=(72)+(5)=\bt{77}}
+
+    En esta primera resolución, pese a que escribí los paréntesis de forma explicita, solo estaba siguiendo las jerarquía de operaciones que ya existían, mira primero hice las multiplicaciones y divisiones y hasta el final las sumas.
+
+    Ahora hagamos otra pongamos el paréntesis en el centro
+
+    \ec{12x(6+20)\div4=12x26\div4=79}
+
+    y ahora tomamos tres elementos y luego elegimos hacer la multiplicación primero.
+
+    \ec{(12x6+20)\div4=((12x6)+20)\div4=(72+20)\div4=92/4=\bt{23}}
+
+    Si ahora en lugar de la multiplicación hacemos la suma queda esto
+
+    \ec{(12x6+20)\div4=(12x(6+20))\div4=(12x120)\div4=1440/4=360}
+
+    Ahora tomamos los tres términos de la derecha.
+
+    \ec{12x(6+20\div4)}
+
+    Igualmente de aquí tenemos dos posibilidades dividir o sumar primero primero vamos a dividir 
+
+    \ec{12x(6+20\div4)=12x(6+(20\div4))=12x(6+5)=12x(6+5)=12x11=\bt{132}}
+
+    Si sumamos ahora ya quede la siguiente manera
+
+    \ec{12x(6+20\div4)=12x((6+20)\div4)=12x(26\div4)=12x(6.5)=78}
+
+    En este caso hicimos las 6 combinaciones posibles, y en negro están marcadas los resultados correctos del ejercicio, pero la pregunta del millos es como sabría de forma directa cual operación hacer sin hacerlas todas y esta parte es padre y es que desde el inicio solo tres formas validas de usar la jerarquía de las operaciones y la primera fue no poner paréntesis y pensar que operaciones se hacen primero y eran las dos multiplicaciones y las dos sumas, después se podían tomar tres números en un paréntesis, de una era tomar los tres de la izq y los tres de la derecha, y dentro del paréntesis solo era necesario seguir la jerarquía nuevamente que es \bt{primero multiplicaciones y divisiones y AL FINAL SIEMPRE LA SUMA!!!!!}.
+
+    FIN.
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    %% END REFERENCES %% 
+\end{document}

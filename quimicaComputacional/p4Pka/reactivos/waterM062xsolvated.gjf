@@ -1,0 +1,12 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p4Pka\reactivos\solvated\waterM062xsolvated.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq 6-31+g(d,p) scrf=smd m062x
+
+water M062x
+
+0 1
+ O                 -1.15390437    1.32797012    0.00000000
+ H                 -0.19390437    1.32797012    0.00000000
+ H                 -1.47435895    2.23290595    0.00000000
+

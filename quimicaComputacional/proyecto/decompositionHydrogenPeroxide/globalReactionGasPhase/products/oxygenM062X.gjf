@@ -1,0 +1,12 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\globalReactionGasPhase\products\oxygenM062X.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq 6-31+g(d,p) m062x
+
+Oxygen gas with m062x
+
+0 1
+ O                 -1.12179486    0.82264956    0.00000000
+ O                  0.19820514    0.82264956    0.00000000
+
+

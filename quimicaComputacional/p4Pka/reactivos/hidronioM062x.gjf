@@ -1,0 +1,13 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p4Pka\reactivos\hidronioM062x.chk
+%mem=1500mb
+%nproc=4
+# opt freq 6-31+G(d,p) scrf=smd m062x
+
+Hidronio m062x
+
+1 1
+ O                 -0.07484455   -1.00108968    0.00000000
+ H                  0.84604288   -1.06413539    0.26380214
+ H                 -0.44167261   -0.15406806    0.26380214
+ H                 -0.62890394   -1.78506557    0.00000000
+

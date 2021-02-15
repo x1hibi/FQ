@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{art:descomposition}
+P.~A. Giguère and I.~D. Liu, ``Kinetics of the thermal decomposition of
+  hydrogen peroxide vapor,'' {\em Canadian Journal of Chemistry}, vol.~35,
+  no.~4, pp.~283--293, 1957.
+
+\bibitem{web:rad}
+D.~de~Fisicoquímica de~la UNAM, ``Reacciones en cadena.''
+  \url{http://depa.fquim.unam.mx/amyd/archivero/apuntesCQ3_34322.pdf}.
+
+\bibitem{web:step1}
+C.~N. Pitz, W.J.;~Westbrook, ``Chemical kinetics of the high pressure oxidation
+  of n-butane and its relation to engine knock.''
+  \url{https://kinetics.nist.gov/kinetics/Detail?id=1986PIT/WES113-133:3}.
+
+\bibitem{web:step2}
+E.~G.~N. Jimenez, ``Reaction of oh with ho2no2 (peroxynitric acid): Rate
+  coefficients between 218 and 335 k and product yields at 298 k.''
+  \url{https://kinetics.nist.gov/kinetics/Detail?id=2004JIM/GIE1139-1149:4}.
+
+\bibitem{web:step3}
+K.~M.~N. Kanno, N.;Tonokura, ``Equilibrium constant of the ho2-h2o complex
+  formation and kinetics of ho2 + ho2-h2o: Implications for tropospheric
+  chemistry.''
+  \url{https://kinetics.nist.gov/kinetics/Detail?id=2006KAN/TON20312:1}.
+
+\bibitem{web:step4}
+J.~S. H. H. W. K.~E. Gonzalez, C.;~Theisen, ``Kinetics of the reaction between
+  oh and ho2 on the triplet potential energy surface.''
+  \url{https://kinetics.nist.gov/kinetics/Detail?id=1992GON/THE1767-1774:1}.
+
+\end{thebibliography}

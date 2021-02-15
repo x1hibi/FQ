@@ -1,0 +1,34 @@
+#import matploy
+
+import matplotlib.pyplot as plt
+
+# x axis
+x=[0,1,2,3,4,5]
+# y axis
+HF=[0.000,0.000,31.816,31.816,-36.259,-36.259]
+B3LYP=[0.000,0.000,6.098,6.098,-18.956,-18.956]
+M062X=[0.000,0.000,10.076,10.076,-23.610,-23.610]
+M062XTwo=[0.000,0.000,10.248,10.248,-24.554,-24.554]
+#set axis labels and title
+plt.title("Reaction profile (Free energy)")
+plt.xlabel("Reaction coordinate")
+plt.ylabel("Free energy (kcal/mol)")
+
+#set settings, grid, size a file name 
+plt.grid("true")
+fig = plt.gcf()
+fig.set_size_inches(18.5, 10.5)
+fig.savefig('reactioProfileG.png', dpi=100)
+plt.rc('xtick', labelsize=15) 
+plt.rc('ytick', labelsize=15)
+plt.rcParams.update({'font.size': 20})
+
+#make plot 
+plt.plot(x,HF,label="HF")
+plt.plot(x,B3LYP,label="B3LYP")
+plt.plot(x,M062X,label="M062X")
+plt.plot(x,M062XTwo,label="M062X*")
+# settings of box label postion 
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
+# show in script plot
+plt.show()

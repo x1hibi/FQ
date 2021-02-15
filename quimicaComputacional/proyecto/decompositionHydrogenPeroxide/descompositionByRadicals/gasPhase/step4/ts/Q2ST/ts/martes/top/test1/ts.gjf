@@ -1,0 +1,14 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step4\ts\Q2ST\ts\martes\top\test1\ts.chk
+%mem=1500MB
+%nprocshared=4
+# opt=(calcfc,ts,noeigen,maxcycles=100) freq=noraman 6-31+g(d,p) m062x
+
+ts OOH vs OH
+
+0 1
+ O                 -2.32185914    1.39196737    0.00000000
+ O                 -1.21364478    0.81372786    0.00000000
+ H                  0.00022410    0.82339288    0.00000000
+ O                  0.60382678   -0.13458493    0.00000000
+ H                  1.42882821   -0.56505076    0.00000000
+

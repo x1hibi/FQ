@@ -1,0 +1,9 @@
+%mem=1500MB
+%nprocshared=4
+# opt=(readfc,ts,noeigen,maxcycle=100) freq=noraman 6-31+g(d,p) guess=read
+geom=check m062x
+
+ts2
+
+0 1
+

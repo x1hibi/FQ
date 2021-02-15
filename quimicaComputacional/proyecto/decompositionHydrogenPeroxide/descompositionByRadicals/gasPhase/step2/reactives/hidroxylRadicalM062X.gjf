@@ -1,0 +1,10 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step2\reactives\hidroxylRadicalM062X.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq=noraman 6-31+G(d,p) m062x
+
+hydroxyl radical m062x
+
+0 2
+ O                 -1.32478631    0.38461538    0.00000000
+ H                 -0.36478631    0.38461538    0.00000000

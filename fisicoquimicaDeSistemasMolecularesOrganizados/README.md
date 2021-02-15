@@ -1,4 +1,4 @@
-# Fisicoquímica de sistemas moleculares organizados 
+ad# Fisicoquímica de sistemas moleculares organizados 
 
 ## Clase # 1 Problemas con zoom 22/09/20
 
@@ -1543,9 +1543,330 @@ Por medio de la ecuación de Coulomb no es posible describir de forma correcta l
 Esta da buenos resultados.
 
 
-## Clase #25   12/01/21
+## Clase #25 12/01/21
 
-Clase se subio no se diopo
+*No hubo clase*
+
+
+## Clase #26 Interacciones hidrofóbica 14/01/21
+
+### I. hidrofónicas
+
+Las interacciones hidrofóbicas son las interacciones que se presentan cuando un soluto de caracter no polar interacciona con un disolvent polar, dando como resultado un interacción energéticamente no favorable.
+
+### Soluto no polar en medio polar
+
+Cuando un soluto ingresa a un medio acuoso el agua trata de segregarlo formando estructuras llamadas clatratos que se encargan de encerrar al soluto en jaulas formadas por moleculas de agua que estan unidas por medio de puentes de hidrógeno para tener el mayor número de interacciones favorables con el soluto.
+
+esto se ve como un perdida de entropía en el disolvente ya que los puentes de hidrógeno son mas favorables energéticamente el formas clatratos disminuye la entropía("retiene a las moleculas que forman el clatrato")
+
+Los clatratos pueden tener geometrías distintas con caras pentagonales para los solutos hidrofóbicos y hexagonales con los hidrofilicos.
+
+Esta diferencia de entropía promueve la formación de macromoléculas, ya que para evitar la formación de clatratos las macromoléculas de organizan de forma mas eficiente para evitar las interaciones hidrofóbicas que no son favorables.
+
+Esto se ve en las macromolesculas, por ej, en una proteían en la superficie hay interacciones de tipo puentes de hidrógeno lo cual es favorable y las cuales se realizan con los grupos funcionales que son de caracter polar, y los grupos no polares son encerrados de dorma interna en el interior de la proteína para evitar interacciones hidrofóbicas con el disolvente, siendo además que al estar de esta forma se pueden dar interacciones intramolecuares en la proteína que contribuyen a la estructura nativa o terciaria de la proteína.
+
+Por lo anterior el efector hidróbico es reponsable de la formación de las macromoléculas visto de forma energética por la termodinamica y en terminos de interacciones favorables en la contrcución de los agregados.
+
+### Termodinámica de las interacciones hidrofónicas
+
+La hidrofobicidad es expresada como la energía libre de Gibbs de transferencia de un compuesto en agua a un estado de tranferencia (a un disolvente no polar, eje ciclohexano), la situación inversa describe la hidrofilicidad.
+
+Para medir la propiedad como hidropatía, se requiere de conocer el P que es el coeficiente de partición
+
+        P=x_ac/x_noac
+donde x es la fracción de la sustancia en medio acuoso y en medio no acuoso 
+
+Donde el índice de hidropatía es el -logP 
+
+En donde si los valores de hidropatía son altos estos nos indican que tienen una hidrofocidad alta, esto quiere decir que no tienen interacciones favorables con disolventes polares, y por lo tanto no son solubles en agua.
+
+Y de forma inversa con valores negativos de hidropatía negativos vemos que no tiene hidrofobicidad por lo que tiene interacciones favorables por lo tanto es soluble en agua.
+
+### Hidrofobicidad en proteínas
+
+Al obtener los valore de hidropatía de los residuos de aminoacidos, podemos ver que los que tienen valores negativos estan en la superficie de la proteína ya que tienen interacciones favorables y los que tienen valores positivos estan dentro de la proteína, esto da una mayor estabilidad a la protína, todo esto deriba de la hidrofobicidad, lo cual determinar parte de la estructura terciaria.
+
+### Área superficial accesible
+
+Esta se define como el área de una zona de una macromolécula disponible para interactuar con el disolvente.
+
+Esta relacionada con la hidropatía que pueda presnetar zonas o partes de una macromolécula en función de su área.
+
+### Como se determina
+
+Esta es por medio de una esquematización, en donde se simplifican las moléculas y se toman como esferas perfectas definidas por su radio de vander wals, despues el agua que igual se toma como una esfera se rota sobre la superficie y se calcula la área superficial.
+
+Hay dos formas de calcularla.
+
+a) considerar el punto central del agua y rotarla (subestima el area)
+b) Considerar el punto de contacto de la superficie (sobreestima el área)
+
+
+![area disponible](./areaSup.jpg)
+
+### Correlación de la hidrofilicidad con el área superficial 
+
+Hidrofilicidad tranferencia de un soluto de un medio no polar a uno polar.
+
+La zona del enlace peptídico no contribuye mucho en el área, pero vemos que la cadena lateral R es la que contribuye la mayor parte del área disponible.
+
+![area disponible e hidropatía](./areaHidro.jpg)
+
+podemos ver que la dependencia depende tanto del área, pero además dependera del caracter de la cadena lateral si es polar, apolar, etc.
+
+### Termodinánica de la tranferencia 
+
+Se observa en la gráfica de la tranferencia de un soluto no polar de un disolvente no polar a agua la siguiente gráfica (proceso de tranferecia de hidratación).
+
+![Termodinámica de la hidrifilicidad](./termoHidro.jpg)
+
+La entalpía y entropía dependen de la temperatura, pero la energía libre que no varía mucho con la temp, por lo que lo que se observa es unm fenómeno como compensación entalpica-enctrópica.
+
+La energía tienen un máximo a una temperatura Ts, por lo que la entropía es igual a cero, por lo que la energía esta dada en ese punto por la entalpía y en el punto Th vemos que la entalpía es cero y solo depende la energía de T/DeltaS 
+
+Si se calcula la energía libre de Gibbs con respecto a la temperatura obtenemos mas información ya que obtendríamos el Cp, y como es segunda derivada nos dice la convidad si es para arriba(postiva) o para abajo(negativa), esto nos dice que el cambio de un disolvente no polar a agua debe ser un Cp positivo, lo cual es no favorable.
+
+Si se hacen las mismas curvas con los residuos de aminoácidos se observa lo siguiente, que es un comportamiento similar a la anterior en los solutos no polares que es que el porceso de hidratación sea un proceso no favorable y en el caso de solutos polares a agua es un proceso favorable.
+
+![Termodinámica de la hidrifilicidad aminoacidos](./aminoHidro.jpg)
+
+### Estandares 
+
+- Líquidos y solidos:298k y 1 atm
+- Gases: 298k y 1 atm presión parcial 
+- Mezcla: 298k, concentración 1M
+
+![estandar](./estandar.jpg)
+
+El estandar en medios biológicos no pueden ser 1M por que, por ej a conc 1M de un ácido fuerte el pH=0 lo cual no es posible en medios biologícos de pH fisiológico de 7.
+
+Se deben de ajustar los estandares a y convenciones, a este proceso se le conoce como transformadas.
+
+### Sistemas biológicos
+
+En esta se da la formación de macromoléculas las cuales pueden ser alteradas por medio de las siguientes varibales
+
+- Temperatura, presión, composición, pH, fuerza iónica, etc...
+
+Solo veremos el efecto de la temperatura.
+
+### Relación de Van Hoff 
+
+Al usar la expresión de la energía libre y la contante de equilibrio se puede obtener la ecuación de Van Hoff, que nos dice que si calculamos la constante de quilibrio a diferentes temperaturas podemos obtener el valor de entapía 
+
+El valor de entropía se denota como enetropía de Van Hoff y usualmente se especifica que con un subindice H
+
+![Ecuación de Van Hoff](./vanHoff.jpg)
+
+Si se integra la ecuación de van Hoff nos da una ecuación lineal que al ser graficada nos permite obtener la pendiente que es la -entalpia/R y la ordenada al origen que es la entropía/R.
+
+Esta ecuación solo se puede usar en intervalos de temperatura muy cortos, ya que los valores que se obtienen de entropía y entalpía son constantes, ya que en intervalos pequeños de temp el cambio en estas propiedades es muy pequeño, lo cual es válido en varios sistemas, como los biológicos donde los cambios de temperatura son muy pequeños.
+
+![Ecuación de Van Hoff](./vanHoffLineal.jpg)
+
+Se muestra un gráfico de un porceso de desnaturalización.
+
+Si se ve otro comportamiento nos dice que la dependecia de la entropía y entropía muy alta con la temperatura para el sistema.
+
+Para intervalos de temperatura 30-70°c
+
+Ya existen nuevos métodos de calorimetría ya es posible calcular la entalpía en varios sistemas, pero son equipos costosos, por lo que en la literatura ya se especifica que analisis se usa, por lo que se especifica la entalpía con método de van Hoff con el sub indice_vh de van hoff.
+
+Tambien nos muestra si la reacción es endo o exo termica.
+
+![Ecuación de Van Hoff proceso](./vanHoffExo.jpg)
+
+### Proceso de micelización con Van Hoff
+
+Se puede estudiar muchos procesos como el de micelización, y obtener el valor de la entalpía de mizelización de Van Hoff del proceso de micelización a partir de concer los valores de la contante de equilibrio.
+
+### Porceso de desnaturalización
+
+Si aumentamos la temperatura de una disolución con proteínas estas se van a desnaturalizar que es el proceso en el cual se pierde la estructura nativa o terciaría.
+
+Proceso de Reanaturalizacióm.
+
+Al darle temeperatura solo se rompen las interacciones que forman las estrcuturas terciarias, no se rompen los enlaces peptídicos.
+
+## Clase #27  19/01/21
+
+#### Last class
+
+como obtener info termodinacmica de procesos en sist biologicos, intervalos de 100 grados celcius son el intervalo de temp en los cuales podemos estudiar los y en los cuales igual existen los agregados moleculares en sismas líquidos, se hace la aproximación de que la entropía y la entalpía es constante.
+
+
+### Analisis de Van Hoff
+
+Una ventaja es que se obtiene bastante información de forma muy facil al calcular la constante de equilibrio.
+
+graifca 1 se puede ver que la el primer gráfico no sigue la tendencia lineal, debio a que hay un afuerte dependencia al estar en esa temperatura.
+
+Por medio del valor de la pendiente, saber si el proceso es endotermico (pendiente negativa) y si es positiva es exotermica (es decir que el cambio de la entalpía tiene un valor negativo)
+
+La ecuación de Van Hoff tambien puede usarse para usar otros procesos además de los biológicos, para ver la dependencia de la contante de equilibrio con la temperatura, como el estudio de macromoléculas, como el cambio de entalpía del proceso de micelización.
+
+
+### Termodinamica de plegamiento de proteínas
+
+Desnaturalización- Pérdida de la actividad biológica (no hay lisis, es decir no se rompen enlaces quimicos).
+
+Para proteínas con estrcutura terciaria "simples" (globulares y monoméricas) el proceso es reversible, para estas proteína se puede determinar delta G,H y S.
+
+La desnaturalización no se observa en todas las proteínas, solo algunas dimericas, trimericas y multimericas que lo presentan.
+
+    SI EL PROCESO ES *REVERSIBLE* se puede emplear la termodinacmica, si no es reversibles no se puede usar por que la termodinamica esta centrado en procesos resersibles, mas sin enbargo se pueden hacer estudios de tipo cinético.
+
+### Determinar si son reversibles 
+
+Hay propiedades que se miden para poder determinar si la proteína se renaturalizó
+
+como: 
+
+- Solubilidad-solubidlidad de proteínas antes y después.
+- Cristales-por medio de la difracción de rayos x, cristalizar a la proteina, es dificil pero no tantom pero lo sigue siendo,
+Con estas podemos ver que tanto fue el exito de naturalización, que porcentaje de la estructura recupero. 
+- Espectro de absorción- si se mide el espectro patrón y se compara y son iguales se renaturalizo.
+- Afinidad por el sustrato
+- activiadad catalitica.
+- No es facilmete por tripsina
+- Perfil calorimetrico
+
+### Proceso de naturalización 
+
+Atfisen, demostro que el proceso es espontaneo, y que la cadena tiene la información necesaria para formar la estructra terciaria con actividad biológica.
+
+El problema es que el definir a la desnaturalziación como la perdida de la activadad biologica no es la mejor en el sentido que al perder incluso un 15% es posible perder la activiadad biologica y otras al estar totalmente desplegada.
+
+Notación del proceso:
+
+    U/D- N (proces espontaneo)
+
+U y D es para representar el estado desnaturalizado.
+
+N: estado nativo 3D solo tiene una confirmacicón 
+
+D : estado desnaturalizado, se obtiene de forma exp y puede tener muchas y diversas conformaciones.
+
+U : estado desplegado, estado ideal donde se asumen que los residudos del polipeptido estam expurestos totalmente al disolvente, completamnete extendida.
+
+
+Es decir que aumentar la temperatura promover a desnaturalización y renaturalización 
+
+    VEEEEEEEEEEEEEEEEEEEEEEEEEEE ESTA PARTE
+
+    N doble arrow U/D
+
+
+Se pueden promover a desnaturalización y renaturalización.
+
+Otra forma de ver el proceso es como un proceso de desplegamiento o plegamiento.
+
+El conocer el como se pliegan las proteínas pueden ayudar al desarrollo de proteínas sinteticas y entender los mecanismos biológicos.
+
+### curva de estabilidad termodinámica
+
+Cuantificar la actividad biologica o solubilidad no cuantifica bien el proceso de plegamiento.
+
+La curva de estabilidad (shellman) es la gráfica de la variación de la energía libre en función de la temperatura.
+
+grafica 2
+
+### como se contruye y que información nos da 
+
+Se requieren plantear 3 hipotesis 
+
+- *Es necesario establecer que solo hay 2 posibles estados(inicial y final, estado A a estado B, nativa a desplegada o semidesplegada ) en los que se puede encontrar la proteína.*
+- Existe un intervalo de temperatura en la cual la proteína plegada es termodinamicamente es estable (delta G es mayo a cero).(en el gráfico se ven dos zonas *)
+- el Cp es contante o mayor a cero 
+
+* en los intervalos donde los valores de enegría libre es positiva nos dice que el proceso de desplegamiento no es favorable por lo que la proteína esta plegada.
+
+### como se obtine el gráfico
+
+Comportamiento de la curva que es una parabola, es concuencia de considerar que el cambio de la capacidad calorifica (a p cte) es mayor a cero 
+
+# Clase #28 21/01/21
+
+### Last class
+
+shellman propuso la curva de estabilidad termodinamica, la cual es una forma practica para establecer los criterios termodinamicos para el proceso de desplegamiento de una proteína.
+
+Notación *unf* unfolding (desplegamiento-desnaturalización).
+
+En el gráfico es un proceso promovido por el cambio de la temperatura.
+
+
+### Aproximaciones de la capacidad calorifica
+
+- Cp constante, se consideraba contante en sistemas biológicos.(era una aproximación pobre)
+- Cp del proceso es constante y distinto a cero, positivo o negativo.
+- Por la experimentación de un proceso de hidratación se sabe que la cp es positiva por lo que se propone que el valor es positivo.
+
+
+### Curva de estabilidad
+
+- Maximo de la curva, temperatura donde el proceso es lo menos favorable, y corresponde a un minimo de energía en el proceso inverso, esto nos dice que a es temp tendriamos a la proteína en forma nativa en un ependorf
+
+- Tm temp de fusión en donde el 50% de las proteínas estaban en forma nativa y 50 desplegada.
+
+### Construcción de la curva
+
+   Se define el cambio de la capacidad calorifica.
+   
+   Se calcula delta G unfolding
+
+   Las ecuaciones salieron de integrar 
+
+   las delta S y H no multiplican T_r sino sonm funciones de esta.
+
+   imagen 2
+
+   se sustituyen las ecuaciones.
+
+
+   Se hacen algebra en para tener la ecuación en términos de entropía 
+
+
+   Para graficar al energía libre se requieren tres variables
+
+   - entalpía en función de la temp 
+   - capacidad calorifica
+   - temp de fusión 
+
+Que temperatura m se debe de poner en la ecuación de la curva de estabilidad.
+
+Solo se puede obtener la temp de fusión mayor a 330 debido a que la izq debido a que se congela el agua antes de llegar a dicha temperatura, por lo que se la otra tm se usa para la ecuación.
+
+Solo en pocas proteínas (aprox 10) es posible obtener las dos temp de fusión.
+
+
+### Mas información
+
+La derivada de la función planteada, se obtinen que la pendiente, es el menos cambio de la pendiente, por lo que cambia el valor de la entropia al ir a la izq del maximo donde el cambio de la entropia es positivo y en el maximo el cambio es cero.
+
+Su segunda derivada es la concavidad, por lo que la capacidad calorifica es ........
+
+
+
+Nos ayuda a saber que tan estable es la proteína y en que intervalo de temp, esta desplegado y no desplegado, o cuano esta desplegado a la mitad.
+
+
+
+como se promueve la concentración en función de la energía libre y con ella saber que parte de problación esta desplegada, lo cual se puden analizar por medio del grafico de la grafica de la fracción mol en función de la probabilidad.
+
+TIps uno de los probelmas sera hacer una curva de estabilidad .
+sera obtener un grafico 
+
+se dara dh, cp y tm de una proteina
+
+entregar un grafico como el 
+ 
+
+
+
+
+
 
 
 

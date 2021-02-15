@@ -1,0 +1,23 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step4\ts\Q2ST\tsM062X.chk
+%mem=1500mb
+%nproc=4
+# opt=(calcfc,qst2,maxcycles=100) freq=noraman m062x/6-31+g(d,p)
+
+r
+
+0 1
+ O                 -0.65176762   -0.00749995    0.00000000
+ O                  0.66823238   -0.00749995    0.00000000
+ H                  0.98823238    0.89759673    0.00000000
+ O                  1.60156571    2.63236537    0.00000000
+ H                  0.85489904    3.23576315    0.00000035
+
+p
+
+0 1
+ O                 -0.65176762   -0.00749995    0.00000000
+ O                  0.54133238   -0.00749995    0.00000000
+ H                  1.28156571    1.72726869    0.00000000
+ O                  1.60156571    2.63236537    0.00000000
+ H                  0.85489904    3.23576316    0.00000000
+

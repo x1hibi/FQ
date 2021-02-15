@@ -1,0 +1,10 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\descompositionByRadicals\gasPhase\step4\ts\Q2ST\oxygen.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq=noraman 6-31+g(d,p) m062x
+
+oxygen
+
+0 1
+ O                 -2.96641800   -0.21656968    0.66942194
+ O                 -1.64641800   -0.21656968    0.66942194

@@ -1,0 +1,12 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\globalReactionGasPhase\products\waterM062X.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq 6-31+g(d,p) m062x
+
+Water gas with M062x
+
+0 1
+ O                 -0.43809241   -0.50963669    0.00000000
+ H                  0.52190759   -0.50963669    0.00000000
+ H                 -0.75854700    0.39529914    0.00000000
+

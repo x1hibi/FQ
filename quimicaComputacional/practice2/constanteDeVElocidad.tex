@@ -5,10 +5,12 @@
 \documentclass[twocolumn]{article}
 \usepackage[a4paper, total={7.25in, 9.5in}]{geometry} 
 \usepackage{multirow}
+\usepackage{multicol}
 \usepackage{lipsum}
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{import}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage[export]{adjustbox}
 %\usepackage[superscript,biblabel]{cite}
@@ -47,7 +49,7 @@
 
 
 %%% START TITLE SETTINGS %%%
-\title{\bt{State transition and rate constant}}
+\title{\bt{Practice \# 2 Rate constant of elimination of atmospheric Methane with hydroxyl radical.}}
 \author{Pérez Alvarado Luis Raymundo, School of Chemistry, UNAM}
 \date{08/10/2020}
 %%% END TITLE SETTINGS %%%
@@ -67,8 +69,8 @@
 
             %% CREATE A ABSTRACT (START,MAX 250 CHARACTERS) %%
             \begin{abstract}
-                \item 
-                \item 
+                \item An atmospheric reaction of elimination of methane with hydroxyl radical was studied, the bimolecular reaction in the gas phase was calculated using gaussian 5, and using the TST and computational chemistry we prove that calculus of mechanics quantum can give an acceptable approximation of the experimental value, also we comparing differents methods an see that M062X is better for the kinetic studies than HF and B3LYP and comparing two different bases set to show the bigger contribution to get a good value is given by the method and not for the basis set.
+                \item \bt{Keywords:}\em{ reaction profile, transition state teory, rate constant.}
             \end{abstract}
             %% CREATE A ABSTRACT (END) %%
     
@@ -81,37 +83,44 @@
     %% START SECTION %%
 
     % SECTION TITLE %
-    \section*{Introduction}
+    \section*{Introduction $\small{^{\cite{web:ts1}\cite{web:ts2}\cite{web:cinetic}\cite{web:ts3}\cite{art:simetria} }}$ }
 
-    \np{Hartree-Fock(HF) is one of the most famous methods of approximation to the determination of the wave function and energy for a quantum many-body system.\cite{web:wiki} }
-
-    \np{HF approximation is used to solve the Schrödinger equation, this is the general form.}
-
-    \nec{\hat{H}\Psi=E\Psi \label{eq:equation 1}}
-
-    \np{The Hamiltonian operator in Schrödinger equation independent of time.}
     
-    \necbreak{\label{eq:equation 2}
-        \hat{H}= & \frac{n^2}{2}\sum_{\alpha}\frac{1}{m\alpha}\nabla^2_{\alpha}-\frac{n^2}{2m}\sum_{i}\nabla^2_{i}+\sum_{\alpha}\sum_{\alpha>\beta}\frac{z_{\alpha}z_{\beta}e^2}{r_{\alpha\beta}}\\
-        & \sum_{\alpha}\sum_{i}\frac{z_{\alpha}e^2}{r_{\alpha i}}+\sum_{i}\sum_{i>j}\frac{e^2}{r_{ij}} 
-    }
+    \np{The transition state theory (TST) relates the rate constant with thermodynamics potentials with treatment with statistical mechanics, thermodynamics and kinetics getting as result the Eyring equation.}
 
-    \np{Where the last term of the equation \eqref{eq:equation 2} represents the repulsion of electrons and does not have an exact solution, in the approximation made in HF it is proposed that each electron be considered an average density of all the others electrons.\cite{web:hf}\cite{web:Washington}}
+    \nec{k=\frac{k_bT}{h}\exp{\frac{\Delta S^\ddag}{R}}\exp{\frac{-\Delta H^\ddag}{RT}}\label{eq:1}}
+
+    \np{Equation \eqref{eq:1} can be expressed in $\Delta G$ terms.}
+
+    \nec{k=\frac{k_bT}{h}\exp{\frac{-\Delta G^\ddag}{RT}}\label{eq:2}}
+
+    \np{Equation \eqref{eq:2} can be considered to a bimolecular reaction of second-order as follow.}
     
+    \nec{k=\kappa\sigma\frac{k_bT}{h}\frac{RT}{P}\exp{\frac{-\Delta G^\ddag}{RT}}\label{eq:3}}
+
+    \np{Where $\frac{RT}{P}$ term is from the relation between $k_c$ and $k_p$, and units are consistent with units of a reaction of second-order, $\kappa$ is the tunneling factor, this is considered in transfers of H and He atoms, with larger atoms it is negligible and $\sigma$ is the symmetry number.}
     
-    \np{The difference between the exact nonrelativistic energy ($E_{nonrel}$) and the energy using HF($E_{HF}$) is called correlation energy($E_{corr}$), this term is a consecuence of the repulsion of $n$ electrons.\cite{inbook:QuantumChem}}
-    
-    \nec{E_{corr}=E_{nonrel}-E_{HF}\label{eq:equation 3}}
+    \np{In TST it is assumed a quasi-equilibrium state between reactants and transition state, in which can go-to products, that can be appreciated through a reaction profile, where is graphic the potential energy as $\Delta G$ or $\Delta H$ in the function of the steps of the reaction.}
 
-    \np{The enthalpy of formation ($\Delta H_{f}$) calculation is an example of the things that can be done using computational chemistry, solving equation \eqref{eq:equation 1} the thermodynamic properties can be calculated and use in Hess's law to obtain $\Delta H_{f}$.\cite{web:hess}}
-    
-    \nec{\Delta H_{formation}=\Delta H_{f products}-\Delta H_{freactives}\label{eq:equation 4}}
+    \np{The spontaneity of a reaction can be interpreted by a reaction profile when the change of the potential energy $E$ is negative from transition state to products, when $\Delta G < 0$ is an exergonic reaction and release energy and $\Delta H < 0$ is an exothermic reaction a releases heat (if $\Delta H < -T\Delta S $) both are spontaneous reactions.\cite{web:endergonic}}
 
-    \section*{Methods}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.35\textwidth]{reactionProfileEsp}
+        \caption{Profile reaction.}
+    \end{figure}
 
-    \np{The modeling of the systems $CH_{4}$,$\cdot OH$,$TS$,$CH_{3}\cdot$ and $H_{2}O$ was performed with gaussView separately.}
+    \np{Methane is eliminated in a bimolecular reaction with hydroxyl radical formed from a water molecule break by cosmic radiation of space.\cite{web:metano}}
 
-    \np{In the input file with extension .gjf /.com, the following settings was used for $F$ and $F_{2} $ to perform a calculation with the HF method. \n}
+    \nec{CH_4 + \cdot OH \rightarrow CH_3 \cdot + H_2O \label{eq:4}}
+
+    \section*{Materials and methods}
+
+    \np{The modeling of the systems $CH_{4}$, $\cdot OH$, transition state $(TS)$, $CH_{3}\cdot$ and $H_{2}O$ was performed with gaussView separately.}
+
+    \np{The calculations were performed with a laptop with an i7-8750H processor with 8GB of RAM.}
+
+    \np{The transition state is describe in \eqref{eq:5} and represent in figure 4.\n}
 
     % START FIGURE %
     \begin{figure}[h]
@@ -119,144 +128,131 @@
         \centering
         \begin{minipage}[b]{0.225\textwidth}
             \centering
-          \includegraphics[scale=0.55]{methane.png}
+          \includegraphics[scale=0.5]{methane}
           \caption{Methane.}
         \end{minipage}
         \hfill
         \begin{minipage}[b]{0.25\textwidth}
           \centering
-          \includegraphics[scale=0.4]{hidroxilRadical.png}
+          \includegraphics[scale=0.35]{hidroxilRadical}
           \caption{Hydroxyl radical.}
         \end{minipage}
         %Transition state%
         \begin{minipage}[b]{0.45\textwidth}
             \centering
-            \includegraphics[scale=0.575]{stateTransition.png}
+            \includegraphics[scale=0.5]{stateTransition}
             \caption{Transition state.}
         \end{minipage}
         %products%
         \centering
         \begin{minipage}[b]{0.225\textwidth}
             \centering
-          \includegraphics[scale=0.55]{methylRadical.png}
+          \includegraphics[scale=0.5]{methylRadical}
           \caption{Methyl radical.}
         \end{minipage}
         \hfill
         \begin{minipage}[b]{0.25\textwidth}
           \centering
-          \includegraphics[scale=0.4]{water.png}
+          \includegraphics[scale=0.35]{water}
           \caption{Water.}
         \end{minipage}
     \end{figure}
     % END FIGURE %
-    \nec{ CH_{4}+\cdot~ OH \rightarrow [ CH_{3}\mbox{-}~\mbox{-}H\mbox{-}~\mbox{-}OH]^{\dagger} \rightarrow CH_{3}\cdot+H_{2}O}
+    \nec{ CH_{4}+\cdot~ OH \rightarrow [ CH_{3}\mbox{-}~\mbox{-}H\mbox{-}~\mbox{-}OH]^{\ddag} \label{eq:5}}
 
-    \np{The global reaction is describe in 5\n}
-    
-
+    \np{The input file of reactives and products was running with the following settings. \n}
 
     \begin{lstlisting}[frame=single,gobble=10] 
             //hardware configuration
             % nprocshared=4
             % mem=1500MB
-            //parameters for Hartree-Fock method
-            # opt freq HF/6-31+g(d) 
+            //parameters for Method and bases set
+            # opt freq X/6-31+G(d) 
     \end{lstlisting}
 
-    \np{The calculations of the $F$ and $F_{2}$ systems were performed with HF.}
+    \np{X is the methods used HF, B3LYP, and M062X, M062X was run with two bases 6−31+G(d,p) and 6-311++G(d,p) the last was denoted with (*).}
     
-    \np{After finish calculations with HF, the procedure was repeated with B3LYP and MP2 methods, and use the same hardware configuration and the same base set and just change the method.\n}
+    \np{For transition state was calculated with the following settings.\n}
 
     \begin{lstlisting}[frame=single,gobble=10] 
-            //parameters for B3LYP method
-            # opt freq B3LYP/6-31+g(d)
-            //parameters for MP2 method
-            # opt freq MP2/6-31+g(d)
+            //parameters for method
+            # opt=(calcfc,ts,noeigen) freq=(noraman)
+              x/6-31+g(d,p)
     \end{lstlisting}    
     
-    \np{\bt{NOTE:} In the case of F is not necessary to use opt configuration because does not need geometry optimization.}
+    \np{\bt{NOTE:} \em{noeigen} instruction is to tell gaussian to don not stop if find no negative Hessian eigenvalue, \em{ts} and \em{calcfc} calculate the force constants and find vibrations associated with transition state and with ts get the max value of the transition state.}
     
     \section*{Results}
     
-    \np{Through the data calculated in table 2, the reaction profile was plotted (Fig 2)}
+    \np{The obtained values were shown in table 1 in the appendix, in table 2 we calculate the values of $\Delta ZPE$, $\Delta H$ and $\Delta G$, in table 3 was show the three points used to build the reaction profile.}
 
-    \titleGraph{1}{Free energy VS Reaction coordenate}
+    \titleTable{3}{Reaction profile with $\Delta G$, $\Delta H$, $\Delta ZPE$ in $\frac{kcal}{mol}$.}
 
-    \np{Through the data calculated in table 2, the reaction profile was plotted (Fig 1)}
+    \begin{center} 
+        \item \import{./}{table3.tex}
+    \end{center}
 
-    \vspace{-0.5cm}
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.49\textwidth]{reactionProfileFreeEnergy.png}
-        \caption{Profile reaction.}
-    \end{figure}
+    \np{With table 3 we build the reaction profile, using each potential, taken as initial reaction coordinate 0.}
 
-    \titleGraph{2}{Enthalpy VS Reaction coordenate}
+    \titleGraph{1}{Free energy VS Reaction coordenate \\ \\}
 
-    \np{asdasd}
+    \includegraphics[width=0.49\textwidth]{reactionProfileFreeEnergy}
 
-    \vspace{-0.5cm}
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.49\textwidth]{reactionProfileEnthalpy.png}
-        \caption{Profile reaction.}
-    \end{figure}
+    \titleGraph{2}{Enthalpy VS Reaction coordenate \\ \\}
 
+    \includegraphics[width=0.49\textwidth]{reactionProfileEnthalpy}
 
+    \titleGraph{3}{ZPE VS Reaction coordenate \\ \\}
 
+    \includegraphics[width=0.49\textwidth]{reactionProfileZPE}
 
-    % START A TABLE %
-    % TABLE TITLE %
-    \titleTable{1}{ETE values for HF, B3LYP, and MP2 methods using the 6-31G basis set and time($t$) of each calculation.}
+    \np{Using equation \eqref{eq:3} the rate constant were calculated using each method, in this reaction was considered $\kappa=1$ and $\sigma=4$ at 1 atm of pressure, with the experimental value of the rate constant we compared the results $4.07E+06 (s^{-1}M^-1)$ \cite{web:nisg}, and sum the total time of calculation.}
 
-    % TABLE BODY %
-    
-    
+    \titleTable{3}{Rate constant with HF, B3LYP and M062X.}
 
-
-
-    % END A TABLE %
-
-    \np{Using equation \eqref{eq:equation 4} the enthalpy of formation of the $F_{2}$ is calculated.}
-
-    \ec{\Delta H_{f_{(F_{2})}}=\Delta H_{F_{2}}-2\Delta H_{F}}
-
-    \np{Using the factor of conversion $627.509\frac{kcal}{mol}$ \cite{web:factorConv} $H_{E}$ units of $\Delta H_{f}$ are converted into $\frac{kcal}{mol}$.}
-
-    \np{Knowing a reference value that is  $-158.739\frac{kJ}{mol}$ \cite{web:refValue} the error percentage is calculated for each method.}
-
-    % START A TABLE %
-    % TABLE TITLE %
-    \titleTable{2}{Enthalpy of formation of $F_{2}$ calculated with HF, MP2, and B3LYP methods and his percentage error.}
-
-    % TABLE BODY %
-    \bodyTable{c|c|c|c}{
-        \bt{Method} & \bt{$\Delta H_{f_{(F_{2})}}(H_{E})$} & \bt{$\Delta H_{f_{(F_{2}})}(\frac{kcal}{mol})$} & \bt{\%Error}\n 
-        \hline
-        HF & 0.060 & 37.705 & \bt{47.653} \n 
-        \hline
-        MP2 & -0.054 & -34.262 & 2.316 \n 
-        \hline
-        B3LYP & -0.055 & -34.577 & \ct{blue}{2.117}\n        
-    }
-    % END A TABLE %
-    \np{\bt{NOTE:} The reference value was used in $\frac{kcal}{mol}$ in the determination of $\%Error=\frac{| valCalc-valRef |}{valRef}\cdot 100 \% $, and all decimals were used during the calculations, but was rounded to 3 significant decimal places.}
+    \begin{center} 
+        \item \import{./}{table4.tex}
+    \end{center}
 
     \section*{Discussion}
 
-    \np{Comparing the percentage of error of each method can see those post-HF methods, in this case, B3LYP is based in \et{density Functional Theory}(DFT) and MP2 based in \et{Perturbation Theory} have an acceptable error, but the error of the HF method is not acceptable at all!, this is because HF does not consider the $E_{corr}$, and this is the reason why \bt{HF it is useless} for the calculation of systems with more than one electron.}
+    \np{Comparing the reaction profile of $\Delta G$ vs $\Delta H$ showed the fact \textbf{$\Delta G$ and $\Delta H$ cannot be approximated in bimolecular reactions}, the difference of that approximation can be an error like $8 kcal/mol$ like in this case using M062X, in the other hand comparing $\Delta H$ vs $\Delta ZPE$ this approximation is real.}
 
-    \np{In this particular case to calculate the thermodynamic properties of $ F_ {2} $ and $ F $ the best method using the set of bases 6-31G is \bt{B3LYP} considering that the percentage error is the lowest compared to the others two and has a low computational cost.}
+    \np{Also with graph 1, it shows that reaction is spontaneous, in this case, in particular, \textbf{this reaction has two behaviours is exergonic and exothermic.}}
 
+    \np{With table 4 we can analyze el performance of used methods to calculate the rate constant, first HF does not work this gives us a rate constant 16 orders slower than experimental, B3LYP gives a better approximation but give us 3 orders faster than the real value, in this calculation was corroborated that \textbf{M062x is a method very good to make kinetic} give a rate constant, in this case, was get a value six times faster than original using the basis set 6-31+G.}
+
+    \np{And another point important was the comparison with another basis set, in the graphs, we appreciated a little change of $\Delta G$ or $\Delta H$ for the M062x with different basis set, this gave us a better value with 6-311G++ we get a value only 4 times faster than the experimental value, this tells us the improvement to use a bigger basis set, but consider that the calculus has a bigger cost in computational time of approx 33\%, \textbf{this shows us that the method contributes much more to a good result than using a larger basis set.}}
     %% END SECTION %%
     
 
     %% START REFERENCES %% 
 
+
+
+
     % DEFINE STYLE FORMAT%
     \bibliographystyle{ieeetr}
     % SPECIFY THE FILE NAMEw %
     \bibliography{references}
+
+    %START APPENDIX (always in last page)%
+    \appendix
+    % CHANGE FROM X COLUMN TO ANOTHER COLUMNS EJ 2 -> 1%
+    \onecolumn
+    \section{Appendix}
+    \begin{center}
+        \item \titleTable{1}{Values of $G$, $H$, $ZPE$ and Time of running}
+        \item \import{./}{anexo1.tex}
+    \end{center}
+
+    \begin{center}
+        \item \titleTable{2}{Values for profile of reaction of $\Delta G$, $\Delta H$, $\Delta ZPE$}
+        \item \import{./}{anexo2.tex}
+    \end{center}
+
+
+
 
     %% END REFERENCES %% 
 

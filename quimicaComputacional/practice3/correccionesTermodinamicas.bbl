@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{web:thermo}
+P.~Joseph W.~Ochterski, ``Thermochemistry in gaussian.''
+  \url{https://gaussian.com/thermo/}.
+
+\bibitem{art:reaction}
+M.~Bartels, K.~Hoyermann, and R.~Sievert, ``Elementary reactions in the
+  oxidation of ethylene: The reaction of oh radicals with ethylene and the
+  reaction of c2h4oh radicals with h atoms,'' {\em Symposium (International) on
+  Combustion}, vol.~19, no.~1, pp.~61 -- 72, 1982.
+
+\bibitem{web:Eyring_equation}
+https://chem.libretexts.org/, ``Eyring equation.''
+  \url{https://batch.libretexts.org/print/url=https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/06%3A_Modeling_Reaction_Kinetics/6.04%3A_Transition_State_Theory/6.4.01%3A_Eyring_equation.pdf}.
+
+\bibitem{web:rate}
+C.~M.~W. Liu, A.;~Jonah, ``The gas-phase reactions of hydroxyl radicals with
+  several unsaturated hydrocarbons at atmosphere pressure (nist).''
+  \url{https://kinetics.nist.gov/kinetics/Detail?id=1989LIU/JON687-691:1}.
+
+\end{thebibliography}

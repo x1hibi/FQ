@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  2 JAN 2021 12:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.6)  13 FEB 2021 03:41
 entering extended mode
 **d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte2/reporte2.tex
 (d:/Documents/rayGit/FQ/seminarioII/preTesisTex/reporte2/reporte2.tex
@@ -685,7 +685,7 @@ My plan is to forget the whole thing and hope for the best.
 componentes/introduccion/introduccion.tex:9: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.9 ...etróxido de osmio} (ZIO) \cite{article:ZIO}
+l.9 ...Zinc-Ioduro-Osmio} (ZIO) \cite{article:ZIO}
                                                    y \et{cloruro de oro} \ci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -696,7 +696,7 @@ and I'll forget about whatever was undefined.
 componentes/introduccion/introduccion.tex:9: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.9 ...etróxido de osmio} (ZIO) \cite{article:ZIO}
+l.9 ...Zinc-Ioduro-Osmio} (ZIO) \cite{article:ZIO}
                                                    y \et{cloruro de oro} \ci...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -710,7 +710,7 @@ Runaway argument?
 componentes/introduccion/introduccion.tex:9: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.9 ...etróxido de osmio} (ZIO) \cite{article:ZIO}
+l.9 ...Zinc-Ioduro-Osmio} (ZIO) \cite{article:ZIO}
                                                    y \et{cloruro de oro} \ci...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -719,7 +719,7 @@ My plan is to forget the whole thing and hope for the best.
 componentes/introduccion/introduccion.tex:9: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.9 ...etróxido de osmio} (ZIO) \cite{article:ZIO}
+l.9 ...Zinc-Ioduro-Osmio} (ZIO) \cite{article:ZIO}
                                                    y \et{cloruro de oro} \ci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -730,7 +730,7 @@ and I'll forget about whatever was undefined.
 componentes/introduccion/introduccion.tex:9: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.9 ...etróxido de osmio} (ZIO) \cite{article:ZIO}
+l.9 ...Zinc-Ioduro-Osmio} (ZIO) \cite{article:ZIO}
                                                    y \et{cloruro de oro} \ci...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -744,7 +744,7 @@ Runaway argument?
 componentes/introduccion/introduccion.tex:9: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.9 ...etróxido de osmio} (ZIO) \cite{article:ZIO}
+l.9 ...Zinc-Ioduro-Osmio} (ZIO) \cite{article:ZIO}
                                                    y \et{cloruro de oro} \ci...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -838,7 +838,7 @@ componentes/introduccion/introduccion.tex:27: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
 l.27 ...zimática} para ATPasa\cite{article:ATPasa}
-                                                  , lo cual proveerá técnica...
+                                                  , proveerá técnicas especí...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -849,7 +849,7 @@ componentes/introduccion/introduccion.tex:27: Argument of \@@cite has an extra }
 <inserted text> 
                 \par 
 l.27 ...zimática} para ATPasa\cite{article:ATPasa}
-                                                  , lo cual proveerá técnica...
+                                                  , proveerá técnicas especí...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
 this error. If you simply proceed now, the `\par' that
@@ -863,7 +863,7 @@ componentes/introduccion/introduccion.tex:27: Paragraph ended before \@@cite was
 <to be read again> 
                    \par 
 l.27 ...zimática} para ATPasa\cite{article:ATPasa}
-                                                  , lo cual proveerá técnica...
+                                                  , proveerá técnicas especí...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
@@ -872,7 +872,7 @@ componentes/introduccion/introduccion.tex:27: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
 l.27 ...zimática} para ATPasa\cite{article:ATPasa}
-                                                  , lo cual proveerá técnica...
+                                                  , proveerá técnicas especí...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -883,7 +883,7 @@ componentes/introduccion/introduccion.tex:27: Argument of \@@cite has an extra }
 <inserted text> 
                 \par 
 l.27 ...zimática} para ATPasa\cite{article:ATPasa}
-                                                  , lo cual proveerá técnica...
+                                                  , proveerá técnicas especí...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
 this error. If you simply proceed now, the `\par' that
@@ -897,7 +897,7 @@ componentes/introduccion/introduccion.tex:27: Paragraph ended before \@@cite was
 <to be read again> 
                    \par 
 l.27 ...zimática} para ATPasa\cite{article:ATPasa}
-                                                  , lo cual proveerá técnica...
+                                                  , proveerá técnicas especí...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
@@ -1044,10 +1044,32 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:13: Undefined control sequence.
+componentes/materialesYMetodos/materialesYMetodos.tex:13: Argument of \language@active@arg~ has an extra }.
+<inserted text> 
+                \par 
+l.13 \subSec{Histoquímica enzimática para ATPasa}
+                                                 
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+componentes/materialesYMetodos/materialesYMetodos.tex:13: Paragraph ended before \language@active@arg~ was complete.
+<to be read again> 
+                   \par 
+l.13 \subSec{Histoquímica enzimática para ATPasa}
+                                                 
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+componentes/materialesYMetodos/materialesYMetodos.tex:15: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.13 ...es (1) y (2) \cite{article:ATPasaReaction}
+l.15 ...es (1) y (2) \cite{article:ATPasaReaction}
                                                    , estuvieron 1 hora a $37...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1055,10 +1077,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:13: Argument of \@@cite has an extra }.
+componentes/materialesYMetodos/materialesYMetodos.tex:15: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.13 ...es (1) y (2) \cite{article:ATPasaReaction}
+l.15 ...es (1) y (2) \cite{article:ATPasaReaction}
                                                    , estuvieron 1 hora a $37...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1069,19 +1091,19 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 >{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
-componentes/materialesYMetodos/materialesYMetodos.tex:13: Paragraph ended before \@@cite was complete.
+componentes/materialesYMetodos/materialesYMetodos.tex:15: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.13 ...es (1) y (2) \cite{article:ATPasaReaction}
+l.15 ...es (1) y (2) \cite{article:ATPasaReaction}
                                                    , estuvieron 1 hora a $37...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:13: Undefined control sequence.
+componentes/materialesYMetodos/materialesYMetodos.tex:15: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.13 ...es (1) y (2) \cite{article:ATPasaReaction}
+l.15 ...es (1) y (2) \cite{article:ATPasaReaction}
                                                    , estuvieron 1 hora a $37...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1089,10 +1111,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:13: Argument of \@@cite has an extra }.
+componentes/materialesYMetodos/materialesYMetodos.tex:15: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.13 ...es (1) y (2) \cite{article:ATPasaReaction}
+l.15 ...es (1) y (2) \cite{article:ATPasaReaction}
                                                    , estuvieron 1 hora a $37...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1103,19 +1125,19 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 >{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
-componentes/materialesYMetodos/materialesYMetodos.tex:13: Paragraph ended before \@@cite was complete.
+componentes/materialesYMetodos/materialesYMetodos.tex:15: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.13 ...es (1) y (2) \cite{article:ATPasaReaction}
+l.15 ...es (1) y (2) \cite{article:ATPasaReaction}
                                                    , estuvieron 1 hora a $37...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:27: Undefined control sequence.
+componentes/materialesYMetodos/materialesYMetodos.tex:29: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.27 ...en medio ácido \cite{article:reduccionOro}
+l.29 ...en medio ácido \cite{article:reduccionOro}
                                                   , las muestras se transfir...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1123,10 +1145,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:27: Argument of \@@cite has an extra }.
+componentes/materialesYMetodos/materialesYMetodos.tex:29: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.27 ...en medio ácido \cite{article:reduccionOro}
+l.29 ...en medio ácido \cite{article:reduccionOro}
                                                   , las muestras se transfir...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1137,19 +1159,19 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 >{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
-componentes/materialesYMetodos/materialesYMetodos.tex:27: Paragraph ended before \@@cite was complete.
+componentes/materialesYMetodos/materialesYMetodos.tex:29: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.27 ...en medio ácido \cite{article:reduccionOro}
+l.29 ...en medio ácido \cite{article:reduccionOro}
                                                   , las muestras se transfir...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:27: Undefined control sequence.
+componentes/materialesYMetodos/materialesYMetodos.tex:29: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.27 ...en medio ácido \cite{article:reduccionOro}
+l.29 ...en medio ácido \cite{article:reduccionOro}
                                                   , las muestras se transfir...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1157,10 +1179,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:27: Argument of \@@cite has an extra }.
+componentes/materialesYMetodos/materialesYMetodos.tex:29: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.27 ...en medio ácido \cite{article:reduccionOro}
+l.29 ...en medio ácido \cite{article:reduccionOro}
                                                   , las muestras se transfir...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1171,19 +1193,19 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 >{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
-componentes/materialesYMetodos/materialesYMetodos.tex:27: Paragraph ended before \@@cite was complete.
+componentes/materialesYMetodos/materialesYMetodos.tex:29: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.27 ...en medio ácido \cite{article:reduccionOro}
+l.29 ...en medio ácido \cite{article:reduccionOro}
                                                   , las muestras se transfir...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:34: Undefined control sequence.
+componentes/materialesYMetodos/materialesYMetodos.tex:36: Undefined control sequence.
 \hyper@@link ->\let \Hy@reserved@a 
                                    \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.34 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
+l.36 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1191,44 +1213,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-componentes/materialesYMetodos/materialesYMetodos.tex:34: Argument of \@@cite has an extra }.
+componentes/materialesYMetodos/materialesYMetodos.tex:36: Argument of \@@cite has an extra }.
 <inserted text> 
                 \par 
-l.34 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
-                                                  .
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
->{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
-componentes/materialesYMetodos/materialesYMetodos.tex:34: Paragraph ended before \@@cite was complete.
-<to be read again> 
-                   \par 
-l.34 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
-                                                  .
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-componentes/materialesYMetodos/materialesYMetodos.tex:34: Undefined control sequence.
-\hyper@@link ->\let \Hy@reserved@a 
-                                   \relax \@ifnextchar [{\hyper@link@ }{\hyp...
-l.34 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-componentes/materialesYMetodos/materialesYMetodos.tex:34: Argument of \@@cite has an extra }.
-<inserted text> 
-                \par 
-l.34 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
+l.36 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
                                                   .
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1239,10 +1227,44 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 >{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
-componentes/materialesYMetodos/materialesYMetodos.tex:34: Paragraph ended before \@@cite was complete.
+componentes/materialesYMetodos/materialesYMetodos.tex:36: Paragraph ended before \@@cite was complete.
 <to be read again> 
                    \par 
-l.34 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
+l.36 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
+                                                  .
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+componentes/materialesYMetodos/materialesYMetodos.tex:36: Undefined control sequence.
+\hyper@@link ->\let \Hy@reserved@a 
+                                   \relax \@ifnextchar [{\hyper@link@ }{\hyp...
+l.36 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+componentes/materialesYMetodos/materialesYMetodos.tex:36: Argument of \@@cite has an extra }.
+<inserted text> 
+                \par 
+l.36 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
+                                                  .
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+>{\hyper@link@ }\def \reserved@b {\hyper@link@ [link]}\futurelet \@let@token \ETC.
+componentes/materialesYMetodos/materialesYMetodos.tex:36: Paragraph ended before \@@cite was complete.
+<to be read again> 
+                   \par 
+l.36 ... el $ZnOsO_{4}$ \cite{article:productoZIO}
                                                   .
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1264,7 +1286,7 @@ Underfull \hbox (badness 1558) in paragraph at lines 11--11
 File: atpExp.jpg Graphic file (type bmp)
 <atpExp.jpg>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 3343) has occurred while \output is active []
 
 File: CL1.jpg Graphic file (type bmp)
 <CL1.jpg>
@@ -1275,13 +1297,9 @@ Overfull \hbox (2.78162pt too wide) in paragraph at lines 29--30
 
 File: CL2.jpg Graphic file (type bmp)
 <CL2.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (componentes/discusion/discusion.tex) (componentes/conclusion/conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]) (reporte2.bbl
+) (componentes/discusion/discusion.tex [3]) (componentes/conclusion/conclusion.tex
+Missing character: There is no ° in font cmr12!
+) (reporte2.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 262--274
 []$[][][][] [][][] [][][] [] [][][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][][][] [] [][][][] []
  []
@@ -1416,16 +1434,16 @@ reporte2.bbl
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `reporte2.out' has not changed.
-(rerunfilecheck)             Checksum: 1F06F2F31C8F595F8456EBE2C822E7C7;48.
+(rerunfilecheck)             Checksum: BF87E49CFF9B91950B499C4ABA365C15;48.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
  15644 strings out of 414071
  213272 string characters out of 2894591
- 539821 words of memory out of 3000000
+ 539807 words of memory out of 3000000
  32989 multiletter control sequences out of 15000+200000
  537616 words of font info for 60 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  37i,12n,69p,1073b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on reporte2.xdv (4 pages, 127492 bytes).
+Output written on reporte2.xdv (4 pages, 128540 bytes).

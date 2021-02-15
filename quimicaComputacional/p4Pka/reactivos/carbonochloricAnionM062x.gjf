@@ -1,0 +1,13 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p4Pka\reactivos\carbonochloricAnionM062x.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq 6-311+g(d,p) scrf=smd m062x
+
+carbonochloric anion m062x
+
+-1 1
+ C                 -0.06410256    1.32478631    0.00000000
+ O                  0.76392899    2.26755501    0.68589424
+ O                  0.34868622   -0.03961624   -0.11362702
+ Cl                -1.59126606    1.84372027   -0.70432889
+

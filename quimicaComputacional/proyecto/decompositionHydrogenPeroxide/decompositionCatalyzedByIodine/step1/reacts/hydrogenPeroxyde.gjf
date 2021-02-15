@@ -1,0 +1,13 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\decompositionHydrogenPeroxide\decompositionCatalyzedByIodine\step1\reacts\hydrogenPeroxyde.chk
+%mem=1500mb
+%nproc=4
+# opt freq=noraman LanL2DZ scrf=smd m062x
+
+Hydrogen peroxide for catalyzed descompostion with KI
+
+0 1
+ O                 -1.26074197    0.70831201    0.00000000
+ H                 -1.58119656    0.70831201   -0.90493583
+ O                  0.05925803    0.70831201    0.00000000
+ H                  0.37925803    1.61340869    0.00000000
+

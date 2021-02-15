@@ -1,30 +1,37 @@
 \begin{thebibliography}{1}
 
-\bibitem{web:wiki}
-Wikipedia, ``Hartree–fock method.''
-  \url{https://en.wikipedia.org/wiki/Hartree%E2%80%93Fock_method}.
+\bibitem{web:ts1}
+K.~Louie, ``Eyring equation.''
+  \url{https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/06%3A_Modeling_Reaction_Kinetics/6.04%3A_Transition_State_Theory/6.4.01%3A_Eyring_equation}.
 
-\bibitem{web:hf}
-L.~van Dom­me­len, ``The hartree-fock ap­prox­i­ma­tion.''
-  \url{http://eng-web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/hf.html}.
+\bibitem{web:ts2}
+u.~o.~M. Department~of Chemistry, ``Transition state theory.''
+  \url{http://www1.chem.umn.edu/groups/taton/chem4011/Lecture%20Notes/10_23.pdf}.
 
-\bibitem{web:Washington}
-D.~of~Chemistry~at Washington~University, ``Electron correlation energy.''
-  \url{https://dasher.wustl.edu/chem478/lectures/lecture-04.pdf}.
+\bibitem{web:cinetic}
+U.~of~Gothenburg, ``Energy profiles and chemical reactions.''
+  \url{https://www.ur.de/events/feur/medien/norrby-modellingkinetics.pdf}.
 
-\bibitem{inbook:QuantumChem}
-I.~N. Levine, {\em Quantum Chemistry 7th}, p.~298.
-\newblock PEARSON, 2013.
+\bibitem{web:ts3}
+U.~Departamento~de Fisicoquímica, ``Teoría del estado de transición.''
+  \url{http://depa.fquim.unam.mx/amyd/archivero/Teoria2_354.pdf}.
 
-\bibitem{web:hess}
-S.~Cohen, ``Hess's law.''
-  \url{https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Hesss_Law}.
+\bibitem{art:simetria}
+E.~W. Schlag, ``Symmetry numbers and reaction rates,'' {\em The Journal of
+  Chemical Physics}, vol.~38, no.~10, pp.~2480--2482, 1963.
 
-\bibitem{web:factorConv}
-Wikipedia, ``Hartree.'' \url{https://en.wikipedia.org/wiki/Hartree}.
+\bibitem{web:endergonic}
+P.~Anne Marie~Helmenstine, ``Endergonic vs exergonic reactions and processes.''
+  \url{https://www.thoughtco.com/endergonic-vs-exergonic-609258}.
 
-\bibitem{web:refValue}
-A.~T. Tables, ``Enthalpy of formation of $f_{2}$.''
-  \url{https://atct.anl.gov/Thermochemical%20Data/version%201.122/reaction/?&species_number[]=6&species_number[]=20&c1=-1&c2=2}.
+\bibitem{web:metano}
+Wikipedia, ``Metano.''
+  \url{https://es.wikipedia.org/wiki/Metano#Metano_en_la_atm%C3%B3sfera_de_la_Tierra}.
+
+\bibitem{web:nisg}
+M.~S. J. M.~J. Srinivasan, N.K.;~Su, ``Reflected shock tube studies of
+  high-temperature rate constants for oh+ch4 -> ch3+h2o and ch3+no2 -> ch3o+no
+  (nist).''
+  \url{https://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:2}.
 
 \end{thebibliography}

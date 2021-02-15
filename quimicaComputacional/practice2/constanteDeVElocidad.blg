@@ -5,44 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-You've used 7 entries,
+Too many commas in name 1 of "Srinivasan, N.K.; Su, M.C.; Sutherland, J.W.; Michael, J.V." for entry web:nisg
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Srinivasan, N.K.; Su, M.C.; Sutherland, J.W.; Michael, J.V." for entry web:nisg
+while executing---line 969 of file ieeetr.bst
+You've used 8 entries,
             1876 wiz_defined-function locations,
-            510 strings with 4502 characters,
-and the built_in function-call counts, 977 in all, are:
-= -- 84
-> -- 28
+            513 strings with 4844 characters,
+and the built_in function-call counts, 1211 in all, are:
+= -- 109
+> -- 32
 < -- 0
-+ -- 14
-- -- 7
-* -- 33
-:= -- 141
++ -- 16
+- -- 8
+* -- 52
+:= -- 172
 add.period$ -- 8
-call.type$ -- 7
-change.case$ -- 6
+call.type$ -- 8
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 40
-empty$ -- 136
-format.name$ -- 7
-if$ -- 251
+cite$ -- 8
+duplicate$ -- 47
+empty$ -- 160
+format.name$ -- 8
+if$ -- 307
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 2
-newline$ -- 25
-num.names$ -- 7
-pop$ -- 37
+int.to.str$ -- 8
+missing$ -- 1
+newline$ -- 27
+num.names$ -- 8
+pop$ -- 36
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 59
 stack$ -- 0
-substring$ -- 6
-swap$ -- 7
+substring$ -- 36
+swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 8
-width$ -- 8
-write$ -- 54
+while$ -- 10
+width$ -- 9
+write$ -- 62
+(There were 2 error messages)

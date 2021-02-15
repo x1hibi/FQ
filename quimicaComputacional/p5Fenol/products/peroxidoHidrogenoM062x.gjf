@@ -1,0 +1,13 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p5Fenol\products\peroxidoHidrogenoM062x.chk
+%mem=1500mb
+%nproc=4
+# opt freq scrf=smd 6-31+G(d,p) m062x
+
+peroxido de hidrogeno m062x
+
+0 1
+ O                 -1.42099838    0.62284192    0.00000000
+ H                 -1.74145297    1.26272819   -0.63988626
+ O                 -0.10099838    0.62284192    0.00000000
+ H                  0.21900162    1.26284192    0.64000000
+

@@ -1,0 +1,15 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\proyecto\chloauricAcidPka\chloauricAcid.chk
+%mem=1500MB
+%nprocshared=4
+# opt freq lanl2dz scrf=smd m062x
+
+chloroauric acid
+
+0 1
+ Au                -0.72208857    0.49860876   -0.38875359
+ Cl                 0.27120906    1.94144312   -1.92514182
+ Cl                 0.27077451   -1.55353638    0.09272667
+ Cl                 0.49613822    1.49158593    1.33136845
+ Cl                -2.70824473    1.10792348    0.66614891
+ H                 -1.57955699   -0.20031434   -1.59947833
+

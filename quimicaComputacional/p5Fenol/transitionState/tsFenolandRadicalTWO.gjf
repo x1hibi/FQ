@@ -1,0 +1,8 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p5Fenol\transitionState\tsFenolandRadical.chk
+%mem=1500mb
+%nproc=4
+# opt(readfc,ts,noeigen) geom=check guess=check freq=noraman scrf=smd 6-31+G(d,p) iop(1/8=3) m062x
+
+tsFenolandRadical m062x two
+
+0 2

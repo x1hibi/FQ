@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{web:models}
+Wikipedia, ``Polarizable continuum model.''
+  \url{https://en.wikipedia.org/wiki/Polarizable_continuum_model}.
+
+\bibitem{web:scrf}
+G.~R. C.01, ``Scrf.'' \url{https://gaussian.com/scrf/}.
+
+\bibitem{art:smd}
+A.~V. Marenich, C.~J. Cramer, and D.~G. Truhlar, ``Universal solvation model
+  based on solute electron density and on a continuum model of the solvent
+  defined by the bulk dielectric constant and atomic surface tensions,'' {\em
+  The Journal of Physical Chemistry B}, vol.~113, no.~18, pp.~6378--6396, 2009.
+
+\bibitem{web:smd2}
+NWChem, ``Smd (solvation model based on density) model.''
+  \url{https://nwchemgit.github.io/SMD-Model.html#:~:text=The%20SMD%20model%20is%20a,few%20key%20descriptors%20are%20known.}
+
+\bibitem{Idaboy}
+A.~Galano, A.~Pérez-González, R.~Castañeda-Arriaga, L.~Muñoz-Rugeles,
+  G.~Mendoza-Sarmiento, A.~Romero-Silva, A.~Ibarra-Escutia, A.~M.
+  Rebollar-Zepeda, J.~R. León-Carmona, M.~A. Hernández-Olivares, and J.~R.
+  Alvarez-Idaboy, ``Empirically fitted parameters for calculating pka values
+  with small deviations from experiments using a simple computational
+  strategy,'' {\em Journal of chemical information and modeling}, vol.~56,
+  p.~1714—1724, September 2016.
+
+\end{thebibliography}

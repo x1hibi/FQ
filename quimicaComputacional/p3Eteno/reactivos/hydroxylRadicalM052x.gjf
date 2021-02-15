@@ -1,0 +1,11 @@
+%chk=D:\Documents\rayGit\FQ\quimicaComputacional\p3Eteno\reactivos\hydroxylRadicalM052x.chk
+%nprocshared=4
+%mem=1500mb
+# opt freq=noraman 6-31+g(d,p) M052x
+
+Hydroxyl radical M052X
+
+0 2
+ O                 -2.82939258   -0.18628141    0.00000000
+ H                 -3.14984716    0.71865442    0.00000000
+
